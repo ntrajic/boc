@@ -3,13 +3,16 @@
     <div style="padding:20px;">
       <header>
         <i class="iconfont icon-image"></i>img
-        <span class="vue-green">Vue</span>r
+        <span class="vue-green">Vue</span>r of Trips with <span class="vue-green">Burnabyoutdoor.com</span>
       </header>
       <div class="descript">
-        An image viewer base on Vue.js for mobile
+        <!--An image viewer based on Vue.js for mobile-->
+        Burnabyoutdoor Club for Nature Lovers, Burnaby, BC, Canada
       </div>
 
-      <div class="subtitle">Multiple</div>
+      <div class="subtitle">Kayaking Kits Islands, Sep 6th, 2019
+        <a class="vue-green" href="img/2019-03-24-Lynn-Canyon-Report.pdf" title="Trip Report">Trip Report</a>
+      </div>
       <div style="overflow:hidden">
         <img v-gallery:group1
           class="thumbnail"
@@ -17,12 +20,24 @@
           :src="img.src"
           :key="img.src">
       </div>
-      <p>
-        <pre>&lt;img 
-      <span class="vue-green">v-gallery</span>:group1
-      v-for="<span class="symbol">img in list1</span>" 
-      :src="img.src"&gt;</pre>
-      </p>
+      <div class="subtitle">Buntzen Lake Hike, March 31st, 2019
+        <a class="vue-green" href="img/31-03-2019-Buntzen-Lake-Report.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group5
+          class="thumbnail"
+          v-for="img in list5"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle">Lynn Canyon Loop, March 24th, 2019</div>
+      <div style="overflow:hidden">
+        <img v-gallery:group6
+          class="thumbnail"
+          v-for="img in list6"
+          :src="img.src"
+          :key="img.src">
+      </div>
 
       <div class="subtitle">Multiple(same images)</div>
       <div style="overflow:hidden">
@@ -33,13 +48,6 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-      <p>
-        <pre>&lt;img 
-      <span class="vue-green">v-gallery</span>="'group2'"
-      v-for="(img,index) in list2" 
-      <span class="vue-green">:data-index="index"</span>
-      :src="img.src"&gt;</pre>
-      </p>
 
       <div class="subtitle">Single</div>
       <div style="overflow:hidden">
@@ -57,12 +65,6 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-      <p>
-        <pre>&lt;img 
-      <span class="vue-green">v-gallery</span>
-      v-for="img in list3" 
-      :src="img.src"&gt;</pre>
-      </p>
 
       <div class="subtitle">Use thumbnail</div>
       <div style="overflow:hidden">
@@ -73,16 +75,9 @@
           :data-large="img.src"
           :key="img.src + index">
       </div>
-      <p>
-        <pre>&lt;img 
-      <span class="vue-green">v-gallery</span>:group3
-      v-for="(img,index) in list4"
-      <span class="vue-green">:data-large="img.src"</span>
-      <span class="vue-green">:src="img.thumbnail"</span>&gt;</pre>
-      </p>
 
-      <footer @click="toGitHub">
-        <i class="iconfont icon-github"></i>GitHub</footer>
+      <footer @click="toBocHome">
+        <i class="iconfont icon-github"></i>GoTo Burnabyoutdoor.com, 2019</footer>
     </div>
   </scroller>
 </template>
@@ -157,12 +152,24 @@ export default {
           src:
             'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/4.jpg'
         }
-      ]
+      ],
+      list5: [
+        { src: 'img/01-Buntzen-Lake-1.jpg'}, { src: 'img/02-Buntzen-Lake-2.jpg'}, { src: 'img/03-Buntzen-Lake-3.jpg'},
+        { src: 'img/04-Buntzen-Lake-4.jpg'}, { src: 'img/05-Buntzen-Lake-5.jpg'}, { src: 'img/06-Buntzen-Lake-6.jpg'},
+        { src: 'img/07-Buntzen-Lake-7.jpg'}, { src: 'img/08-Buntzen-Lake-8.jpg'}, { src: 'img/09-Buntzen-Lake-9.jpg'},
+        { src: 'img/10-Buntzen-Lake-10.jpg'},{ src: 'img/11-Buntzen-Lake-11.jpg'},{ src: 'img/12-Buntzen-Lake-12.jpg'}
+      ],
+      list6: [
+        { src: 'img/1-Lower Seymour-Lynn-Canyon-Loop.jpg'}, { src: 'img/2-Lower Seymour-Lynn-Canyon-Loop.jpg'},
+        { src: 'img/3-Lower Seymour-Lynn-Canyon-Loop.jpg'}, { src: 'img/4-Lower Seymour-Lynn-Canyon-Loop.jpg'},
+        { src: 'img/5-Lower Seymour-Lynn-Canyon-Loop.jpg'}, { src: 'img/6-Lower Seymour-Lynn-Canyon-Loop.jpg'},
+        { src: 'img/7-Lower Seymour-Lynn-Canyon-Loop.jpg'}, { src: 'img/8-Lower Seymour-Lynn-Canyon-Loop.jpg'},
+      ],
     }
   },
   methods: {
-    toGitHub() {
-      location.href = 'https://github.com/ssshooter/img-vuer'
+    toBocHome() {
+      location.href = 'http://www.burnabyoutdoor.com'
     }
   }
 }

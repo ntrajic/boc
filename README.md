@@ -1,3 +1,25 @@
+<em> Quick customisation for the BOC non-profit organisation (Burnabyoutdoor.com) </em>>
+========================================================================================
+
+# Image Viewer of BOC trips, with addition of editing trip reports.
+
+Currently boc/img/ directory will contain images of 2 trips - to Buntzen Lake ndn Lyn Canyon Loop.
+
+<em>In the future - for production, there will be directory structure:</em>
+===========================================================================
+boc/img/<06Sep2019_tripName> directory with all its images
+boc/img/<tripReports> single directory for *.pdf trip reports
+
+<em>NOTE: boc/src/App.vue HTML template file needs to be updated with trip pictures </em>
+==========================================================================================
+ddTripPicture.jpg, dd = n, d is a digit for picutures ordering purposes
+Pictures need to be placed in the aabove directory, following the directory structure.
+Trip report needs to be converted from MS Word docx format to PDF (to be read-only), and placed into the single tripReports directory.
+
+<em>Prototype will place all images and reports to boc/img directory - the reason why this is "quick and dirty" prototype, and customisation.</em>
+
+
+
 # img-vuer
 
 > An Mobile-First image viewer for Vue2
