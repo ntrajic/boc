@@ -10,6 +10,17 @@
         Burnabyoutdoor Club for Nature Lovers, Burnaby, BC, Canada
       </div>
 
+       <div class="subtitle"> Check the latest monthly newsletter
+        <a class="vue-green" href="http://www.burnabyoutdoor.com/pdfs/BOC%20Newsletter.pdf" title="BOC Newsletter">BOC Newsletter</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group0
+          class="thumbnail"
+          v-for="img in list0"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Kayaking Kits Islands, Sep 6th, 2019
         <a class="vue-green" href="img/2019-03-24-Lynn-Canyon-Report.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -30,7 +41,9 @@
           :src="img.src"
           :key="img.src">
       </div>
-      <div class="subtitle">Lynn Canyon Loop, March 24th, 2019</div>
+      <div class="subtitle">Lynn Canyon Loop, March 24th, 2019
+       <a class="vue-green" href="img/2019-03-24-Lynn-Canyon-Report.pdf" title="Trip Report">Trip Report</a>
+      </div>
       <div style="overflow:hidden">
         <img v-gallery:group6
           class="thumbnail"
@@ -165,6 +178,9 @@ export default {
         { src: 'img/5-Lower Seymour-Lynn-Canyon-Loop.jpg'}, { src: 'img/6-Lower Seymour-Lynn-Canyon-Loop.jpg'},
         { src: 'img/7-Lower Seymour-Lynn-Canyon-Loop.jpg'}, { src: 'img/8-Lower Seymour-Lynn-Canyon-Loop.jpg'},
       ],
+      list0: [
+        { src: 'img/BOC-Newsletter.jpg' }
+      ]
     }
   },
   methods: {
