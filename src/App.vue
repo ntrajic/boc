@@ -21,8 +21,8 @@
           :key="img.src">
       </div>
 
-      <div class="subtitle">Kayaking Kits Islands, Sep 6th, 2019
-        <a class="vue-green" href="img/2019-03-24-Lynn-Canyon-Report.pdf" title="Trip Report">Trip Report</a>
+      <div class="subtitle">Mount Baker, September 23th-30th, 2019 Coming Soon...
+        <a class="vue-green" href="img/20190922Baker/20190922BakerTripReport.pdf" title=""></a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group1
@@ -31,6 +31,19 @@
           :src="img.src"
           :key="img.src">
       </div>
+
+      <div class="subtitle">Galiano Island, August 25th, 2019
+        <a class="vue-green" href="img/20190825Galiano/20190825GalianoTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery="'group2'"
+          class="thumbnail"
+          v-for="(img,index) in list2"
+          :data-index="index"
+          :src="img.src"
+          :key="img.src + index">
+      </div>
+
       <div class="subtitle">Buntzen Lake Hike, March 31st, 2019
         <a class="vue-green" href="img/31-03-2019-Buntzen-Lake-Report.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -52,17 +65,9 @@
           :key="img.src">
       </div>
 
-      <div class="subtitle">Multiple(same images)</div>
-      <div style="overflow:hidden">
-        <img v-gallery="'group2'"
-          class="thumbnail"
-          v-for="(img,index) in list2"
-          :data-index="index"
-          :src="img.src"
-          :key="img.src + index">
-      </div>
 
-      <div class="subtitle">Single</div>
+
+      <div class="subtitle"></div>
       <div style="overflow:hidden">
         <img v-gallery
           class="thumbnail"
@@ -70,7 +75,7 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-      <div class="subtitle" style="margin-top: 0.6rem;">Small/Long</div>
+      <div class="subtitle" style="margin-top: 0.6rem;"></div>
       <div style="overflow:hidden">
         <img v-gallery
           class="thumbnail"
@@ -79,7 +84,7 @@
           :key="img.src + index">
       </div>
 
-      <div class="subtitle">Use thumbnail</div>
+      <div class="subtitle"></div>
       <div style="overflow:hidden">
         <img v-gallery:group3
           class="thumbnail"
@@ -105,66 +110,21 @@ export default {
   data() {
     return {
       list1: [
-        {
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/1.jpg'
-        },
-        {
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/2.jpg'
-        },
-        {
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/3.jpg'
-        }
+
       ],
       list2: [
-        {
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/4.jpg'
-        },
-        {
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/5.jpg'
-        },
-        {
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/5.jpg'
-        }
+        { src: 'img/20190825Galiano/01-Galiano.jpg'}, { src: 'img/20190825Galiano/02-Galiano.jpg'}, { src: 'img/20190825Galiano/03-Galiano.jpg'},
+        { src: 'img/20190825Galiano/04-Galiano.jpg'}, { src: 'img/20190825Galiano/05-Galiano.jpg'}, { src: 'img/20190825Galiano/06-Galiano.jpg'},
+        { src: 'img/20190825Galiano/07-Galiano.jpg'},
       ],
       list3: [
-        {
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/6.jpg'
-        },
-        {
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/7.jpg'
-        },
+
       ],
       list3_5: [
-        {
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/8.jpg'
-        },
-        {
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/9.jpg'
-        }
+
       ],
       list4: [
-        {
-          thumbnail:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/t1.jpg',
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/7.jpg'
-        },
-        {
-          thumbnail:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/t2.jpg',
-          src:
-            'https://raw.githubusercontent.com/ssshooter/img-vuer/master/img/4.jpg'
-        }
+
       ],
       list5: [
         { src: 'img/01-Buntzen-Lake-1.jpg'}, { src: 'img/02-Buntzen-Lake-2.jpg'}, { src: 'img/03-Buntzen-Lake-3.jpg'},
