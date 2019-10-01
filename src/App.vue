@@ -21,6 +21,19 @@
           :key="img.src">
       </div>
 
+      <div class="subtitle">Avalanche Canada Nov 8 Fri - UBC @ 6pm, and Nov 9 Sat - N.Shore @ 1:30pm, 2019, Awareness Lectures
+        <a class="vue-green" href="img/20190825Galiano/20190825GalianoTripReport.pdf" title=""></a>
+        <a class="vue-green">Get Ready For Safe Snowshoeing</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery="'group0_5'"
+          class="thumbnail"
+          v-for="(img,index) in list0_5"
+          :data-index="index"
+          :src="img.src"
+          :key="img.src + index">
+      </div>
+
       <div class="subtitle">Mount Baker, September 23th-30th, 2019 Coming Soon...
         <a class="vue-green" href="img/20190922Baker/20190922BakerTripReport.pdf" title=""></a>
       </div>
@@ -31,6 +44,8 @@
           :src="img.src"
           :key="img.src">
       </div>
+
+      
 
       <div class="subtitle">Galiano Island, August 25th, 2019
         <a class="vue-green" href="img/20190825Galiano/20190825GalianoTripReport.pdf" title="Trip Report">Trip Report</a>
@@ -64,6 +79,8 @@
           :src="img.src"
           :key="img.src">
       </div>
+
+      
 
 
 
@@ -109,6 +126,9 @@ export default {
   },
   data() {
     return {
+      list0_5: [
+        { src: 'img/UnawareEvents2019ubc.jpg'}, { src: 'img/UnawareEvents2019northvan.jpg'},
+      ],
       list1: [
 
       ],
