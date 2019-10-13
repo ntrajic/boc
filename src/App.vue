@@ -34,8 +34,19 @@
           :key="img.src + index">
       </div>
 
-      <div class="subtitle">Mount Baker, September 23th-30th, 2019 Coming Soon...
-        <a class="vue-green" href="img/20190922Baker/20190922BakerTripReport.pdf" title=""></a>
+      <div class="subtitle">Mount Baker, Lake Ann, October 6th, 2019
+        <a class="vue-green" href="img/20191006LakeAnn/20191006LakeAnnTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group3
+          class="thumbnail"
+          v-for="img in list3"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
+      <div class="subtitle">High Falls Creek, September 29th, 2019
+        <a class="vue-green" href="img/20190929HighFallsCreek/20190929HighFallsTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group1
@@ -45,7 +56,7 @@
           :key="img.src">
       </div>
 
-      
+
 
       <div class="subtitle">Galiano Island, August 25th, 2019
         <a class="vue-green" href="img/20190825Galiano/20190825GalianoTripReport.pdf" title="Trip Report">Trip Report</a>
@@ -79,10 +90,6 @@
           :src="img.src"
           :key="img.src">
       </div>
-
-      
-
-
 
       <div class="subtitle"></div>
       <div style="overflow:hidden">
@@ -130,7 +137,9 @@ export default {
         { src: 'img/UnawareEvents2019ubc.jpg'}, { src: 'img/UnawareEvents2019northvan.jpg'},
       ],
       list1: [
-
+        { src: 'img/20190929HighFallsCreek/01-HighFalls.jpg'}, { src: 'img/20190929HighFallsCreek/02-HighFalls.jpg'}, { src: 'img/20190929HighFallsCreek/03-HighFalls.jpg'},
+        { src: 'img/20190929HighFallsCreek/04-HighFalls.jpg'}, { src: 'img/20190929HighFallsCreek/05-HighFalls.jpg'}, { src: 'img/20190929HighFallsCreek/06-HighFalls.jpg'},
+        { src: 'img/20190929HighFallsCreek/07-HighFalls.jpg'},
       ],
       list2: [
         { src: 'img/20190825Galiano/01-Galiano.jpg'}, { src: 'img/20190825Galiano/02-Galiano.jpg'}, { src: 'img/20190825Galiano/03-Galiano.jpg'},
@@ -138,7 +147,9 @@ export default {
         { src: 'img/20190825Galiano/07-Galiano.jpg'},
       ],
       list3: [
-
+        { src: 'img/20191006LakeAnn/01-LakeAnn.jpg'}, { src: 'img/20191006LakeAnn/02-LakeAnn.jpg'}, { src: 'img/20191006LakeAnn/03-LakeAnn.jpg'},
+        { src: 'img/20191006LakeAnn/04-LakeAnn.jpg'}, { src: 'img/20191006LakeAnn/05-LakeAnn.jpg'}, { src: 'img/20191006LakeAnn/06-LakeAnn.jpg'},
+        { src: 'img/20191006LakeAnn/07-LakeAnn.jpg'},
       ],
       list3_5: [
 
