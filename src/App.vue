@@ -21,9 +21,9 @@
           :key="img.src">
       </div>
 
-      <div class="subtitle">Avalanche Canada Nov 8 Fri - UBC @ 6pm, and Nov 9 Sat - N.Shore @ 1:30pm, 2019, Awareness Lectures
+      <div class="subtitle">
         <a class="vue-green" href="img/20190825Galiano/20190825GalianoTripReport.pdf" title=""></a>
-        <a class="vue-green">Get Ready For Safe Snowshoeing</a>
+        <a class="vue-green"></a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery="'group0_5'"
@@ -58,6 +58,19 @@
 
 
 
+      <div class="subtitle">Gold Creek Canyon, September 1st, 2019
+        <a class="vue-green" href="img/20190901GoldCreekCanyon/2019-09-01-GoldCreekCanyonTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery="'group2_5'"
+          class="thumbnail"
+          v-for="(img,index) in list2_5"
+          :data-index="index"
+          :src="img.src"
+          :key="img.src + index">
+      </div>
+
+
       <div class="subtitle">Galiano Island, August 25th, 2019
         <a class="vue-green" href="img/20190825Galiano/20190825GalianoTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -65,6 +78,32 @@
         <img v-gallery="'group2'"
           class="thumbnail"
           v-for="(img,index) in list2"
+          :data-index="index"
+          :src="img.src"
+          :key="img.src + index">
+      </div>
+
+
+
+      <div class="subtitle">Ptarmigan Ridge, Mount Baker, August 17th, 2019
+        <a class="vue-green" href="img/20190817PtarmiganRidge/2019-08-17-PtarmiganRidgeMtBakerTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery="'group3_5'"
+          class="thumbnail"
+          v-for="(img,index) in list3_5"
+          :data-index="index"
+          :src="img.src"
+          :key="img.src + index">
+      </div>
+
+       <div class="subtitle">Dog Mountain and Suicide Bluffs, July 28th, 2019
+        <a class="vue-green" href="img/20190728DogMnt/2019-07-28-DogMnt-Suicide-Bluffs-TripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery="'group7'"
+          class="thumbnail"
+          v-for="(img,index) in list7"
           :data-index="index"
           :src="img.src"
           :key="img.src + index">
@@ -95,7 +134,7 @@
       <div style="overflow:hidden">
         <img v-gallery
           class="thumbnail"
-          v-for="(img,index) in list3"
+          v-for="(img,index) in listN"
           :src="img.src"
           :key="img.src + index">
       </div>
@@ -103,14 +142,14 @@
       <div style="overflow:hidden">
         <img v-gallery
           class="thumbnail"
-          v-for="(img,index) in list3_5"
+          v-for="(img,index) in listN"
           :src="img.src"
           :key="img.src + index">
       </div>
 
       <div class="subtitle"></div>
       <div style="overflow:hidden">
-        <img v-gallery:group3
+        <img v-gallery:group4
           class="thumbnail"
           v-for="(img,index) in list4"
           :src="img.thumbnail"
@@ -134,7 +173,7 @@ export default {
   data() {
     return {
       list0_5: [
-        { src: 'img/UnawareEvents2019ubc.jpg'}, { src: 'img/UnawareEvents2019northvan.jpg'},
+
       ],
       list1: [
         { src: 'img/20190929HighFallsCreek/01-HighFalls.jpg'}, { src: 'img/20190929HighFallsCreek/02-HighFalls.jpg'}, { src: 'img/20190929HighFallsCreek/03-HighFalls.jpg'},
@@ -146,16 +185,28 @@ export default {
         { src: 'img/20190825Galiano/04-Galiano.jpg'}, { src: 'img/20190825Galiano/05-Galiano.jpg'}, { src: 'img/20190825Galiano/06-Galiano.jpg'},
         { src: 'img/20190825Galiano/07-Galiano.jpg'},
       ],
+      list2_5: [
+        { src: 'img/20190901GoldCreekCanyon/01-Gold-Creek-Canyon.jpg'}, { src: 'img/20190901GoldCreekCanyon/02-Gold-Creek-Canyon.jpg'}, { src: 'img/20190901GoldCreekCanyon/03-Gold-Creek-Canyon.jpg'},
+        { src: 'img/20190901GoldCreekCanyon/04-Gold-Creek-Canyon.jpg'}, { src: 'img/20190901GoldCreekCanyon/05-Gold-Creek-Canyon.jpg'}, { src: 'img/20190901GoldCreekCanyon/06-Gold-Creek-Canyon.jpg'},
+        { src: 'img/20190901GoldCreekCanyon/07-Gold-Creek-Canyon.jpg'}, { src: 'img/20190901GoldCreekCanyon/08-Gold-Creek-Canyon.jpg'}, { src: 'img/20190901GoldCreekCanyon/09-Gold-Creek-Canyon.jpg'},
+        { src: 'img/20190901GoldCreekCanyon/10-Gold-Creek-Canyon.jpg'}, { src: 'img/20190901GoldCreekCanyon/11-Gold-Creek-Canyon.jpg'}, { src: 'img/20190901GoldCreekCanyon/12-Gold-Creek-Canyon.jpg'},
+      ],
       list3: [
         { src: 'img/20191006LakeAnn/01-LakeAnn.jpg'}, { src: 'img/20191006LakeAnn/02-LakeAnn.jpg'}, { src: 'img/20191006LakeAnn/03-LakeAnn.jpg'},
         { src: 'img/20191006LakeAnn/04-LakeAnn.jpg'}, { src: 'img/20191006LakeAnn/05-LakeAnn.jpg'}, { src: 'img/20191006LakeAnn/06-LakeAnn.jpg'},
         { src: 'img/20191006LakeAnn/07-LakeAnn.jpg'},
       ],
       list3_5: [
-
+        { src: 'img/20190817PtarmiganRidge/01-Ptarmigan-Ridge.jpg'}, { src: 'img/20190817PtarmiganRidge/02-Ptarmigan-Ridge.jpg'}, { src: 'img/20190817PtarmiganRidge/03-Ptarmigan-Ridge.jpg'},
+        { src: 'img/20190817PtarmiganRidge/04-Ptarmigan-Ridge.jpg'}, { src: 'img/20190817PtarmiganRidge/05-Ptarmigan-Ridge.jpg'}, { src: 'img/20190817PtarmiganRidge/06-Ptarmigan-Ridge.jpg'},
+        { src: 'img/20190817PtarmiganRidge/07-Ptarmigan-Ridge.jpg'}, { src: 'img/20190817PtarmiganRidge/08-Ptarmigan-Ridge.jpg'}, { src: 'img/20190817PtarmiganRidge/09-Ptarmigan-Ridge.jpg'},
+        { src: 'img/20190817PtarmiganRidge/10-Ptarmigan-Ridge.jpg'}, { src: 'img/20190817PtarmiganRidge/11-Ptarmigan-Ridge.jpg'}, { src: 'img/20190817PtarmiganRidge/12-Ptarmigan-Ridge.jpg'},
       ],
-      list4: [
-
+      list7: [
+        { src: 'img/20190728DogMnt/01-Dog-Mt--Suicided-Bluffs.jpg'}, { src: 'img/20190728DogMnt/02-Dog-Mt--Suicided-Bluffs.jpg'}, { src: 'img/20190728DogMnt/03-Dog-Mt--Suicided-Bluffs.jpg'},
+        { src: 'img/20190728DogMnt/04-Dog-Mt--Suicided-Bluffs.jpg'}, { src: 'img/20190728DogMnt/05-Dog-Mt--Suicided-Bluffs.jpg'}, { src: 'img/20190728DogMnt/06-Dog-Mt--Suicided-Bluffs.jpg'},
+        { src: 'img/20190728DogMnt/07-Dog-Mt--Suicided-Bluffs.jpg'}, { src: 'img/20190728DogMnt/08-Dog-Mt--Suicided-Bluffs.jpg'}, { src: 'img/20190728DogMnt/09-Dog-Mt--Suicided-Bluffs.jpg'},
+        { src: 'img/20190728DogMnt/10-Dog-Mt--Suicided-Bluffs.jpg'}, { src: 'img/20190728DogMnt/11-Dog-Mt--Suicided-Bluffs.jpg'}, { src: 'img/20190728DogMnt/12-Dog-Mt--Suicided-Bluffs.jpg'}
       ],
       list5: [
         { src: 'img/01-Buntzen-Lake-1.jpg'}, { src: 'img/02-Buntzen-Lake-2.jpg'}, { src: 'img/03-Buntzen-Lake-3.jpg'},
