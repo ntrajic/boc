@@ -34,6 +34,17 @@
           :key="img.src + index">
       </div>
 
+       <div class="subtitle">Brothers Creek, October 13th, 2019
+        <a class="vue-green" href="img/20191013BroCreek/2019-10-13-BroCreekTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group8
+          class="thumbnail"
+          v-for="img in list8"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Mount Baker, Lake Ann, October 6th, 2019
         <a class="vue-green" href="img/20191006LakeAnn/20191006LakeAnnTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -219,6 +230,12 @@ export default {
         { src: 'img/3-Lower Seymour-Lynn-Canyon-Loop.jpg'}, { src: 'img/4-Lower Seymour-Lynn-Canyon-Loop.jpg'},
         { src: 'img/5-Lower Seymour-Lynn-Canyon-Loop.jpg'}, { src: 'img/6-Lower Seymour-Lynn-Canyon-Loop.jpg'},
         { src: 'img/7-Lower Seymour-Lynn-Canyon-Loop.jpg'}, { src: 'img/8-Lower Seymour-Lynn-Canyon-Loop.jpg'},
+      ],
+      list8: [
+        { src: 'img/20191013BroCreek/01-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/02-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/03-BrothersCreek.jpg'},
+        { src: 'img/20191013BroCreek/04-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/05-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/06-BrothersCreek.jpg'},
+        { src: 'img/20191013BroCreek/07-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/08-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/09-BrothersCreek.jpg'},
+        { src: 'img/20191013BroCreek/10-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/11-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/12-BrothersCreek.jpg'},
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }
