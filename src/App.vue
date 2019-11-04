@@ -34,7 +34,7 @@
           :key="img.src + index">
       </div>
 
-      <div class="subtitle">Bowen Islad, Dorman Point and Killarney Lake, October 27th, 2019
+      <div class="subtitle">Bowen Island, Dorman Point and Killarney Lake, October 27th, 2019
         <a class="vue-green" href="img/20191027BowenIsland/20191027BowenTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
