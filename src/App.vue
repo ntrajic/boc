@@ -34,7 +34,18 @@
           :key="img.src + index">
       </div>
 
-       <div class="subtitle">Brothers Creek, October 13th, 2019
+      <div class="subtitle">Bowen Islad, Dorman Point and Killarney Lake, October 27th, 2019
+        <a class="vue-green" href="img/20191027BowenIsland/20191027BowenTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group9
+          class="thumbnail"
+          v-for="img in list9"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
+      <div class="subtitle">Brothers Creek, October 13th, 2019
         <a class="vue-green" href="img/20191013BroCreek/2019-10-13-BroCreekTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
@@ -236,6 +247,12 @@ export default {
         { src: 'img/20191013BroCreek/04-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/05-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/06-BrothersCreek.jpg'},
         { src: 'img/20191013BroCreek/07-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/08-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/09-BrothersCreek.jpg'},
         { src: 'img/20191013BroCreek/10-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/11-BrothersCreek.jpg'}, { src: 'img/20191013BroCreek/12-BrothersCreek.jpg'},
+      ],
+      list9: [
+        { src: 'img/20191027BowenIsland/01-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/02-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/03-BowenIsland.jpg'},
+        { src: 'img/20191027BowenIsland/04-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/05-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/06-BowenIsland.jpg'},
+        { src: 'img/20191027BowenIsland/07-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/08-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/09-BowenIsland.jpg'},
+        { src: 'img/20191027BowenIsland/10-BowenIsland.jpg'}, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }
