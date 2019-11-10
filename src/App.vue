@@ -34,6 +34,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Baden Powell, Trail to Quarry Rock, November 3rd, 2019
+        <a class="vue-green" href="img/20191103BadenPowell/2019-11-03-Baden-Powell-Trail-to-Quarry-Rock.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group10
+          class="thumbnail"
+          v-for="img in list10"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Bowen Island, Dorman Point and Killarney Lake, October 27th, 2019
         <a class="vue-green" href="img/20191027BowenIsland/20191027BowenTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -252,7 +263,13 @@ export default {
         { src: 'img/20191027BowenIsland/01-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/02-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/03-BowenIsland.jpg'},
         { src: 'img/20191027BowenIsland/04-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/05-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/06-BowenIsland.jpg'},
         { src: 'img/20191027BowenIsland/07-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/08-BowenIsland.jpg'}, { src: 'img/20191027BowenIsland/09-BowenIsland.jpg'},
-        { src: 'img/20191027BowenIsland/10-BowenIsland.jpg'}, 
+        { src: 'img/20191027BowenIsland/10-BowenIsland.jpg'},
+      ],
+      list10: [
+        { src: 'img/20191103BadenPowell/01-Quarry_Rock_Trail.jpg'}, { src: 'img/20191103BadenPowell/02-Quarry_Rock_Trail.jpg'}, { src: 'img/20191103BadenPowell/03-Quarry_Rock_Trail.jpg'},
+        { src: 'img/20191103BadenPowell/04-Quarry_Rock_Trail.jpg'}, { src: 'img/20191103BadenPowell/05-Quarry_Rock_Trail.jpg'}, { src: 'img/20191103BadenPowell/06-Quarry_Rock_Trail.jpg'},
+        { src: 'img/20191103BadenPowell/07-Quarry_Rock_Trail.jpg'}, { src: 'img/20191103BadenPowell/08-Quarry_Rock_Trail.jpg'}, { src: 'img/20191103BadenPowell/09-Quarry_Rock_Trail.jpg'},
+        { src: 'img/20191103BadenPowell/10-Quarry_Rock_Trail.jpg'},
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }
