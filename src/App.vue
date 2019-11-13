@@ -34,6 +34,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Two Canyon Loop, November 10th, 2019
+        <a class="vue-green" href="img/20191110TwoCanyonLoop/20191110TwoCanyonLoop.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group11
+          class="thumbnail"
+          v-for="img in list11"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Baden Powell, Trail to Quarry Rock, November 3rd, 2019
         <a class="vue-green" href="img/20191103BadenPowell/2019-11-03-Baden-Powell-Trail-to-Quarry-Rock.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -270,6 +281,12 @@ export default {
         { src: 'img/20191103BadenPowell/04-Quarry_Rock_Trail.jpg'}, { src: 'img/20191103BadenPowell/05-Quarry_Rock_Trail.jpg'}, { src: 'img/20191103BadenPowell/06-Quarry_Rock_Trail.jpg'},
         { src: 'img/20191103BadenPowell/07-Quarry_Rock_Trail.jpg'}, { src: 'img/20191103BadenPowell/08-Quarry_Rock_Trail.jpg'}, { src: 'img/20191103BadenPowell/09-Quarry_Rock_Trail.jpg'},
         { src: 'img/20191103BadenPowell/10-Quarry_Rock_Trail.jpg'},
+      ],
+      list11: [
+        { src: 'img/20191110TwoCanyonLoop/01-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/02-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/03-Two_Canyon_Loop.jpg'},
+        { src: 'img/20191110TwoCanyonLoop/04-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/05-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/06-Two_Canyon_Loop.jpg'},
+        { src: 'img/20191110TwoCanyonLoop/07-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/08-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/09-Two_Canyon_Loop.jpg'},
+        { src: 'img/20191110TwoCanyonLoop/10-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/11-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/12-Two_Canyon_Loop.jpg'},
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }
