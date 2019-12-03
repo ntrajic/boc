@@ -22,7 +22,7 @@
       </div>
 
       <div class="subtitle">
-        <a class="vue-green" href="img/20190825Galiano/20190825GalianoTripReport.pdf" title=""></a>
+        <a class="vue-green" href="" title=""></a>
         <a class="vue-green"></a>
       </div>
       <div style="overflow:hidden">
@@ -32,6 +32,17 @@
           :data-index="index"
           :src="img.src"
           :key="img.src + index">
+      </div>
+
+       <div class="subtitle">Slhaney Peak, November 24th, 2019
+        <a class="vue-green" href="img/20191124SlhaneyPeak/20191124-SlhaneyPeakTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group12
+          class="thumbnail"
+          v-for="img in list12"
+          :src="img.src"
+          :key="img.src">
       </div>
 
       <div class="subtitle">Two Canyon Loop, November 10th, 2019
@@ -287,6 +298,10 @@ export default {
         { src: 'img/20191110TwoCanyonLoop/04-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/05-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/06-Two_Canyon_Loop.jpg'},
         { src: 'img/20191110TwoCanyonLoop/07-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/08-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/09-Two_Canyon_Loop.jpg'},
         { src: 'img/20191110TwoCanyonLoop/10-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/11-Two_Canyon_Loop.jpg'}, { src: 'img/20191110TwoCanyonLoop/12-Two_Canyon_Loop.jpg'},
+      ],
+      list12: [
+        { src: 'img/20191124SlhaneyPeak/01-Slhaney-Peak.jpg'}, { src: 'img/20191124SlhaneyPeak/02-Slhaney-Peak.jpg'}, { src: 'img/20191124SlhaneyPeak/03-Slhaney-Peak.jpg'},
+        { src: 'img/20191124SlhaneyPeak/04-Slhaney-Peak.jpg'}, { src: 'img/20191124SlhaneyPeak/05-Slhaney-Peak.jpg'}, { src: 'img/20191124SlhaneyPeak/06-Slhaney-Peak.jpg'},
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }
