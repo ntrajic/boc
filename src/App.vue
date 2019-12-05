@@ -34,7 +34,18 @@
           :key="img.src + index">
       </div>
 
-       <div class="subtitle">Slhaney Peak, November 24th, 2019
+      <div class="subtitle">Norvan Falls, December 01st, 2019
+        <a class="vue-green" href="img/20191201NorvanFalls/20191201NorvanFallsTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group13
+          class="thumbnail"
+          v-for="img in list13"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
+      <div class="subtitle">Slhaney Peak, November 24th, 2019
         <a class="vue-green" href="img/20191124SlhaneyPeak/20191124-SlhaneyPeakTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
@@ -213,7 +224,7 @@
       </div>
 
       <footer @click="toBocHome">
-        <i class="iconfont icon-github"></i>GoTo Burnabyoutdoor.com, 2019</footer>
+        <i class="iconfont icon-github"></i>GoTo Burnabyoutdoor.com, 2019, 2020</footer>
     </div>
   </scroller>
 </template>
@@ -302,6 +313,11 @@ export default {
       list12: [
         { src: 'img/20191124SlhaneyPeak/01-Slhaney-Peak.jpg'}, { src: 'img/20191124SlhaneyPeak/02-Slhaney-Peak.jpg'}, { src: 'img/20191124SlhaneyPeak/03-Slhaney-Peak.jpg'},
         { src: 'img/20191124SlhaneyPeak/04-Slhaney-Peak.jpg'}, { src: 'img/20191124SlhaneyPeak/05-Slhaney-Peak.jpg'}, { src: 'img/20191124SlhaneyPeak/06-Slhaney-Peak.jpg'},
+      ],
+      list13: [
+        { src: 'img/20191201NorvanFalls/01-Norvan_Falls.jpg'}, { src: 'img/20191201NorvanFalls/02-Norvan_Falls.jpg'}, { src: 'img/20191201NorvanFalls/03-Norvan_Falls.jpg'},
+        { src: 'img/20191201NorvanFalls/04-Norvan_Falls.jpg'}, { src: 'img/20191201NorvanFalls/05-Norvan_Falls.jpg'}, { src: 'img/20191201NorvanFalls/06-Norvan_Falls.jpg'},
+        { src: 'img/20191201NorvanFalls/07-Norvan_Falls.jpg'}, { src: 'img/20191201NorvanFalls/08-Norvan_Falls.jpg'}
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }
