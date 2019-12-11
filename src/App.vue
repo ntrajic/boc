@@ -34,6 +34,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Cheakamus Canyon, December 08th, 2019
+        <a class="vue-green" href="img/20191208CheakamusCanyon/20191208CheakamusCanyonTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group14
+          class="thumbnail"
+          v-for="img in list14"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Norvan Falls, December 01st, 2019
         <a class="vue-green" href="img/20191201NorvanFalls/20191201NorvanFallsTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -318,6 +329,11 @@ export default {
         { src: 'img/20191201NorvanFalls/01-Norvan_Falls.jpg'}, { src: 'img/20191201NorvanFalls/02-Norvan_Falls.jpg'}, { src: 'img/20191201NorvanFalls/03-Norvan_Falls.jpg'},
         { src: 'img/20191201NorvanFalls/04-Norvan_Falls.jpg'}, { src: 'img/20191201NorvanFalls/05-Norvan_Falls.jpg'}, { src: 'img/20191201NorvanFalls/06-Norvan_Falls.jpg'},
         { src: 'img/20191201NorvanFalls/07-Norvan_Falls.jpg'}, { src: 'img/20191201NorvanFalls/08-Norvan_Falls.jpg'}
+      ],
+      list14: [
+        { src: 'img/20191208CheakamusCanyon/1-P4970363.jpg'}, { src: 'img/20191208CheakamusCanyon/2-P4970364.jpg'}, { src: 'img/20191208CheakamusCanyon/3-P4970370.jpg'},
+        { src: 'img/20191208CheakamusCanyon/4-P4970373.jpg'}, { src: 'img/20191208CheakamusCanyon/5-P4970375.jpg'}, { src: 'img/20191208CheakamusCanyon/6-P4970377.jpg'},
+        { src: 'img/20191208CheakamusCanyon/7-P4970379.jpg'}, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }
