@@ -234,6 +234,19 @@
           :key="img.src + index">
       </div>
 
+      <Snow
+      :amount="50"
+      :size="5"
+      :active='true'
+      :zIndex="null"
+      :image="null"
+      :resize="true"
+      :wind="0"
+      :opacity="0.8"
+      :swing="1"
+      :speed="1.5"
+      color="#ffff00"/>
+
       <footer @click="toBocHome">
         <i class="iconfont icon-github"></i>GoTo Burnabyoutdoor.com, 2019, 2020</footer>
     </div>
@@ -241,9 +254,10 @@
 </template>
 
 <script>
+import Snow from '../../vue-niege';  // out of src, out boc
 import Vuer from './Vuer.vue'
 export default {
-  components: { Vuer },
+  components: { Snow, Vuer },
   mounted(){
     console.log(this.$imgVuer)
   },
@@ -333,7 +347,7 @@ export default {
       list14: [
         { src: 'img/20191208CheakamusCanyon/1-P4970363.jpg'}, { src: 'img/20191208CheakamusCanyon/2-P4970364.jpg'}, { src: 'img/20191208CheakamusCanyon/3-P4970370.jpg'},
         { src: 'img/20191208CheakamusCanyon/4-P4970373.jpg'}, { src: 'img/20191208CheakamusCanyon/5-P4970375.jpg'}, { src: 'img/20191208CheakamusCanyon/6-P4970377.jpg'},
-        { src: 'img/20191208CheakamusCanyon/7-P4970379.jpg'}, 
+        { src: 'img/20191208CheakamusCanyon/7-P4970379.jpg'},
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }
