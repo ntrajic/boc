@@ -10,8 +10,28 @@
         Burnabyoutdoor Club for Nature Lovers, Burnaby, BC, Canada
       </div>
 
-       <div class="subtitle"> Check the latest monthly newsletter
+      <div class="subtitle"> Check the latest monthly newsletter
         <a class="vue-green" href="http://www.burnabyoutdoor.com/pdfs/BOC%20Newsletter.pdf" title="BOC Newsletter">BOC Newsletter</a>
+
+          <button @click="showNews = !showNews">
+            <span class="vue-green">Breaking News</span>
+          </button>
+            <transition appear>
+            <puff>
+              <article v-if="showNews" class="card">
+                <h3>
+                  <span class="vue-green">
+                  Breaking news
+                  </span>
+                </h3>
+                <p>
+                  <span class="vue-green">
+                  BOC AGM @ 6pm, Sat, Jan 18th, 2020  Pine Ridge Crescent Co-op, 8763 Ash Grove Crescent, Burnaby
+                  </span>
+                </p>
+              </article>
+            </puff>
+            </transition>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group0
@@ -274,6 +294,7 @@ export default {
   },
   data() {
     return {
+      showNews: false,
       list0_5: [
 
       ],
@@ -421,5 +442,25 @@ footer {
 }
 .gray {
   color: #ccc;
+}
+.card {
+  position: relative;
+  background-color: FloralWhite;
+  width: 9em;
+  height: 9em;
+  margin: 0.5em;
+  padding: 0.5em;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+puf {
+  float: left;
+  padding: 5px
+}
+.v-enter {
+  opacity: 0
+}
+.v-enter-active {
+  transition: opacity 2s
 }
 </style>
