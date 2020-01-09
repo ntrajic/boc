@@ -16,22 +16,34 @@
           <button @click="showNews = !showNews">
             <span class="vue-green">Breaking News</span>
           </button>
-            <transition appear>
-            <puff>
-              <article v-if="showNews" class="card">
-                <h3>
-                  <span class="vue-green">
-                  Breaking news
-                  </span>
-                </h3>
-                <p>
-                  <span class="vue-green">
-                  BOC AGM @ 6pm, Sat, Jan 18th, 2020  Pine Ridge Crescent Co-op, 8763 Ash Grove Crescent, Burnaby
-                  </span>
-                </p>
-              </article>
-            </puff>
-            </transition>
+            <transition
+                        @before-enter="beforeEnter"
+                        @enter="enter"
+                        @after-enter="afterEnter"
+                        @enter-cancelled="enterCancelled"
+
+                        @before-leave="beforeLeave"
+                        @leave="leave"
+                        @after-leave="afterLeave"
+                        @leave-cancelled="leaveCancelled"
+                        :css="false">
+                <div style="width: 320px; height: 100px; background-color: FloralWhite" v-if="showNews">
+                        <puff>
+                          <article>
+                            <h3>
+                              <span class="vue-green">
+                              Breaking news
+                              </span>
+                            </h3>
+                            <p>
+                              <span class="vue-green">
+                              BOC AGM @ 6pm, Sat, Jan 18th, 2020  Pine Ridge Crescent Co-op, 8763 Ash Grove Crescent, Burnaby
+                              </span>
+                            </p>
+                          </article>
+                        </puff>
+                </div>
+          </transition>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group0
@@ -393,6 +405,52 @@ export default {
   methods: {
     toBocHome() {
       location.href = 'http://www.burnabyoutdoor.com'
+    },
+    beforeEnter(el) {
+      console.log('beforeEnter');
+      this.elementWidth = 320;
+      el.style.width = this.elementWidth + 'px';
+    },
+    enter(el, done) {
+      console.log('enter');
+      let round = 1;
+      const interval = setInterval(() => {
+          el.style.width = (this.elementWidth + round * 10) + 'px';
+          round++;
+          if (round > 20) {
+              clearInterval(interval);
+              done();
+          }
+      }, 20);
+    },
+    afterEnter(el) {
+      console.log('afterEnter');
+    },
+    enterCancelled(el) {
+      console.log('enterCancelled');
+    },
+    beforeLeave(el) {
+      console.log('beforeLeave');
+      this.elementWidth = 320;
+      el.style.width = this.elementWidth + 'px';
+    },
+    leave(el, done) {
+      console.log('leave');
+      let round = 1;
+      const interval = setInterval(() => {
+          el.style.width = (this.elementWidth - round * 10) + 'px';
+          round++;
+          if (round > 20) {
+              clearInterval(interval);
+              done();
+          }
+      }, 20);
+    },
+    afterLeave(el) {
+      console.log('afterLeave');
+    },
+    leaveCancelled(el) {
+      console.log('leaveCancelled');
     }
   }
 }
@@ -446,10 +504,11 @@ footer {
 .card {
   position: relative;
   background-color: FloralWhite;
-  width: 9em;
+  //background-color: lightgreen;
+  width: 26em;
   height: 9em;
   margin: 0.5em;
-  padding: 0.5em;
+  padding: 0.2em;
   font-family: sans-serif;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
