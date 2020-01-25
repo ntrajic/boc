@@ -37,13 +37,14 @@
                             </h3>
                             <p>
                               <span class="vue-green">
-                              BOC AGM @ 6pm, Sat, Jan 18th, 2020  Pine Ridge Crescent Co-op, 8763 Ash Grove Crescent, Burnaby
+                              BOC wishes Happy and Prosperous New Year of a Rat (Saturday, January 25th, 2020) to all its members!
                               </span>
                             </p>
                           </article>
                         </puff>
                 </div>
           </transition>
+        <a class="vue-green" href="img/Lunar2020.pdf" title="Happy Lunar New Year">Happy Lunar New Year</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group0
@@ -398,7 +399,7 @@ export default {
         { src: 'img/20191226BbyMnt/04-BurnabyMountain.jpg'}, { src: 'img/20191226BbyMnt/05-BurnabyMountain.jpg'},
       ],
       list0: [
-        { src: 'img/BOC-Newsletter.jpg' }
+        { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }
       ]
     }
   },
