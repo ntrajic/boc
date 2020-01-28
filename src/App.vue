@@ -67,6 +67,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Buntzen Lake, January 26th, 2020
+        <a class="vue-green" href="img/2020012BuntzenLake/20200128BuntzenLakeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group16
+          class="thumbnail"
+          v-for="img in list16"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Burnaby Mountain, December 26th, 2019
         <a class="vue-green" href="img/20191226BbyMnt/20191226BbyMntTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -397,6 +408,12 @@ export default {
       list15: [
         { src: 'img/20191226BbyMnt/01-BurnabyMountain.jpg'}, { src: 'img/20191226BbyMnt/02-BurnabyMountain.jpg'}, { src: 'img/20191226BbyMnt/03-BurnabyMountain.jpg'},
         { src: 'img/20191226BbyMnt/04-BurnabyMountain.jpg'}, { src: 'img/20191226BbyMnt/05-BurnabyMountain.jpg'},
+      ],
+      list16: [
+        { src: 'img/2020012BuntzenLake/01-Buntzen_Lake.jpg'}, { src: 'img/2020012BuntzenLake/02-Buntzen_Lake.jpg'}, { src: 'img/2020012BuntzenLake/03-Buntzen_Lake.jpg'},
+        { src: 'img/2020012BuntzenLake/04-Buntzen_Lake.jpg'}, { src: 'img/2020012BuntzenLake/05-Buntzen_Lake.jpg'}, { src: 'img/2020012BuntzenLake/06-Buntzen_Lake.jpg'},
+        { src: 'img/2020012BuntzenLake/07-Buntzen_Lake.jpg'}, { src: 'img/2020012BuntzenLake/08-Buntzen_Lake.jpg'}, { src: 'img/2020012BuntzenLake/09-Buntzen_Lake.jpg'},
+        { src: 'img/2020012BuntzenLake/10-Buntzen_Lake.jpg'},
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }
