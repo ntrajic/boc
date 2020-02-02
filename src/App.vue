@@ -45,6 +45,7 @@
                 </div>
           </transition>
         <a class="vue-green" href="img/Lunar2020.pdf" title="Happy Lunar New Year">Happy Lunar New Year</a>
+        <a class="vue-green" href="img/BOC-NUMEROLOGY-FUN.pdf" title="2-2-2-2">2-2-2-2</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group0
@@ -416,7 +417,7 @@ export default {
         { src: 'img/2020012BuntzenLake/10-Buntzen_Lake.jpg'},
       ],
       list0: [
-        { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }
+        { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }
       ]
     }
   },
