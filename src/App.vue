@@ -68,6 +68,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Hollyburn Peak, February 2nd, 2020
+        <a class="vue-green" href="img/20200202HollyburnPeak/20200202HollyburnPeakTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group17
+          class="thumbnail"
+          v-for="img in list17"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Buntzen Lake, January 26th, 2020
         <a class="vue-green" href="img/2020012BuntzenLake/20200128BuntzenLakeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -415,6 +426,9 @@ export default {
         { src: 'img/2020012BuntzenLake/04-Buntzen_Lake.jpg'}, { src: 'img/2020012BuntzenLake/05-Buntzen_Lake.jpg'}, { src: 'img/2020012BuntzenLake/06-Buntzen_Lake.jpg'},
         { src: 'img/2020012BuntzenLake/07-Buntzen_Lake.jpg'}, { src: 'img/2020012BuntzenLake/08-Buntzen_Lake.jpg'}, { src: 'img/2020012BuntzenLake/09-Buntzen_Lake.jpg'},
         { src: 'img/2020012BuntzenLake/10-Buntzen_Lake.jpg'},
+      ],
+      list17: [
+        { src: 'img/20200202HollyburnPeak/01-HollyburnPeak.jpg'}, { src: 'img/20200202HollyburnPeak/02-HollyburnPeak.jpg'}, { src: 'img/20200202HollyburnPeak/03-HollyburnPeak.jpg'},
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }
