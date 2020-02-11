@@ -68,6 +68,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Bowen Lookout, February 9th, 2020
+        <a class="vue-green" href="img/20200209BowenLookout/202029BowenLookoutTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group18
+          class="thumbnail"
+          v-for="img in list18"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Hollyburn Peak, February 2nd, 2020
         <a class="vue-green" href="img/20200202HollyburnPeak/20200202HollyburnPeakTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -429,6 +440,12 @@ export default {
       ],
       list17: [
         { src: 'img/20200202HollyburnPeak/01-HollyburnPeak.jpg'}, { src: 'img/20200202HollyburnPeak/02-HollyburnPeak.jpg'}, { src: 'img/20200202HollyburnPeak/03-HollyburnPeak.jpg'},
+      ],
+      list18: [
+        { src: 'img/20200209BowenLookout/01-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/02-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/03-Bowen_Lookout.jpg'},
+        { src: 'img/20200209BowenLookout/04-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/05-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/06-Bowen_Lookout.jpg'},
+        { src: 'img/20200209BowenLookout/07-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/08-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/09-Bowen_Lookout.jpg'},
+        { src: 'img/20200209BowenLookout/10-Bowen_Lookout.jpg'}, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }
