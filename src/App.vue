@@ -68,6 +68,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Caulfeild Trail and Lighthouse Park, February 16th, 2020
+        <a class="vue-green" href="img/20200215CaulifieldLightHouse/20200216CaulfeildTrailnLighthouseParkTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group19
+          class="thumbnail"
+          v-for="img in list19"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Bowen Lookout, February 9th, 2020
         <a class="vue-green" href="img/20200209BowenLookout/202029BowenLookoutTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -445,7 +456,13 @@ export default {
         { src: 'img/20200209BowenLookout/01-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/02-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/03-Bowen_Lookout.jpg'},
         { src: 'img/20200209BowenLookout/04-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/05-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/06-Bowen_Lookout.jpg'},
         { src: 'img/20200209BowenLookout/07-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/08-Bowen_Lookout.jpg'}, { src: 'img/20200209BowenLookout/09-Bowen_Lookout.jpg'},
-        { src: 'img/20200209BowenLookout/10-Bowen_Lookout.jpg'}, 
+        { src: 'img/20200209BowenLookout/10-Bowen_Lookout.jpg'},
+      ],
+      list19: [
+        { src: 'img/20200215CaulifieldLightHouse/01-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/02-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/03-Caulfeild_and_Lighthouse_Park.jpg' },
+        { src: 'img/20200215CaulifieldLightHouse/04-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/05-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/06-Caulfeild_and_Lighthouse_Park.jpg' },
+        { src: 'img/20200215CaulifieldLightHouse/07-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/08-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/09-Caulfeild_and_Lighthouse_Park.jpg' },
+        { src: 'img/20200215CaulifieldLightHouse/10-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/11-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/12-Caulfeild_and_Lighthouse_Park.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }
