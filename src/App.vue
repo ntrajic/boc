@@ -68,6 +68,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Eagle Bluffs, February 22nd, 2020
+        <a class="vue-green" href="img/20200222EagleBluffs/missing.pdf" title="Trip Report"></a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group20
+          class="thumbnail"
+          v-for="img in list20"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Caulfeild Trail and Lighthouse Park, February 16th, 2020
         <a class="vue-green" href="img/20200215CaulifieldLightHouse/20200216CaulfeildTrailnLighthouseParkTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -463,6 +474,10 @@ export default {
         { src: 'img/20200215CaulifieldLightHouse/04-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/05-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/06-Caulfeild_and_Lighthouse_Park.jpg' },
         { src: 'img/20200215CaulifieldLightHouse/07-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/08-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/09-Caulfeild_and_Lighthouse_Park.jpg' },
         { src: 'img/20200215CaulifieldLightHouse/10-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/11-Caulfeild_and_Lighthouse_Park.jpg' }, { src: 'img/20200215CaulifieldLightHouse/12-Caulfeild_and_Lighthouse_Park.jpg' },
+      ],
+      list20: [
+        { src: 'img/20200222EagleBluffs/01-20200222EagleBluffs.jpg' }, { src: 'img/20200222EagleBluffs/02-20200222EagleBluffs.jpg' }, { src: 'img/20200222EagleBluffs/03-20200222EagleBluffs.jpg' },
+        { src: 'img/20200222EagleBluffs/04-20200222EagleBluffs.jpg' }, { src: 'img/20200222EagleBluffs/05-20200222EagleBluffs.jpg' }, { src: 'img/20200222EagleBluffs/06-20200222EagleBluffs.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }
