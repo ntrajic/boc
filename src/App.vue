@@ -27,7 +27,7 @@
                         @after-leave="afterLeave"
                         @leave-cancelled="leaveCancelled"
                         :css="false">
-                <div style="width: 320px; height: 100px; background-color: FloralWhite" v-if="showNews">
+                <div style="width: 400px; height: 100px; background-color: FloralWhite" v-if="showNews">
                         <puff>
                           <article>
                             <h3>
@@ -37,15 +37,14 @@
                             </h3>
                             <p>
                               <span class="vue-green">
-                              BOC wishes Happy and Prosperous New Year of a Rat (Saturday, January 25th, 2020) to all its members!
+                              How to deal with fears of the covid-19? 1. Wash your hands for 20 seconds 2. Don't go out if you're sick 3.	Don't go near people who are sick 4. Don't panic
                               </span>
                             </p>
                           </article>
                         </puff>
                 </div>
           </transition>
-        <a class="vue-green" href="img/Lunar2020.pdf" title="Happy Lunar New Year">Happy Lunar New Year</a>
-        <a class="vue-green" href="img/BOC-NUMEROLOGY-FUN.pdf" title="2-2-2-2">2-2-2-2</a>
+        <a class="vue-green" href="img/5-Positive-Things-to-Do-to-Get-Through-COVID-19.pdf" title="5-Positive-Things-to-Do-to-Get-Through-COVID-19">5-Positive-Things-to-Do-to-Get-Through-COVID-19</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group0
@@ -490,7 +489,7 @@ export default {
     },
     beforeEnter(el) {
       console.log('beforeEnter');
-      this.elementWidth = 320;
+      this.elementWidth = 400;
       el.style.width = this.elementWidth + 'px';
     },
     enter(el, done) {
@@ -513,7 +512,7 @@ export default {
     },
     beforeLeave(el) {
       console.log('beforeLeave');
-      this.elementWidth = 320;
+      this.elementWidth = 400;
       el.style.width = this.elementWidth + 'px';
     },
     leave(el, done) {
