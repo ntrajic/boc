@@ -44,7 +44,6 @@
                         </puff>
                 </div>
           </transition>
-        <a class="vue-green" href="img/5-Positive-Things-to-Do-to-Get-Through-COVID-19.pdf" title="5-Positive-Things-to-Do-to-Get-Through-COVID-19">5-Positive-Things-to-Do-to-Get-Through-COVID-19</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group0
@@ -57,6 +56,7 @@
       <div class="subtitle">
         <a class="vue-green" href="" title=""></a>
         <a class="vue-green"></a>
+        <a class="vue-green" href="img/5-Positive-Things-to-Do-to-Get-Through-COVID-19.pdf" title="5-Positive-Things-to-Do-to-Get-Through-COVID-19">5-Positive-Things-to-Do-to-Get-Through-COVID-19</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery="'group0_5'"
@@ -65,6 +65,17 @@
           :data-index="index"
           :src="img.src"
           :key="img.src + index">
+      </div>
+
+      <div class="subtitle">Black Mountain, March 8th, 2020
+        <a class="vue-green" href="img/20200308BlackMnt/2020-03-08-BlackMountainTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group21
+          class="thumbnail"
+          v-for="img in list21"
+          :src="img.src"
+          :key="img.src">
       </div>
 
       <div class="subtitle">Eagle Bluffs, February 22nd, 2020
@@ -477,6 +488,11 @@ export default {
       list20: [
         { src: 'img/20200222EagleBluffs/01-20200222EagleBluffs.jpg' }, { src: 'img/20200222EagleBluffs/02-20200222EagleBluffs.jpg' }, { src: 'img/20200222EagleBluffs/03-20200222EagleBluffs.jpg' },
         { src: 'img/20200222EagleBluffs/04-20200222EagleBluffs.jpg' }, { src: 'img/20200222EagleBluffs/05-20200222EagleBluffs.jpg' }, { src: 'img/20200222EagleBluffs/06-20200222EagleBluffs.jpg' },
+      ],
+      list21: [
+        { src: 'img/20200308BlackMnt/1-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/2-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/3-Black_Mountain.jpg' },
+        { src: 'img/20200308BlackMnt/4-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/5-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/6-Black_Mountain.jpg' },
+        { src: 'img/20200308BlackMnt/7-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/8-Black_Mountain.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }
