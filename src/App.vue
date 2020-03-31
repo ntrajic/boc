@@ -51,6 +51,10 @@
           v-for="img in list0"
           :src="img.src"
           :key="img.src">
+          <iframe width="100px" height="100px" src="https://www.youtube.com/embed/rp02hvuU2o8" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen>
+        </iframe>
       </div>
 
       <div class="subtitle">
@@ -495,7 +499,7 @@ export default {
         { src: 'img/20200308BlackMnt/7-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/8-Black_Mountain.jpg' },
       ],
       list0: [
-        { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }
+        { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
       ]
     }
   },
