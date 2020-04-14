@@ -51,8 +51,8 @@
           v-for="img in list0"
           :src="img.src"
           :key="img.src">
-          <iframe width="100px" height="100px" src="https://www.youtube.com/embed/rp02hvuU2o8" 
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+          <iframe width="100px" height="100px" src="https://www.youtube.com/embed/rp02hvuU2o8"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
             picture-in-picture" allowfullscreen>
         </iframe>
       </div>
@@ -61,6 +61,8 @@
         <a class="vue-green" href="" title=""></a>
         <a class="vue-green"></a>
         <a class="vue-green" href="img/5-Positive-Things-to-Do-to-Get-Through-COVID-19.pdf" title="5-Positive-Things-to-Do-to-Get-Through-COVID-19">5-Positive-Things-to-Do-to-Get-Through-COVID-19</a>
+        <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" title="covid-19 map pc">covid-19 map pc</a>
+        <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61" title="covid-19 map mobile">covid-19 map mobile</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery="'group0_5'"
