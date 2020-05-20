@@ -37,7 +37,7 @@
                             </h3>
                             <p>
                               <span class="vue-green">
-                              How to deal with fears of the covid-19? 1. Wash your hands for 20 seconds 2. Don't go out if you're sick 3.	Don't go near people who are sick 4. Don't panic
+                              Hi Everyone: After a brief hiatus, we are resuming Burnaby Outdoor Club activities June 1, 2020! John Holmes, President BOC
                               </span>
                             </p>
                           </article>
@@ -60,7 +60,7 @@
       <div class="subtitle">
         <a class="vue-green" href="" title=""></a>
         <a class="vue-green"></a>
-        <a class="vue-green" href="img/5-Positive-Things-to-Do-to-Get-Through-COVID-19.pdf" title="5-Positive-Things-to-Do-to-Get-Through-COVID-19">5-Positive-Things-to-Do-to-Get-Through-COVID-19</a>
+        <a class="vue-green" href="img\BOC-Resumes-Activities-June-1st-2020.pdf" title="BOC-Resumes-Activities-June-1st-2020">BOC-Resumes-Activities-June-1st-2020</a>
         <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" title="covid-19 map pc">covid-19 map pc</a>
         <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61" title="covid-19 map mobile">covid-19 map mobile</a>
       </div>
