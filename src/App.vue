@@ -31,7 +31,7 @@
                         <puff>
                           <article>
                             <h3>
-                              <span class="vue-green">
+  t                            <span class="vue-green">
                               Breaking news
                               </span>
                             </h3>
@@ -71,6 +71,17 @@
           :data-index="index"
           :src="img.src"
           :key="img.src + index">
+      </div>
+
+      <div class="subtitle">Petgill Lake, June 14th, 2020
+        <a class="vue-green" href="img/20200614-Petgill-Lake/Petgill-Lake-20200614-TR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group22
+          class="thumbnail"
+          v-for="img in list22"
+          :src="img.src"
+          :key="img.src">
       </div>
 
       <div class="subtitle">Black Mountain, March 8th, 2020
@@ -499,6 +510,10 @@ export default {
         { src: 'img/20200308BlackMnt/1-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/2-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/3-Black_Mountain.jpg' },
         { src: 'img/20200308BlackMnt/4-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/5-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/6-Black_Mountain.jpg' },
         { src: 'img/20200308BlackMnt/7-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/8-Black_Mountain.jpg' },
+      ],
+      list22: [
+        { src: 'img/20200614-Petgill-Lake/01-Petgill-Lake.jpg' }, { src: 'img/20200614-Petgill-Lake/02-Petgill-Lake.jpg' }, { src: 'img/20200614-Petgill-Lake/03-Petgill-Lake.jpg' },
+        { src: 'img/20200614-Petgill-Lake/04-Petgill-Lake.jpg' }, { src: 'img/20200614-Petgill-Lake/05-Petgill-Lake.jpg' }, { src: 'img/20200614-Petgill-Lake/06-Petgill-Lake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
