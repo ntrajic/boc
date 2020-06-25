@@ -73,6 +73,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Lynn Creek and Seymour River, June 21st, 2020
+        <a class="vue-green" href="img/20200621-Lynn-Creek-n-Seymour-River/2020-06-21-Lynn-Valley-Loop.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group23
+          class="thumbnail"
+          v-for="img in list23"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Petgill Lake, June 14th, 2020
         <a class="vue-green" href="img/20200614-Petgill-Lake/Petgill-Lake-20200614-TR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -514,6 +525,13 @@ export default {
       list22: [
         { src: 'img/20200614-Petgill-Lake/01-Petgill-Lake.jpg' }, { src: 'img/20200614-Petgill-Lake/02-Petgill-Lake.jpg' }, { src: 'img/20200614-Petgill-Lake/03-Petgill-Lake.jpg' },
         { src: 'img/20200614-Petgill-Lake/04-Petgill-Lake.jpg' }, { src: 'img/20200614-Petgill-Lake/05-Petgill-Lake.jpg' }, { src: 'img/20200614-Petgill-Lake/06-Petgill-Lake.jpg' },
+      ],
+      list23: [
+        { src: 'img/20200621-Lynn-Creek-n-Seymour-River/01-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/02-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/03-Lynn_n_Seymour_Canyon_Loop.jpg' },
+        { src: 'img/20200621-Lynn-Creek-n-Seymour-River/04-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/05-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/06-Lynn_n_Seymour_Canyon_Loop.jpg' },
+        { src: 'img/20200621-Lynn-Creek-n-Seymour-River/07-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/08-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/09-Lynn_n_Seymour_Canyon_Loop.jpg' },
+        { src: 'img/20200621-Lynn-Creek-n-Seymour-River/10-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/11-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/12-Lynn_n_Seymour_Canyon_Loop.jpg' },
+
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
