@@ -95,8 +95,19 @@
           :key="img.src">
       </div>
 
+      <div class="subtitle">Brohm Lake, June 07th, 2020
+        <a class="vue-green" href="img/20200607BrohmLake/20200607BrohmLakeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group21_5
+          class="thumbnail"
+          v-for="img in list21_5"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Black Mountain, March 8th, 2020
-        <a class="vue-green" href="img/20200308BlackMnt/2020-03-08-BlackMountainTR.pdf" title="Trip Report">Trip Report</a>
+        <a class="vue-green" href="img/20200308BlackMnt/20200607BrohmLakeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group21
@@ -521,6 +532,9 @@ export default {
         { src: 'img/20200308BlackMnt/1-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/2-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/3-Black_Mountain.jpg' },
         { src: 'img/20200308BlackMnt/4-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/5-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/6-Black_Mountain.jpg' },
         { src: 'img/20200308BlackMnt/7-Black_Mountain.jpg' }, { src: 'img/20200308BlackMnt/8-Black_Mountain.jpg' },
+      ],
+      list21_5: [
+        { src: 'img/20200607BrohmLake/01-BrohmLake.jpg' }, { src: 'img/20200607BrohmLake/02-BrohmLake.jpg' }, { src: 'img/20200607BrohmLake/03-BrohmLake.jpg' },
       ],
       list22: [
         { src: 'img/20200614-Petgill-Lake/01-Petgill-Lake.jpg' }, { src: 'img/20200614-Petgill-Lake/02-Petgill-Lake.jpg' }, { src: 'img/20200614-Petgill-Lake/03-Petgill-Lake.jpg' },
