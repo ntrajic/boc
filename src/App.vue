@@ -73,6 +73,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Norvan Falls, June 28th, 2020
+        <a class="vue-green" href="img/20200628NorvanFalls/NorvanFallsTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group24
+          class="thumbnail"
+          v-for="img in list24"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Lynn Creek and Seymour River, June 21st, 2020
         <a class="vue-green" href="img/20200621-Lynn-Creek-n-Seymour-River/2020-06-21-Lynn-Valley-Loop.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -546,6 +557,11 @@ export default {
         { src: 'img/20200621-Lynn-Creek-n-Seymour-River/07-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/08-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/09-Lynn_n_Seymour_Canyon_Loop.jpg' },
         { src: 'img/20200621-Lynn-Creek-n-Seymour-River/10-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/11-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/12-Lynn_n_Seymour_Canyon_Loop.jpg' },
 
+      ],
+      list24: [
+        { src: 'img/20200628NorvanFalls/01-NorvanFalls.jpg' }, { src: 'img/20200628NorvanFalls/02-NorvanFalls.jpg' }, { src: 'img/20200628NorvanFalls/03-NorvanFalls.jpg' },
+        { src: 'img/20200628NorvanFalls/04-NorvanFalls.jpg' }, { src: 'img/20200628NorvanFalls/05-NorvanFalls.jpg' }, { src: 'img/20200628NorvanFalls/06-NorvanFalls.jpg' },
+        { src: 'img/20200628NorvanFalls/07-NorvanFalls.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
