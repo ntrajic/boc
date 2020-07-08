@@ -73,6 +73,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Smoke Bluffs and Mamquam River, July 5th, 2020
+        <a class="vue-green" href="img/20200705SmokeBluffsNMamquamRiver/SmokeBluffsTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group25
+          class="thumbnail"
+          v-for="img in list25"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Norvan Falls, June 28th, 2020
         <a class="vue-green" href="img/20200628NorvanFalls/NorvanFallsTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -562,6 +573,12 @@ export default {
         { src: 'img/20200628NorvanFalls/01-NorvanFalls.jpg' }, { src: 'img/20200628NorvanFalls/02-NorvanFalls.jpg' }, { src: 'img/20200628NorvanFalls/03-NorvanFalls.jpg' },
         { src: 'img/20200628NorvanFalls/04-NorvanFalls.jpg' }, { src: 'img/20200628NorvanFalls/05-NorvanFalls.jpg' }, { src: 'img/20200628NorvanFalls/06-NorvanFalls.jpg' },
         { src: 'img/20200628NorvanFalls/07-NorvanFalls.jpg' },
+      ],
+      list25: [
+        { src: 'img/20200705SmokeBluffsNMamquamRiver/01-Smoke.jpg' }, { src: 'img/20200705SmokeBluffsNMamquamRiver/02-Smoke.jpg' }, { src: 'img/20200705SmokeBluffsNMamquamRiver/03-Smoke.jpg' },
+        { src: 'img/20200705SmokeBluffsNMamquamRiver/04-Smoke.jpg' }, { src: 'img/20200705SmokeBluffsNMamquamRiver/05-Smoke.jpg' }, { src: 'img/20200705SmokeBluffsNMamquamRiver/06-Smoke.jpg' },
+        { src: 'img/20200705SmokeBluffsNMamquamRiver/07-Smoke.jpg' }, { src: 'img/20200705SmokeBluffsNMamquamRiver/08-Smoke.jpg' }, { src: 'img/20200705SmokeBluffsNMamquamRiver/09-Smoke.jpg' },
+        { src: 'img/20200705SmokeBluffsNMamquamRiver/10-Smoke.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
