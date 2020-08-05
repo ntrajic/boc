@@ -61,8 +61,9 @@
         <a class="vue-green" href="" title=""></a>
         <a class="vue-green"></a>
         <a class="vue-green" href="img\BOC-Resumes-Activities-June-1st-2020.pdf" title="BOC-Resumes-Activities-June-1st-2020">BOC-Resumes-Activities-June-1st-2020</a>
-        <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" title="covid-19 map pc">covid-19 map pc</a>
-        <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61" title="covid-19 map mobile">covid-19 map mobile</a>
+        <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank" title="covid-19 map pc">covid-19 map pc</a>
+        <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61" target="_blank" title="covid-19 map mobile">covid-19 map mobile</a>
+        <a class="vue-green" href="https://youtu.be/xUVIKO4r5HU" target="_blank" title="Search & Rescue Recommended Hike">Minnekhada Park Hike Recommendation</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery="'group0_5'"
@@ -73,7 +74,7 @@
           :key="img.src + index">
       </div>
 
-      <div class="subtitle">Whyte Lake, August 02th, 2020
+      <div class="subtitle">Whyte Lake, August 02nd, 2020
         <a class="vue-green" href="img/20200802WhyteLake/2020-08-02-Whyte-Lake-TR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
