@@ -74,6 +74,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Minnekhada Regional Park, Bear!, August 09th, 2020
+        <a class="vue-green" href="img/20200809MinnekhadaRP/20200809MinnekhadaTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group28
+          class="thumbnail"
+          v-for="img in list28"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Whyte Lake, August 02nd, 2020
         <a class="vue-green" href="img/20200802WhyteLake/2020-08-02-Whyte-Lake-TR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -607,10 +618,16 @@ export default {
         { src: 'img/20200712BrothersCreek/07-Brothers_Creek.jpg' }, { src: 'img/20200712BrothersCreek/08-Brothers_Creek.jpg' }, { src: 'img/20200712BrothersCreek/09-Brothers_Creek.jpg' },
         { src: 'img/20200712BrothersCreek/10-Brothers_Creek.jpg' }, { src: 'img/20200712BrothersCreek/11-Brothers_Creek.jpg' }, { src: 'img/20200712BrothersCreek/12-Brothers_Creek.jpg' },
       ],
-       list27: [
+      list27: [
         { src: 'img/20200802WhyteLake/01-Whyte_Lake.jpg' }, { src: 'img/20200802WhyteLake/02-Whyte_Lake.jpg' }, { src: 'img/20200802WhyteLake/03-Whyte_Lake.jpg' },
         { src: 'img/20200802WhyteLake/04-Whyte_Lake.jpg' }, { src: 'img/20200802WhyteLake/05-Whyte_Lake.jpg' }, { src: 'img/20200802WhyteLake/06-Whyte_Lake.jpg' },
         { src: 'img/20200802WhyteLake/07-Whyte_Lake.jpg' }, { src: 'img/20200802WhyteLake/08-Whyte_Lake.jpg' }, { src: 'img/20200802WhyteLake/09-Whyte_Lake.jpg' },
+      ],
+      list28: [
+        { src: 'img/20200809MinnekhadaRP/01-Minnekhada.jpg' }, { src: 'img/20200809MinnekhadaRP/02-Minnekhada.jpg' }, { src: 'img/20200809MinnekhadaRP/03-Minnekhada.jpg' },
+        { src: 'img/20200809MinnekhadaRP/04-Minnekhada.jpg' }, { src: 'img/20200809MinnekhadaRP/05-Minnekhada.jpg' }, { src: 'img/20200809MinnekhadaRP/06-Minnekhada.jpg' },
+        { src: 'img/20200809MinnekhadaRP/07-Minnekhada.jpg' }, { src: 'img/20200809MinnekhadaRP/08-Minnekhada.jpg' }, { src: 'img/20200809MinnekhadaRP/09-Minnekhada.jpg' },
+        { src: 'img/20200809MinnekhadaRP/10-Minnekhada.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
