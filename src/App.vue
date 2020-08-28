@@ -73,7 +73,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-
+      <div class="subtitle">Cheakmus Park, August 23rd, 2020
+        <a class="vue-green" href="img/20200823CheakamusCanyon/20200823-CheakamusTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group30
+          class="thumbnail"
+          v-for="img in list30"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Tynehead Regional Park, August 16th, 2020
         <a class="vue-green" href="img/20200816TyneheadRP/20200816TyneheadTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -608,7 +617,6 @@ export default {
         { src: 'img/20200621-Lynn-Creek-n-Seymour-River/04-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/05-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/06-Lynn_n_Seymour_Canyon_Loop.jpg' },
         { src: 'img/20200621-Lynn-Creek-n-Seymour-River/07-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/08-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/09-Lynn_n_Seymour_Canyon_Loop.jpg' },
         { src: 'img/20200621-Lynn-Creek-n-Seymour-River/10-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/11-Lynn_n_Seymour_Canyon_Loop.jpg' }, { src: 'img/20200621-Lynn-Creek-n-Seymour-River/12-Lynn_n_Seymour_Canyon_Loop.jpg' },
-
       ],
       list24: [
         { src: 'img/20200628NorvanFalls/01-NorvanFalls.jpg' }, { src: 'img/20200628NorvanFalls/02-NorvanFalls.jpg' }, { src: 'img/20200628NorvanFalls/03-NorvanFalls.jpg' },
@@ -641,7 +649,11 @@ export default {
       list29: [
         { src: 'img/20200816TyneheadRP/01-IMG_Tynehead.jpg' }, { src: 'img/20200816TyneheadRP/02-IMG_Tynehead.jpg' }, { src: 'img/20200816TyneheadRP/03-IMG_Tynehead.jpg' },
         { src: 'img/20200816TyneheadRP/04-IMG_Tynehead.jpg' }, { src: 'img/20200816TyneheadRP/05-IMG_Tynehead.jpg' }, { src: 'img/20200816TyneheadRP/06-IMG_Tynehead.jpg' },
-        { src: 'img/20200816TyneheadRP/07-IMG_Tynehead.jpg' }, { src: 'img/20200816TyneheadRP/08-IMG_Tynehead.jpg' }, 
+        { src: 'img/20200816TyneheadRP/07-IMG_Tynehead.jpg' }, { src: 'img/20200816TyneheadRP/08-IMG_Tynehead.jpg' },
+      ],
+      list30: [
+        { src: 'img/20200823CheakamusCanyon/01-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/02-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/03-Cheakamus.jpg' },
+        { src: 'img/20200823CheakamusCanyon/04-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/05-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/06-Cheakamus.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
