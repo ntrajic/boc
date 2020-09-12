@@ -73,6 +73,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+      <div class="subtitle">Historic Mushroom, September 09th, 2020
+        <a class="vue-green" href="img/20200906HistoricMushroom/20200906HistoricMushroom.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group31
+          class="thumbnail"
+          v-for="img in list31"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Cheakmus Park, August 23rd, 2020
         <a class="vue-green" href="img/20200823CheakamusCanyon/20200823-CheakamusTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -654,6 +664,11 @@ export default {
       list30: [
         { src: 'img/20200823CheakamusCanyon/01-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/02-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/03-Cheakamus.jpg' },
         { src: 'img/20200823CheakamusCanyon/04-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/05-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/06-Cheakamus.jpg' },
+      ],
+      list31: [
+        { src: 'img/20200906HistoricMushroom/1-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/2-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/3-Historic_Mushroom.jpg' },
+        { src: 'img/20200906HistoricMushroom/4-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/5-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/6-Historic_Mushroom.jpg' },
+        { src: 'img/20200906HistoricMushroom/7-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/8-Historic_Mushroom.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
