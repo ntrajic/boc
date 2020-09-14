@@ -83,6 +83,16 @@
           :src="img.src"
           :key="img.src">
       </div>
+      <div class="subtitle">Greendrop and Lindeman Lakes, August 30th, 2020
+        <a class="vue-green" href="img/20200830Greendrop/20200830GreendropTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group32
+          class="thumbnail"
+          v-for="img in list32"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Cheakmus Park, August 23rd, 2020
         <a class="vue-green" href="img/20200823CheakamusCanyon/20200823-CheakamusTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -664,6 +674,10 @@ export default {
       list30: [
         { src: 'img/20200823CheakamusCanyon/01-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/02-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/03-Cheakamus.jpg' },
         { src: 'img/20200823CheakamusCanyon/04-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/05-Cheakamus.jpg' }, { src: 'img/20200823CheakamusCanyon/06-Cheakamus.jpg' },
+      ],
+      list32: [
+        { src: 'img/20200830Greendrop/01-Greendrop.jpg' }, { src: 'img/20200830Greendrop/02-Greendrop.jpg' }, { src: 'img/20200830Greendrop/03-Greendrop.jpg' },
+        { src: 'img/20200830Greendrop/04-Greendrop.jpg' }, { src: 'img/20200830Greendrop/05-Greendrop.jpg' },
       ],
       list31: [
         { src: 'img/20200906HistoricMushroom/1-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/2-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/3-Historic_Mushroom.jpg' },
