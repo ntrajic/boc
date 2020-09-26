@@ -73,6 +73,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+      <div class="subtitle">Sumas Bike Ride, September 20th, 2020
+        <a class="vue-green" href="img/20200920Sumas/0200920SumasBikeRideTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group33
+          class="thumbnail"
+          v-for="img in list33"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Historic Mushroom, September 09th, 2020
         <a class="vue-green" href="img/20200906HistoricMushroom/20200906HistoricMushroom.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -683,6 +693,11 @@ export default {
         { src: 'img/20200906HistoricMushroom/1-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/2-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/3-Historic_Mushroom.jpg' },
         { src: 'img/20200906HistoricMushroom/4-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/5-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/6-Historic_Mushroom.jpg' },
         { src: 'img/20200906HistoricMushroom/7-Historic_Mushroom.jpg' }, { src: 'img/20200906HistoricMushroom/8-Historic_Mushroom.jpg' },
+      ],
+      list33: [
+        { src: 'img/20200920Sumas/01-Sumas-bike.jpg' }, { src: 'img/20200920Sumas/02-Sumas-bike.jpg' }, { src: 'img/20200920Sumas/03-Sumas-bike.jpg' },
+        { src: 'img/20200920Sumas/04-Sumas-bike.jpg' }, { src: 'img/20200920Sumas/05-Sumas-bike.jpg' }, { src: 'img/20200920Sumas/06-Sumas-bike.jpg' },
+        { src: 'img/20200920Sumas/07-Sumas-bike.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
