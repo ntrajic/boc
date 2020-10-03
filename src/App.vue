@@ -73,6 +73,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+      <div class="subtitle">Buntzen to Sumas Lake, September 27th, 2020
+        <a class="vue-green" href="img/20200927BuntzenToSasamatLake/20200927BuntzenToSasamatTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group34
+          class="thumbnail"
+          v-for="img in list34"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Sumas Bike Ride, September 20th, 2020
         <a class="vue-green" href="img/20200920Sumas/0200920SumasBikeRideTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -698,6 +708,10 @@ export default {
         { src: 'img/20200920Sumas/01-Sumas-bike.jpg' }, { src: 'img/20200920Sumas/02-Sumas-bike.jpg' }, { src: 'img/20200920Sumas/03-Sumas-bike.jpg' },
         { src: 'img/20200920Sumas/04-Sumas-bike.jpg' }, { src: 'img/20200920Sumas/05-Sumas-bike.jpg' }, { src: 'img/20200920Sumas/06-Sumas-bike.jpg' },
         { src: 'img/20200920Sumas/07-Sumas-bike.jpg' },
+      ],
+      list34: [
+        { src: 'img/20200927BuntzenToSasamatLake/01-Buntzen.jpg' }, { src: 'img/20200927BuntzenToSasamatLake/02-Buntzen.jpg' }, { src: 'img/20200927BuntzenToSasamatLake/03-Buntzen.jpg' },
+        { src: 'img/20200927BuntzenToSasamatLake/04-Buntzen.jpg' }, { src: 'img/20200927BuntzenToSasamatLake/05-Buntzen.jpg' }, { src: 'img/20200927BuntzenToSasamatLake/06-Buntzen.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
