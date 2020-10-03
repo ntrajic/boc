@@ -73,7 +73,7 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-      <div class="subtitle">Buntzen to Sumas Lake, September 27th, 2020
+      <div class="subtitle">Buntzen to Sasamat Lake, September 27th, 2020
         <a class="vue-green" href="img/20200927BuntzenToSasamatLake/20200927BuntzenToSasamatTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
