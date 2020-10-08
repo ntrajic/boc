@@ -73,6 +73,17 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+
+      <div class="subtitle">UBC Research Forest, October 4th, 2020
+        <a class="vue-green" href="img/20201004UBCRForest/20201004UBCRForestTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group35
+          class="thumbnail"
+          v-for="img in list35"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Buntzen to Sasamat Lake, September 27th, 2020
         <a class="vue-green" href="img/20200927BuntzenToSasamatLake/20200927BuntzenToSasamatTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -712,6 +723,12 @@ export default {
       list34: [
         { src: 'img/20200927BuntzenToSasamatLake/01-Buntzen.jpg' }, { src: 'img/20200927BuntzenToSasamatLake/02-Buntzen.jpg' }, { src: 'img/20200927BuntzenToSasamatLake/03-Buntzen.jpg' },
         { src: 'img/20200927BuntzenToSasamatLake/04-Buntzen.jpg' }, { src: 'img/20200927BuntzenToSasamatLake/05-Buntzen.jpg' }, { src: 'img/20200927BuntzenToSasamatLake/06-Buntzen.jpg' },
+      ],
+      list35: [
+        { src: 'img/20201004UBCRForest/01-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/02-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/03-M_Knapp_Research_Forest.jpg' },
+        { src: 'img/20201004UBCRForest/04-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/05-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/06-M_Knapp_Research_Forest.jpg' },
+        { src: 'img/20201004UBCRForest/07-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/08-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/09-M_Knapp_Research_Forest.jpg' },
+        { src: 'img/20201004UBCRForest/10-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/11-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/12-M_Knapp_Research_Forest.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
