@@ -75,7 +75,7 @@
       </div>
 
       <div class="subtitle">Campbell Valley Regional Park, October 18th, 2020
-        <a class="vue-green" href="img/20201018CambellValley/20201018CampbellValleyTR.pdf" title="Trip Report">Trip Report</a>
+        <a class="vue-green" href="img/20201018CampbellValley/20201018CampbellValleyTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group36
