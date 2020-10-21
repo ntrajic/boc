@@ -74,6 +74,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Campbell Valley Regional Park, October 18th, 2020
+        <a class="vue-green" href="img/20201018CambellValley/20201018CampbellValleyTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group36
+          class="thumbnail"
+          v-for="img in list36"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      
       <div class="subtitle">UBC Research Forest, October 4th, 2020
         <a class="vue-green" href="img/20201004UBCRForest/20201004UBCRForestTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -729,6 +740,10 @@ export default {
         { src: 'img/20201004UBCRForest/04-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/05-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/06-M_Knapp_Research_Forest.jpg' },
         { src: 'img/20201004UBCRForest/07-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/08-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/09-M_Knapp_Research_Forest.jpg' },
         { src: 'img/20201004UBCRForest/10-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/11-M_Knapp_Research_Forest.jpg' }, { src: 'img/20201004UBCRForest/12-M_Knapp_Research_Forest.jpg' },
+      ],
+       list36: [
+        { src: 'img/20201018CampbellValley/00-CampbellValley.jpg' }, { src: 'img/20201018CampbellValley/01-CampbellValley.jpg' }, { src: 'img/20201018CampbellValley/02-CampbellValley.jpg' },
+        { src: 'img/20201018CampbellValley/03-CampbellValley.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
