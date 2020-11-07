@@ -73,6 +73,18 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+
+      <div class="subtitle">Fisherman's Trail, November 1st, 2020
+        <a class="vue-green" href="img/20201101FishermansTrail/FishermansTrailTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group38
+          class="thumbnail"
+          v-for="img in list38"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Gold Creek Canyon, October 25th, 2020
         <a class="vue-green" href="img/20201025GoldCreekCanyon/GoldCreekCanyonTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -757,6 +769,12 @@ export default {
         { src: 'img/20201025GoldCreekCanyon/01-GoldCreekCanyon.jpg' }, { src: 'img/20201025GoldCreekCanyon/02-GoldCreekCanyon.jpg' }, { src: 'img/20201025GoldCreekCanyon/03-GoldCreekCanyon.jpg' },
         { src: 'img/20201025GoldCreekCanyon/04-GoldCreekCanyon.jpg' }, { src: 'img/20201025GoldCreekCanyon/05-GoldCreekCanyon.jpg' }, { src: 'img/20201025GoldCreekCanyon/06-GoldCreekCanyon.jpg' },
         { src: 'img/20201025GoldCreekCanyon/07-GoldCreekCanyon.jpg' }, { src: 'img/20201025GoldCreekCanyon/08-GoldCreekCanyon.jpg' }, { src: 'img/20201025GoldCreekCanyon/09-GoldCreekCanyon.jpg' },
+      ],
+      list38: [
+        { src: 'img/20201101FishermansTrail/01-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/02-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/03-FishermansTrail.jpg' },
+        { src: 'img/20201101FishermansTrail/04-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/05-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/06-FishermansTrail.jpg' },
+        { src: 'img/20201101FishermansTrail/07-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/08-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/09-FishermansTrail.jpg' },
+        { src: 'img/20201101FishermansTrail/10-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/11-FishermansTrail.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
