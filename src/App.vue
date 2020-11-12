@@ -37,7 +37,7 @@
                             </h3>
                             <p>
                               <span class="vue-green">
-                              Hi Everyone: After a brief hiatus, we are resuming Burnaby Outdoor Club activities June 1, 2020! John Holmes, President BOC
+                              Hi Everyone: Burnaby Outdoor Club halts all activities from Nov 7th to 23rd, 2020 until further notice! John Holmes, President BOC
                               </span>
                             </p>
                           </article>
@@ -60,7 +60,6 @@
       <div class="subtitle">
         <a class="vue-green" href="" title=""></a>
         <a class="vue-green"></a>
-        <a class="vue-green" href="img\BOC-Resumes-Activities-June-1st-2020.pdf" title="BOC-Resumes-Activities-June-1st-2020">BOC-Resumes-Activities-June-1st-2020</a>
         <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank" title="covid-19 map pc">covid-19 map pc</a>
         <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61" target="_blank" title="covid-19 map mobile">covid-19 map mobile</a>
         <a class="vue-green" href="https://youtu.be/xUVIKO4r5HU" target="_blank" title="Search & Rescue Recommended Hike">Minnekhada Park Hike Recommendation</a>
@@ -72,6 +71,17 @@
           :data-index="index"
           :src="img.src"
           :key="img.src + index">
+      </div>
+
+      <div class="subtitle">Hayward Lake Reservoir, November 8th, 2020
+        <a class="vue-green" href="img/20201108HaywardLake/HaywardLakeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group39
+          class="thumbnail"
+          v-for="img in list39"
+          :src="img.src"
+          :key="img.src">
       </div>
 
       <div class="subtitle">Fisherman's Trail, November 1st, 2020
@@ -775,6 +785,12 @@ export default {
         { src: 'img/20201101FishermansTrail/04-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/05-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/06-FishermansTrail.jpg' },
         { src: 'img/20201101FishermansTrail/07-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/08-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/09-FishermansTrail.jpg' },
         { src: 'img/20201101FishermansTrail/10-FishermansTrail.jpg' }, { src: 'img/20201101FishermansTrail/11-FishermansTrail.jpg' },
+      ],
+      list39: [
+        { src: 'img/20201108HaywardLake/01-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/02-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/03-Hayward_Lake_Reservoir.jpg' },
+        { src: 'img/20201108HaywardLake/04-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/05-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/06-Hayward_Lake_Reservoir.jpg' },
+        { src: 'img/20201108HaywardLake/07-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/08-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/09-Hayward_Lake_Reservoir.jpg' },
+        { src: 'img/20201108HaywardLake/10-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/11-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/12-Hayward_Lake_Reservoir.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
