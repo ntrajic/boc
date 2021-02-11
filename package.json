@@ -18,7 +18,8 @@
     "dd": "cross-env NODE_ENV=production webpack --progress"
   },
   "dependencies": {
-    "v-finger-mk42": "^2.0.4"
+    "v-finger-mk42": "^2.0.4",
+    "vue-niege": "file:../vue-niege"
   },
   "browserslist": [
     "> 1%",

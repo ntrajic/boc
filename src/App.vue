@@ -37,7 +37,7 @@
                             </h3>
                             <p>
                               <span class="vue-green">
-                              Hi Everyone: Burnaby Outdoor Club halts all activities from Nov 7th to 23rd, 2020 until further notice! John Holmes, President BOC
+                              Hi Everyone: Happy Lunar 2021! Burnaby Outdoor Club halts all activities due to covid-19 in 2021 until further notice! John Holmes, President BOC
                               </span>
                             </p>
                           </article>
@@ -793,7 +793,7 @@ export default {
         { src: 'img/20201108HaywardLake/10-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/11-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/12-Hayward_Lake_Reservoir.jpg' },
       ],
       list0: [
-        { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/TELEMMGLPICT-LUNAR2020.jpg' }, { src: 'img/2-2-2-2.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
+        { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/chinese-new-year-of-ox-2021.webp' }, { src: 'img/chinese_lunar_year_2021.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
       ]
     }
   },
