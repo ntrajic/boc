@@ -31,13 +31,14 @@
                         <puff>
                           <article>
                             <h3>
-  t                            <span class="vue-green">
+                              <span class="vue-green">
                               Breaking news
                               </span>
                             </h3>
                             <p>
                               <span class="vue-green">
-                              Hi Everyone: Happy Lunar 2021! Burnaby Outdoor Club halts all activities due to covid-19 in 2021 until further notice! John Holmes, President BOC
+                              BOC will be restarting activities March 1st, subject to restrictions: 1.- limit to 6 participants per activity 2.- follow health bubble restrictions for carpooling 3.- maintain physical distancing on activities
+                              John Holmes, President BOC
                               </span>
                             </p>
                           </article>
