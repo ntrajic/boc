@@ -74,6 +74,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Buntzen Lake, March 14th, 2021
+        <a class="vue-green" href="img/20210314Buntzen/20210314-Buntzen-Lake-Trail.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group40
+          class="thumbnail"
+          v-for="img in list40"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Hayward Lake Reservoir, November 8th, 2020
         <a class="vue-green" href="img/20201108HaywardLake/HaywardLakeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -792,6 +803,11 @@ export default {
         { src: 'img/20201108HaywardLake/04-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/05-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/06-Hayward_Lake_Reservoir.jpg' },
         { src: 'img/20201108HaywardLake/07-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/08-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/09-Hayward_Lake_Reservoir.jpg' },
         { src: 'img/20201108HaywardLake/10-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/11-Hayward_Lake_Reservoir.jpg' }, { src: 'img/20201108HaywardLake/12-Hayward_Lake_Reservoir.jpg' },
+      ],
+      list40: [
+        { src: 'img/20210314Buntzen/1-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/2-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/3-Buntzen_Lake.jpg' },
+        { src: 'img/20210314Buntzen/4-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/5-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/6-Buntzen_Lake.jpg' },
+        { src: 'img/20210314Buntzen/7-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/8-Buntzen_Lake.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/chinese-new-year-of-ox-2021.webp' }, { src: 'img/chinese_lunar_year_2021.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
