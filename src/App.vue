@@ -74,6 +74,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Brohm Lake, March 25th, 2021
+        <a class="vue-green" href="img/20210325BrohmLake/20210325BrohmLakeTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group41
+          class="thumbnail"
+          v-for="img in list41"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Buntzen Lake, March 14th, 2021
         <a class="vue-green" href="img/20210314Buntzen/20210314-Buntzen-Lake-Trail.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -808,6 +819,10 @@ export default {
         { src: 'img/20210314Buntzen/1-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/2-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/3-Buntzen_Lake.jpg' },
         { src: 'img/20210314Buntzen/4-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/5-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/6-Buntzen_Lake.jpg' },
         { src: 'img/20210314Buntzen/7-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/8-Buntzen_Lake.jpg' }, 
+      ],
+      list41: [
+        { src: 'img/20210325BrohmLake/01-BrohmLake.jpg' }, { src: 'img/20210325BrohmLake/02-BrohmLake.jpg' }, { src: 'img/20210325BrohmLake/03-BrohmLake.jpg' },
+        { src: 'img/20210325BrohmLake/04-BrohmLake.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/chinese-new-year-of-ox-2021.webp' }, { src: 'img/chinese_lunar_year_2021.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
