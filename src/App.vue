@@ -74,6 +74,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Great Trail - Trans Canada Trail, April 04th, 2021
+        <a class="vue-green" href="img\20210404TransCanadaTrail/20210404TCTTripReport.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group42
+          class="thumbnail"
+          v-for="img in list42"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Brohm Lake, March 25th, 2021
         <a class="vue-green" href="img/20210325BrohmLake/20210325BrohmLakeTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -823,6 +834,11 @@ export default {
       list41: [
         { src: 'img/20210325BrohmLake/01-BrohmLake.jpg' }, { src: 'img/20210325BrohmLake/02-BrohmLake.jpg' }, { src: 'img/20210325BrohmLake/03-BrohmLake.jpg' },
         { src: 'img/20210325BrohmLake/04-BrohmLake.jpg' }, 
+      ],
+      list42: [
+        { src: 'img/20210404TransCanadaTrail/01-IMG_7648.jpg' }, { src: 'img/20210404TransCanadaTrail/02-IMG_7649.jpg' }, { src: 'img/20210404TransCanadaTrail/03-IMG_7650.jpg' },
+        { src: 'img/20210404TransCanadaTrail/04-IMG_7651.jpg' }, { src: 'img/20210404TransCanadaTrail/05-IMG_7652.jpg' }, { src: 'img/20210404TransCanadaTrail/06-IMG_7654.jpg' },
+        { src: 'img/20210404TransCanadaTrail/07-IMG_7655.jpg' }, { src: 'img/20210404TransCanadaTrail/08-IMG_7656.jpg' }, { src: 'img/20210404TransCanadaTrail/09-IMG_7658.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/chinese-new-year-of-ox-2021.webp' }, { src: 'img/chinese_lunar_year_2021.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
