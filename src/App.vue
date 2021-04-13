@@ -584,7 +584,7 @@
       <Snow
       :amount="50"
       :size="5"
-      :active='true'
+      :active='false'
       :zIndex="null"
       :image="null"
       :resize="true"
