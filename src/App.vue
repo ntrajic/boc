@@ -74,8 +74,19 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Chadsey Lake, April 18th, 2021
+        <a class="vue-green" href="img/20210418ChadseyLake/20210418ChadseyLakeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group44
+          class="thumbnail"
+          v-for="img in list44"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Fisherman's Trail, April 11th, 2021
-        <a class="vue-green" href="img\20210411Fisherman/20210411FishermanTR.pdf" title="Trip Report">Trip Report</a>
+        <a class="vue-green" href="img/20210411Fisherman/20210411FishermanTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group43
@@ -86,7 +97,7 @@
       </div>
 
       <div class="subtitle">Great Trail - Trans Canada Trail, April 04th, 2021
-        <a class="vue-green" href="img\20210404TransCanadaTrail/20210404TCTTripReport.pdf" title="Trip Report">Trip Report</a>
+        <a class="vue-green" href="img/20210404TransCanadaTrail/20210404TCTTripReport.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group42
@@ -855,6 +866,11 @@ export default {
         { src: 'img/20210411Fisherman/01-Fisherman.jpg' }, { src: 'img/20210411Fisherman/02-Fisherman.jpg' }, { src: 'img/20210411Fisherman/03-Fisherman.jpg' },
         { src: 'img/20210411Fisherman/04-Fisherman.jpg' }, { src: 'img/20210411Fisherman/05-Fisherman.jpg' }, { src: 'img/20210411Fisherman/06-Fisherman.jpg' },
         { src: 'img/20210411Fisherman/07-Fisherman.jpg' }, 
+      ],
+      list44: [
+        { src: 'img/20210418ChadseyLake/01-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/02-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/03-Chadsey-Lake.jpg' },
+        { src: 'img/20210418ChadseyLake/04-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/05-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/06-Chadsey-Lake.jpg' },
+        { src: 'img/20210418ChadseyLake/07-Chadsey-Lake.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/chinese-new-year-of-ox-2021.webp' }, { src: 'img/chinese_lunar_year_2021.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
