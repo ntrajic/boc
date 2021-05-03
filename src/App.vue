@@ -37,8 +37,7 @@
                             </h3>
                             <p>
                               <span class="vue-green">
-                              BOC will be restarting activities March 1st, subject to restrictions: 1.- limit to 6 participants per activity 2.- follow health bubble restrictions for carpooling 3.- maintain physical distancing on activities
-                              John Holmes, President BOC
+                              John Holmes has resigned from the position of president of the Burnaby Outdoor Club and Gerard Laman, the vice president, will in the meantime be the acting president. Effective May 3rd, 2021
                               </span>
                             </p>
                           </article>
