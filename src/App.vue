@@ -73,6 +73,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Minnekhada Regional Park, May 8th, 2021
+        <a class="vue-green" href="img/20210508Minnekhada/20210508MinnekhadaRPTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group45
+          class="thumbnail"
+          v-for="img in list45"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Chadsey Lake, April 18th, 2021
         <a class="vue-green" href="img/20210418ChadseyLake/20210418ChadseyLakeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -870,6 +881,12 @@ export default {
         { src: 'img/20210418ChadseyLake/01-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/02-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/03-Chadsey-Lake.jpg' },
         { src: 'img/20210418ChadseyLake/04-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/05-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/06-Chadsey-Lake.jpg' },
         { src: 'img/20210418ChadseyLake/07-Chadsey-Lake.jpg' }, 
+      ],
+      list45: [
+        { src: 'img/20210508Minnekhada/01-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/02-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/03-Minnekhada.jpg' },
+        { src: 'img/20210508Minnekhada/04-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/05-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/06-Minnekhada.jpg' },
+        { src: 'img/20210508Minnekhada/07-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/08-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/09-Minnekhada.jpg' },
+        { src: 'img/20210508Minnekhada/10-Minnekhada.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/chinese-new-year-of-ox-2021.webp' }, { src: 'img/chinese_lunar_year_2021.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
