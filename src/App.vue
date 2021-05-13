@@ -627,7 +627,7 @@
       color="#ffff00"/>
 
       <footer @click="toBocHome">
-        <i class="iconfont icon-github"></i>GoTo Burnabyoutdoor.com, 2019, 2020</footer>
+        <i class="iconfont icon-github"></i>GoTo Burnabyoutdoor.com, 2019, 2020, 2021</footer>
     </div>
   </scroller>
 </template>
