@@ -73,6 +73,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Whyte Lake, May 23rd, 2021
+        <a class="vue-green" href="img/20210523WhiteLake/2021-05-23-White-Lake-TR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group46
+          class="thumbnail"
+          v-for="img in list46"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Minnekhada Regional Park, May 8th, 2021
         <a class="vue-green" href="img/20210508Minnekhada/20210508MinnekhadaRPTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -887,6 +897,11 @@ export default {
         { src: 'img/20210508Minnekhada/04-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/05-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/06-Minnekhada.jpg' },
         { src: 'img/20210508Minnekhada/07-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/08-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/09-Minnekhada.jpg' },
         { src: 'img/20210508Minnekhada/10-Minnekhada.jpg' },
+      ],
+      list46: [
+        { src: 'img/20210523WhiteLake/1-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/2-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/3-Whyte_Lake.jpg' },
+        { src: 'img/20210523WhiteLake/4-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/5-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/6-Whyte_Lake.jpg' },
+        { src: 'img/20210523WhiteLake/7-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/8-Whyte_Lake.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/chinese-new-year-of-ox-2021.webp' }, { src: 'img/chinese_lunar_year_2021.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
