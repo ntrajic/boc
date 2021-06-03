@@ -73,6 +73,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Shoreline Trail and Coquitlam Crunch, May 30th, 2021
+        <a class="vue-green" href="img/20213005Shoreline/20213005ShorelineTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group47
+          class="thumbnail"
+          v-for="img in list47"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Whyte Lake, May 23rd, 2021
         <a class="vue-green" href="img/20210523WhiteLake/2021-05-23-White-Lake-TR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -902,6 +913,11 @@ export default {
         { src: 'img/20210523WhiteLake/1-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/2-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/3-Whyte_Lake.jpg' },
         { src: 'img/20210523WhiteLake/4-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/5-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/6-Whyte_Lake.jpg' },
         { src: 'img/20210523WhiteLake/7-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/8-Whyte_Lake.jpg' }, 
+      ],
+      list47: [
+        { src: 'img/20213005Shoreline/01-Shoreline.jpg' }, { src: 'img/20213005Shoreline/02-Shoreline.jpg' }, { src: 'img/20213005Shoreline/03-Shoreline.jpg' },
+        { src: 'img/20213005Shoreline/04-Shoreline.jpg' }, { src: 'img/20213005Shoreline/05-Shoreline.jpg' }, { src: 'img/20213005Shoreline/06-Shoreline.jpg' },
+        { src: 'img/20213005Shoreline/07-Shoreline.jpg' }, { src: 'img/20213005Shoreline/08-Shoreline.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/chinese-new-year-of-ox-2021.webp' }, { src: 'img/chinese_lunar_year_2021.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
