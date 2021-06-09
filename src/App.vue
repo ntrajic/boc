@@ -73,6 +73,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Poco Trail Bike Trip, June 06th, 2021
+        <a class="vue-green" href="img/20210606Poco/20210606PocoTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group48
+          class="thumbnail"
+          v-for="img in list48"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Shoreline Trail and Coquitlam Crunch, May 30th, 2021
         <a class="vue-green" href="img/20213005Shoreline/20213005ShorelineTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -918,6 +929,11 @@ export default {
         { src: 'img/20213005Shoreline/01-Shoreline.jpg' }, { src: 'img/20213005Shoreline/02-Shoreline.jpg' }, { src: 'img/20213005Shoreline/03-Shoreline.jpg' },
         { src: 'img/20213005Shoreline/04-Shoreline.jpg' }, { src: 'img/20213005Shoreline/05-Shoreline.jpg' }, { src: 'img/20213005Shoreline/06-Shoreline.jpg' },
         { src: 'img/20213005Shoreline/07-Shoreline.jpg' }, { src: 'img/20213005Shoreline/08-Shoreline.jpg' }, 
+      ],
+      list48: [
+        { src: 'img/20210606Poco/01-Poco.jpg' }, { src: 'img/20210606Poco/02-Poco.jpg' }, { src: 'img/20210606Poco/03-Poco.jpg' },
+        { src: 'img/20210606Poco/04-Poco.jpg' }, { src: 'img/20210606Poco/05-Poco.jpg' }, { src: 'img/20210606Poco/06-Poco.jpg' },
+        { src: 'img/20210606Poco/07-Poco.jpg' }, { src: 'img/20210606Poco/08-Poco.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/chinese-new-year-of-ox-2021.webp' }, { src: 'img/chinese_lunar_year_2021.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
