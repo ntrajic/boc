@@ -37,7 +37,7 @@
                             </h3>
                             <p>
                               <span class="vue-green">
-                              John Holmes has resigned from the position of president of the Burnaby Outdoor Club and Gerard Laman, the vice president, will in the meantime be the acting president. Effective May 3rd, 2021
+                              BOC is operating in groups of six following Heath Canada restrictions. Soon is expected larger number of participants to be allowed. Stay tuned!
                               </span>
                             </p>
                           </article>
@@ -45,16 +45,13 @@
                 </div>
           </transition>
       </div>
+
       <div style="overflow:hidden">
         <img v-gallery:group0
           class="thumbnail"
           v-for="img in list0"
           :src="img.src"
           :key="img.src">
-          <iframe width="100px" height="100px" src="https://www.youtube.com/embed/rp02hvuU2o8"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-            picture-in-picture" allowfullscreen>
-        </iframe>
       </div>
 
       <div class="subtitle">
@@ -62,7 +59,6 @@
         <a class="vue-green"></a>
         <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank" title="covid-19 map pc">covid-19 map pc</a>
         <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61" target="_blank" title="covid-19 map mobile">covid-19 map mobile</a>
-        <a class="vue-green" href="https://youtu.be/xUVIKO4r5HU" target="_blank" title="Search & Rescue Recommended Hike">Minnekhada Park Hike Recommendation</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery="'group0_5'"
@@ -936,7 +932,7 @@ export default {
         { src: 'img/20210606Poco/07-Poco.jpg' }, { src: 'img/20210606Poco/08-Poco.jpg' }, 
       ],
       list0: [
-        { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/chinese-new-year-of-ox-2021.webp' }, { src: 'img/chinese_lunar_year_2021.jpg' }, { src: 'img/Tatjana_Mirkov-Popovicki.jpg' }
+        { src: 'img/BOC-Newsletter.jpg' }, 
       ]
     }
   },
