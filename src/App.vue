@@ -69,6 +69,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Crescent Beach and Park in Surrey, July 01st, 2021
+        <a class="vue-green" href="img/20210701CrescentBeach/20210701CrescentTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group49
+          class="thumbnail"
+          v-for="img in list49"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Poco Trail Bike Trip, June 06th, 2021
         <a class="vue-green" href="img/20210606Poco/20210606PocoTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -930,6 +940,12 @@ export default {
         { src: 'img/20210606Poco/01-Poco.jpg' }, { src: 'img/20210606Poco/02-Poco.jpg' }, { src: 'img/20210606Poco/03-Poco.jpg' },
         { src: 'img/20210606Poco/04-Poco.jpg' }, { src: 'img/20210606Poco/05-Poco.jpg' }, { src: 'img/20210606Poco/06-Poco.jpg' },
         { src: 'img/20210606Poco/07-Poco.jpg' }, { src: 'img/20210606Poco/08-Poco.jpg' }, 
+      ],
+      list49: [
+        { src: 'img/20210701CrescentBeach/01-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/02-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/03-Crescent.jpg' },
+        { src: 'img/20210701CrescentBeach/04-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/05-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/06-Crescent.jpg' },
+        { src: 'img/20210701CrescentBeach/07-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/08-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/09-Crescent.jpg' },
+        { src: 'img/20210701CrescentBeach/10-Crescent.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
