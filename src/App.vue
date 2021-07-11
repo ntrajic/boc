@@ -69,6 +69,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Buntzen Lake Hike, July 05th, 2021
+        <a class="vue-green" href="img/20210705BuntzenLake/20210705BuntzenLakeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group50
+          class="thumbnail"
+          v-for="img in list50"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Crescent Beach and Park in Surrey, July 01st, 2021
         <a class="vue-green" href="img/20210701CrescentBeach/20210701CrescentTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -946,6 +956,11 @@ export default {
         { src: 'img/20210701CrescentBeach/04-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/05-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/06-Crescent.jpg' },
         { src: 'img/20210701CrescentBeach/07-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/08-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/09-Crescent.jpg' },
         { src: 'img/20210701CrescentBeach/10-Crescent.jpg' },
+      ],
+      list50: [
+        { src: 'img/20210705BuntzenLake/01-Buntzen.jpg' }, { src: 'img/20210705BuntzenLake/02-Buntzen.jpg' }, { src: 'img/20210705BuntzenLake/03-Buntzen.jpg' },
+        { src: 'img/20210705BuntzenLake/04-Buntzen.jpg' }, { src: 'img/20210705BuntzenLake/05-Buntzen.jpg' }, { src: 'img/20210705BuntzenLake/06-Buntzen.jpg' },
+        { src: 'img/20210705BuntzenLake/07-Buntzen.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
