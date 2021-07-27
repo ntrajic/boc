@@ -68,7 +68,17 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-
+      
+      <div class="subtitle">Mamquam River and Smoke Bluffs Park, July 25th, 2021
+        <a class="vue-green" href="img/20210725MamquamRiver/20210725MamquamTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group52
+          class="thumbnail"
+          v-for="img in list52"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Black Mountain - Yew Lake, July 11th, 2021
         <a class="vue-green" href="img/20210711YewBlackMnt/20210711BlackMntTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -976,6 +986,11 @@ export default {
         { src: 'img/20210711YewBlackMnt/1-Black_Mountain.jpg' }, { src: 'img/20210711YewBlackMnt/2-Black_Mountain.jpg' }, { src: 'img/20210711YewBlackMnt/3-Black_Mountain.jpg' },
         { src: 'img/20210711YewBlackMnt/4-Black_Mountain.jpg' }, { src: 'img/20210711YewBlackMnt/5-Black_Mountain.jpg' }, { src: 'img/20210711YewBlackMnt/6-Black_Mountain.jpg' },
         { src: 'img/20210711YewBlackMnt/7-Black_Mountain.jpg' }, { src: 'img/20210711YewBlackMnt/8-Black_Mountain.jpg' },
+      ],
+      list52: [
+        { src: 'img/20210725MamquamRiver/1-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/2-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/3-Mamquam.jpg' },
+        { src: 'img/20210725MamquamRiver/4-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/5-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/6-Mamquam.jpg' },
+        { src: 'img/20210725MamquamRiver/7-Mamquam.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
