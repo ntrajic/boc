@@ -990,7 +990,7 @@ export default {
       list52: [
         { src: 'img/20210725MamquamRiver/1-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/2-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/3-Mamquam.jpg' },
         { src: 'img/20210725MamquamRiver/4-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/5-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/6-Mamquam.jpg' },
-        { src: 'img/20210725MamquamRiver/7-Mamquam.jpg' }, 
+        { src: 'img/20210725MamquamRiver/7-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/8-Mamquam.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
