@@ -37,7 +37,7 @@
                             </h3>
                             <p>
                               <span class="vue-green">
-                              BOC is operating in groups of six following Heath Canada restrictions. Soon is expected larger number of participants to be allowed. Stay tuned!
+                              BOC is operating in groups of six following Health Canada restrictions. Larger number of participants are allowed. Stay tuned!
                               </span>
                             </p>
                           </article>
@@ -52,13 +52,6 @@
           v-for="img in list0"
           :src="img.src"
           :key="img.src">
-      </div>
-
-      <div class="subtitle">
-        <a class="vue-green" href="" title=""></a>
-        <a class="vue-green"></a>
-        <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank" title="covid-19 map pc">covid-19 map pc</a>
-        <a class="vue-green" href="https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61" target="_blank" title="covid-19 map mobile">covid-19 map mobile</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery="'group0_5'"
