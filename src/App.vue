@@ -62,6 +62,16 @@
           :key="img.src + index">
       </div>
       
+      <div class="subtitle">St Mark's Summit Hike, August 8th, 2021
+        <a class="vue-green" href="img/20210808StMarksSummit/20210808StMarksSummitTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group53
+          class="thumbnail"
+          v-for="img in list53"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Mamquam River and Smoke Bluffs Park, July 25th, 2021
         <a class="vue-green" href="img/20210725MamquamRiver/20210725MamquamTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -984,6 +994,11 @@ export default {
         { src: 'img/20210725MamquamRiver/1-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/2-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/3-Mamquam.jpg' },
         { src: 'img/20210725MamquamRiver/4-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/5-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/6-Mamquam.jpg' },
         { src: 'img/20210725MamquamRiver/7-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/8-Mamquam.jpg' },
+      ],
+      list53: [
+        { src: 'img/20210808StMarksSummit/1-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/2-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/3-St_Marks_hike.jpg' },
+        { src: 'img/20210808StMarksSummit/4-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/5-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/6-St_Marks_hike.jpg' },
+        { src: 'img/20210808StMarksSummit/7-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/8-St_Marks_hike.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
