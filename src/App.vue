@@ -66,6 +66,16 @@
         <a class="vue-green" href="img/20210808StMarksSummit/20210808StMarksSummitTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
+        <img v-gallery:group54
+          class="thumbnail"
+          v-for="img in list54"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle">Seymour River and Lynn Canyon Loop, August 2th, 2021
+        <a class="vue-green" href="img/20210802SeymourRiverLynnCanyonLoop/20210802SeymourLynnTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
         <img v-gallery:group53
           class="thumbnail"
           v-for="img in list53"
@@ -996,6 +1006,10 @@ export default {
         { src: 'img/20210725MamquamRiver/7-Mamquam.jpg' }, { src: 'img/20210725MamquamRiver/8-Mamquam.jpg' },
       ],
       list53: [
+        { src: 'img/20210802SeymourRiverLynnCanyonLoop/1-SeymourLynn.jpg' }, { src: 'img/20210802SeymourRiverLynnCanyonLoop/2-SeymourLynn.jpg' }, { src: 'img/20210802SeymourRiverLynnCanyonLoop/3-SeymourLynn.jpg' },
+        { src: 'img/20210802SeymourRiverLynnCanyonLoop/4-SeymourLynn.jpg' }, { src: 'img/20210802SeymourRiverLynnCanyonLoop/5-SeymourLynn.jpg' }, { src: 'img/20210802SeymourRiverLynnCanyonLoop/6-SeymourLynn.jpg' },
+      ],
+      list54: [
         { src: 'img/20210808StMarksSummit/1-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/2-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/3-St_Marks_hike.jpg' },
         { src: 'img/20210808StMarksSummit/4-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/5-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/6-St_Marks_hike.jpg' },
         { src: 'img/20210808StMarksSummit/7-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/8-St_Marks_hike.jpg' },
