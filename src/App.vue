@@ -62,6 +62,16 @@
           :key="img.src + index">
       </div>
       
+      <div class="subtitle">Cypress Falls To Whyte Lake Trail, August 22nd, 2021
+        <a class="vue-green" href="img/20210822CypressFallToWhyteLake/20210822CypressFallsToWhyteLakeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group55
+          class="thumbnail"
+          v-for="img in list55"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">St Mark's Summit Hike, August 8th, 2021
         <a class="vue-green" href="img/20210808StMarksSummit/20210808StMarksSummitTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1013,6 +1023,12 @@ export default {
         { src: 'img/20210808StMarksSummit/1-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/2-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/3-St_Marks_hike.jpg' },
         { src: 'img/20210808StMarksSummit/4-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/5-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/6-St_Marks_hike.jpg' },
         { src: 'img/20210808StMarksSummit/7-St_Marks_hike.jpg' }, { src: 'img/20210808StMarksSummit/8-St_Marks_hike.jpg' },
+      ],
+      list55: [
+        { src: 'img/20210822CypressFallToWhyteLake/01-Cypress_Falls_To_Whyte_Lake.jpg' }, { src: 'img/20210822CypressFallToWhyteLake/02-Cypress_Falls_To_Whyte_Lake.jpg' }, { src: 'img/20210822CypressFallToWhyteLake/03-Cypress_Falls_To_Whyte_Lake.jpg' },
+        { src: 'img/20210822CypressFallToWhyteLake/04-Cypress_Falls_To_Whyte_Lake.jpg' }, { src: 'img/20210822CypressFallToWhyteLake/05-Cypress_Falls_To_Whyte_Lake.jpg' }, { src: 'img/20210822CypressFallToWhyteLake/06-Cypress_Falls_To_Whyte_Lake.jpg' },
+        { src: 'img/20210822CypressFallToWhyteLake/07-Cypress_Falls_To_Whyte_Lake.jpg' }, { src: 'img/20210822CypressFallToWhyteLake/08-Cypress_Falls_To_Whyte_Lake.jpg' }, { src: 'img/20210822CypressFallToWhyteLake/09-Cypress_Falls_To_Whyte_Lake.jpg' },
+        { src: 'img/20210822CypressFallToWhyteLake/10-Cypress_Falls_To_Whyte_Lake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
