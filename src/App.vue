@@ -61,7 +61,18 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-      
+
+      <div class="subtitle">Elfin Lakes, August 31st, 2021
+        <a class="vue-green" href="img/20210831ElfinLakes/20210831ElfinLakesTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group56
+          class="thumbnail"
+          v-for="img in list56"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Cypress Falls To Whyte Lake Trail, August 22nd, 2021
         <a class="vue-green" href="img/20210822CypressFallToWhyteLake/20210822CypressFallsToWhyteLakeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1029,6 +1040,13 @@ export default {
         { src: 'img/20210822CypressFallToWhyteLake/04-Cypress_Falls_To_Whyte_Lake.jpg' }, { src: 'img/20210822CypressFallToWhyteLake/05-Cypress_Falls_To_Whyte_Lake.jpg' }, { src: 'img/20210822CypressFallToWhyteLake/06-Cypress_Falls_To_Whyte_Lake.jpg' },
         { src: 'img/20210822CypressFallToWhyteLake/07-Cypress_Falls_To_Whyte_Lake.jpg' }, { src: 'img/20210822CypressFallToWhyteLake/08-Cypress_Falls_To_Whyte_Lake.jpg' }, { src: 'img/20210822CypressFallToWhyteLake/09-Cypress_Falls_To_Whyte_Lake.jpg' },
         { src: 'img/20210822CypressFallToWhyteLake/10-Cypress_Falls_To_Whyte_Lake.jpg' },
+      ],
+      list56: [
+        { src: 'img/20210831ElfinLakes/01-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/02-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/03-Elfin_Lake.jpg' },
+        { src: 'img/20210831ElfinLakes/04-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/05-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/06-Elfin_Lake.jpg' },
+        { src: 'img/20210831ElfinLakes/07-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/08-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/09-Elfin_Lake.jpg' },
+        { src: 'img/20210831ElfinLakes/10-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/11-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/12-Elfin_Lake.jpg' },
+        { src: 'img/20210831ElfinLakes/13-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/14-Elfin_Lake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
