@@ -62,6 +62,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Buntzen to Sasamat Lakes, September 12th, 2021
+        <a class="vue-green" href="img/20210912BuntzenToSasamat/20210912BuntzenToSasamatTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group57
+          class="thumbnail"
+          v-for="img in list57"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Elfin Lakes, August 31st, 2021
         <a class="vue-green" href="img/20210831ElfinLakes/20210831ElfinLakesTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1047,6 +1058,12 @@ export default {
         { src: 'img/20210831ElfinLakes/07-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/08-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/09-Elfin_Lake.jpg' },
         { src: 'img/20210831ElfinLakes/10-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/11-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/12-Elfin_Lake.jpg' },
         { src: 'img/20210831ElfinLakes/13-Elfin_Lake.jpg' }, { src: 'img/20210831ElfinLakes/14-Elfin_Lake.jpg' },
+      ],
+      list57: [
+        { src: 'img/20210912BuntzenToSasamat/01-Buntzen_to_Sasamat_Lakes.jpg' }, { src: 'img/20210912BuntzenToSasamat/02-Buntzen_to_Sasamat_Lakes.jpg' }, { src: 'img/20210912BuntzenToSasamat/03-Buntzen_to_Sasamat_Lakes.jpg' },
+        { src: 'img/20210912BuntzenToSasamat/04-Buntzen_to_Sasamat_Lakes.jpg' }, { src: 'img/20210912BuntzenToSasamat/05-Buntzen_to_Sasamat_Lakes.jpg' }, { src: 'img/20210912BuntzenToSasamat/06-Buntzen_to_Sasamat_Lakes.jpg' },
+        { src: 'img/20210912BuntzenToSasamat/07-Buntzen_to_Sasamat_Lakes.jpg' }, { src: 'img/20210912BuntzenToSasamat/08-Buntzen_to_Sasamat_Lakes.jpg' }, { src: 'img/20210912BuntzenToSasamat/09-Buntzen_to_Sasamat_Lakes.jpg' },
+        { src: 'img/20210912BuntzenToSasamat/10-Buntzen_to_Sasamat_Lakes.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
