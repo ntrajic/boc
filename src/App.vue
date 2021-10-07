@@ -62,6 +62,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Hollyburn Peak, October 03rd, 2021
+        <a class="vue-green" href="img/20211003HollyburnPeak/20211003HollyburnTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group58
+          class="thumbnail"
+          v-for="img in list58"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Buntzen to Sasamat Lakes, September 12th, 2021
         <a class="vue-green" href="img/20210912BuntzenToSasamat/20210912BuntzenToSasamatTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1064,6 +1075,12 @@ export default {
         { src: 'img/20210912BuntzenToSasamat/04-Buntzen_to_Sasamat_Lakes.jpg' }, { src: 'img/20210912BuntzenToSasamat/05-Buntzen_to_Sasamat_Lakes.jpg' }, { src: 'img/20210912BuntzenToSasamat/06-Buntzen_to_Sasamat_Lakes.jpg' },
         { src: 'img/20210912BuntzenToSasamat/07-Buntzen_to_Sasamat_Lakes.jpg' }, { src: 'img/20210912BuntzenToSasamat/08-Buntzen_to_Sasamat_Lakes.jpg' }, { src: 'img/20210912BuntzenToSasamat/09-Buntzen_to_Sasamat_Lakes.jpg' },
         { src: 'img/20210912BuntzenToSasamat/10-Buntzen_to_Sasamat_Lakes.jpg' },
+      ],
+      list58: [
+        { src: 'img/20211003HollyburnPeak/01-Hollyburn_Peak.jpg' }, { src: 'img/20211003HollyburnPeak/02-Hollyburn_Peak.jpg' }, { src: 'img/20211003HollyburnPeak/03-Hollyburn_Peak.jpg' },
+        { src: 'img/20211003HollyburnPeak/04-Hollyburn_Peak.jpg' }, { src: 'img/20211003HollyburnPeak/05-Hollyburn_Peak.jpg' }, { src: 'img/20211003HollyburnPeak/06-Hollyburn_Peak.jpg' },
+        { src: 'img/20211003HollyburnPeak/07-Hollyburn_Peak.jpg' }, { src: 'img/20211003HollyburnPeak/08-Hollyburn_Peak.jpg' }, { src: 'img/20211003HollyburnPeak/09-Hollyburn_Peak.jpg' },
+        { src: 'img/20211003HollyburnPeak/10-Hollyburn_Peak.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
