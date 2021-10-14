@@ -62,6 +62,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Elgin Heritage Park and SunnySide Acres Urban Forest, October 11th, 2021
+        <a class="vue-green" href="img/20211011ElginHeritage/20211011ElginHeritageTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group59
+          class="thumbnail"
+          v-for="img in list59"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Hollyburn Peak, October 03rd, 2021
         <a class="vue-green" href="img/20211003HollyburnPeak/20211003HollyburnTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1081,6 +1092,11 @@ export default {
         { src: 'img/20211003HollyburnPeak/04-Hollyburn_Peak.jpg' }, { src: 'img/20211003HollyburnPeak/05-Hollyburn_Peak.jpg' }, { src: 'img/20211003HollyburnPeak/06-Hollyburn_Peak.jpg' },
         { src: 'img/20211003HollyburnPeak/07-Hollyburn_Peak.jpg' }, { src: 'img/20211003HollyburnPeak/08-Hollyburn_Peak.jpg' }, { src: 'img/20211003HollyburnPeak/09-Hollyburn_Peak.jpg' },
         { src: 'img/20211003HollyburnPeak/10-Hollyburn_Peak.jpg' },
+      ],
+      list59: [
+        { src: 'img/20211011ElginHeritage/01-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/02-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/03-ElginHeritage.jpg' },
+        { src: 'img/20211011ElginHeritage/04-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/05-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/06-ElginHeritage.jpg' },
+        { src: 'img/20211011ElginHeritage/07-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/08-ElginHeritage.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
