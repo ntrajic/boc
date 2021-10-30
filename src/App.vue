@@ -62,6 +62,17 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Historic Mushroom Hike, October 26th, 2021
+        <a class="vue-green" href="img/20211026HistoricMushroom/20211026HistoricMushroomTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group60
+          class="thumbnail"
+          v-for="img in list60"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
       <div class="subtitle">Elgin Heritage Park and SunnySide Acres Urban Forest, October 11th, 2021
         <a class="vue-green" href="img/20211011ElginHeritage/20211011ElginHeritageTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1097,6 +1108,11 @@ export default {
         { src: 'img/20211011ElginHeritage/01-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/02-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/03-ElginHeritage.jpg' },
         { src: 'img/20211011ElginHeritage/04-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/05-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/06-ElginHeritage.jpg' },
         { src: 'img/20211011ElginHeritage/07-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/08-ElginHeritage.jpg' }, 
+      ],
+      list60: [
+        { src: 'img/20211026HistoricMushroom/1-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/2-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/3-Historic_Mushroom.jpg' },
+        { src: 'img/20211026HistoricMushroom/4-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/5-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/6-Historic_Mushroom.jpg' },
+        { src: 'img/20211026HistoricMushroom/7-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/8-Historic_Mushroom.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
