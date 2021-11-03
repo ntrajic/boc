@@ -62,6 +62,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Killarney Lake and Dorman Point, Bowen Island, October 31st, 2021
+        <a class="vue-green" href="img/20211031KLDPBowen/20211031KLDPBowenTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group61
+          class="thumbnail"
+          v-for="img in list61"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Historic Mushroom Hike, October 26th, 2021
         <a class="vue-green" href="img/20211026HistoricMushroom/20211026HistoricMushroomTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1113,6 +1123,12 @@ export default {
         { src: 'img/20211026HistoricMushroom/1-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/2-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/3-Historic_Mushroom.jpg' },
         { src: 'img/20211026HistoricMushroom/4-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/5-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/6-Historic_Mushroom.jpg' },
         { src: 'img/20211026HistoricMushroom/7-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/8-Historic_Mushroom.jpg' }, 
+      ],
+      list61: [
+        { src: 'img/20211031KLDPBowen/1-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/2-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/3-KLDPBowen.jpg' },
+        { src: 'img/20211031KLDPBowen/4-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/5-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/6-KLDPBowen.jpg' },
+        { src: 'img/20211031KLDPBowen/7-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/8-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/9-KLDPBowen.jpg' },
+        { src: 'img/20211031KLDPBowen/10-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/11-KLDPBowen.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
