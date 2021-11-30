@@ -62,6 +62,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Sasamat Lake to Diez Vistas, November 21st, 2021
+        <a class="vue-green" href="img/20211121SasamtDiezVista/20211121SasamatDiezVistaTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group62
+          class="thumbnail"
+          v-for="img in list62"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Killarney Lake and Dorman Point, Bowen Island, October 31st, 2021
         <a class="vue-green" href="img/20211031KLDPBowen/20211031KLDPBowenTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1129,6 +1139,11 @@ export default {
         { src: 'img/20211031KLDPBowen/4-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/5-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/6-KLDPBowen.jpg' },
         { src: 'img/20211031KLDPBowen/7-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/8-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/9-KLDPBowen.jpg' },
         { src: 'img/20211031KLDPBowen/10-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/11-KLDPBowen.jpg' },
+      ],
+      list62: [
+        { src: 'img/20211121SasamtDiezVista/01-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/02-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/03-SasamatToDV.jpg' },
+        { src: 'img/20211121SasamtDiezVista/04-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/05-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/06-SasamatToDV.jpg' },
+        { src: 'img/20211121SasamtDiezVista/07-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/08-SasamatToDV.jpg' }, 
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
