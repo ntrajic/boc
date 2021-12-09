@@ -61,7 +61,17 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-
+      
+      <div class="subtitle">Lynn Canyon and Seymour River Trails, December 05th, 2021
+        <a class="vue-green" href="img/20211205LynnSeymour/20211205LynnSeymourTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group63
+          class="thumbnail"
+          v-for="img in list63"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Sasamat Lake to Diez Vistas, November 21st, 2021
         <a class="vue-green" href="img/20211121SasamtDiezVista/20211121SasamatDiezVistaTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1144,6 +1154,12 @@ export default {
         { src: 'img/20211121SasamtDiezVista/01-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/02-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/03-SasamatToDV.jpg' },
         { src: 'img/20211121SasamtDiezVista/04-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/05-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/06-SasamatToDV.jpg' },
         { src: 'img/20211121SasamtDiezVista/07-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/08-SasamatToDV.jpg' }, 
+      ],
+      list63: [
+        { src: 'img/20211205LynnSeymour/01-Two_Canyon_Loop-Lynn_Creek.jpg' }, { src: 'img/20211205LynnSeymour/02-Two_Canyon_Loop-Lynn_Cteek.jpg' }, { src: 'img/20211205LynnSeymour/03-Two_Canyon_Loop-Lynn_Creek.jpg' },
+        { src: 'img/20211205LynnSeymour/04-Two_Canyon_Loop-Lynn_Creek.jpg' }, { src: 'img/20211205LynnSeymour/05-Two_Canyon_Loop-Lynn_Creek.jpg' }, { src: 'img/20211205LynnSeymour/06-Two_Canyon_Loop-Lynn_Creek.jpg' },
+        { src: 'img/20211205LynnSeymour/07-Two_Canyon_Loop-Lynn_Creek.jpg' }, { src: 'img/20211205LynnSeymour/08-Two_Canyon_Loop-Lynn_Creek.jpg' }, { src: 'img/20211205LynnSeymour/09-Two_Canyon_Loop-Lynn_Creek.jpg' },
+        { src: 'img/20211205LynnSeymour/10-Two_Canyon_Loop-Lynn_Creek.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
