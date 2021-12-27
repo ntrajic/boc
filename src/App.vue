@@ -61,7 +61,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-      
+      <div class="subtitle">Vancouver Downtown's Seawall Walk, December 19th, 2021
+        <a class="vue-green" href="img/20211219SeaWall/20211213SeaWallWalkTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group64
+          class="thumbnail"
+          v-for="img in list64"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Lynn Canyon and Seymour River Trails, December 05th, 2021
         <a class="vue-green" href="img/20211205LynnSeymour/20211205LynnSeymourTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1160,6 +1169,12 @@ export default {
         { src: 'img/20211205LynnSeymour/04-Two_Canyon_Loop-Lynn_Creek.jpg' }, { src: 'img/20211205LynnSeymour/05-Two_Canyon_Loop-Lynn_Creek.jpg' }, { src: 'img/20211205LynnSeymour/06-Two_Canyon_Loop-Lynn_Creek.jpg' },
         { src: 'img/20211205LynnSeymour/07-Two_Canyon_Loop-Lynn_Creek.jpg' }, { src: 'img/20211205LynnSeymour/08-Two_Canyon_Loop-Lynn_Creek.jpg' }, { src: 'img/20211205LynnSeymour/09-Two_Canyon_Loop-Lynn_Creek.jpg' },
         { src: 'img/20211205LynnSeymour/10-Two_Canyon_Loop-Lynn_Creek.jpg' },
+      ],
+      list64: [
+        { src: 'img/20211219SeaWall/01-SeaWall.jpg' }, { src: 'img/20211219SeaWall/02-SeaWall.jpg' }, { src: 'img/20211219SeaWall/03-SeaWall.jpg' },
+        { src: 'img/20211219SeaWall/04-SeaWall.jpg' }, { src: 'img/20211219SeaWall/05-SeaWall.jpg' }, { src: 'img/20211219SeaWall/06-SeaWall.jpg' },
+        { src: 'img/20211219SeaWall/07-SeaWall.jpg' }, { src: 'img/20211219SeaWall/08-SeaWall.jpg' }, { src: 'img/20211219SeaWall/09-SeaWall.jpg' },
+        { src: 'img/20211219SeaWall/10-SeaWall.jpg' }, { src: 'img/20211219SeaWall/11-SeaWall.jpg' }, { src: 'img/20211219SeaWall/12-SeaWall.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
