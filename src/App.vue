@@ -61,6 +61,17 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+
+      <div class="subtitle">Vancouver Downtown's Seawall Walk, II, January 9th, 2022
+        <a class="vue-green" href="img/20220109SeaWall/20220109SeaWallTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group65
+          class="thumbnail"
+          v-for="img in list65"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Vancouver Downtown's Seawall Walk, December 19th, 2021
         <a class="vue-green" href="img/20211219SeaWall/20211213SeaWallWalkTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1175,6 +1186,13 @@ export default {
         { src: 'img/20211219SeaWall/04-SeaWall.jpg' }, { src: 'img/20211219SeaWall/05-SeaWall.jpg' }, { src: 'img/20211219SeaWall/06-SeaWall.jpg' },
         { src: 'img/20211219SeaWall/07-SeaWall.jpg' }, { src: 'img/20211219SeaWall/08-SeaWall.jpg' }, { src: 'img/20211219SeaWall/09-SeaWall.jpg' },
         { src: 'img/20211219SeaWall/10-SeaWall.jpg' }, { src: 'img/20211219SeaWall/11-SeaWall.jpg' }, { src: 'img/20211219SeaWall/12-SeaWall.jpg' },
+      ],
+      list65: [
+        { src: 'img/20220109SeaWall/01-SeaWall.jpg' }, { src: 'img/20220109SeaWall/02-SeaWall.jpg' }, { src: 'img/20220109SeaWall/03-SeaWall.jpg' },
+        { src: 'img/20220109SeaWall/04-SeaWall.jpg' }, { src: 'img/20220109SeaWall/05-SeaWall.jpg' }, { src: 'img/20220109SeaWall/06-SeaWall.jpg' },
+        { src: 'img/20220109SeaWall/07-SeaWall.jpg' }, { src: 'img/20220109SeaWall/08-SeaWall.jpg' }, { src: 'img/20220109SeaWall/09-SeaWall.jpg' },
+        { src: 'img/20220109SeaWall/10-SeaWall.jpg' }, { src: 'img/20220109SeaWall/11-SeaWall.jpg' }, { src: 'img/20220109SeaWall/12-SeaWall.jpg' },
+        { src: 'img/20220109SeaWall/13-SeaWall.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
