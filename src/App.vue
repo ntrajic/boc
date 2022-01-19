@@ -62,6 +62,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Bowen Lookout, January 16th, 2022
+        <a class="vue-green" href="img/20220116Bowen/20220116BowenTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group66
+          class="thumbnail"
+          v-for="img in list66"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Vancouver Downtown's Seawall Walk, II, January 9th, 2022
         <a class="vue-green" href="img/20220109SeaWall/20220109SeaWallTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1193,6 +1203,11 @@ export default {
         { src: 'img/20220109SeaWall/07-SeaWall.jpg' }, { src: 'img/20220109SeaWall/08-SeaWall.jpg' }, { src: 'img/20220109SeaWall/09-SeaWall.jpg' },
         { src: 'img/20220109SeaWall/10-SeaWall.jpg' }, { src: 'img/20220109SeaWall/11-SeaWall.jpg' }, { src: 'img/20220109SeaWall/12-SeaWall.jpg' },
         { src: 'img/20220109SeaWall/13-SeaWall.jpg' },
+      ],
+      list66: [
+        { src: 'img/20220116Bowen/01-Bowen_Lookout.jpg' }, { src: 'img/20220116Bowen/02-Bowen_Lookout.jpg' }, { src: 'img/20220116Bowen/03-Bowen_Lookout.jpg' },
+        { src: 'img/20220116Bowen/04-Bowen_Lookout.jpg' }, { src: 'img/20220116Bowen/05-Bowen_Lookout.jpg' }, { src: 'img/20220116Bowen/06-Bowen_Lookout.jpg' },
+        { src: 'img/20220116Bowen/07-Bowen_Lookout.jpg' }, { src: 'img/20220116Bowen/08-Bowen_Lookout.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, 
