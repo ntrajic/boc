@@ -62,6 +62,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Lynn Loop and Headwaters/Rice Lake, January 29th, 2022
+        <a class="vue-green" href="img/20220129LynnLoop/20220129LynnLoopTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group67
+          class="thumbnail"
+          v-for="img in list67"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Bowen Lookout, January 16th, 2022
         <a class="vue-green" href="img/20220116Bowen/20220116BowenTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1067,11 +1077,11 @@ export default {
       list40: [
         { src: 'img/20210314Buntzen/1-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/2-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/3-Buntzen_Lake.jpg' },
         { src: 'img/20210314Buntzen/4-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/5-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/6-Buntzen_Lake.jpg' },
-        { src: 'img/20210314Buntzen/7-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/8-Buntzen_Lake.jpg' }, 
+        { src: 'img/20210314Buntzen/7-Buntzen_Lake.jpg' }, { src: 'img/20210314Buntzen/8-Buntzen_Lake.jpg' },
       ],
       list41: [
         { src: 'img/20210325BrohmLake/01-BrohmLake.jpg' }, { src: 'img/20210325BrohmLake/02-BrohmLake.jpg' }, { src: 'img/20210325BrohmLake/03-BrohmLake.jpg' },
-        { src: 'img/20210325BrohmLake/04-BrohmLake.jpg' }, 
+        { src: 'img/20210325BrohmLake/04-BrohmLake.jpg' },
       ],
       list42: [
         { src: 'img/20210404TransCanadaTrail/01-IMG_7648.jpg' }, { src: 'img/20210404TransCanadaTrail/02-IMG_7649.jpg' }, { src: 'img/20210404TransCanadaTrail/03-IMG_7650.jpg' },
@@ -1081,12 +1091,12 @@ export default {
       list43: [
         { src: 'img/20210411Fisherman/01-Fisherman.jpg' }, { src: 'img/20210411Fisherman/02-Fisherman.jpg' }, { src: 'img/20210411Fisherman/03-Fisherman.jpg' },
         { src: 'img/20210411Fisherman/04-Fisherman.jpg' }, { src: 'img/20210411Fisherman/05-Fisherman.jpg' }, { src: 'img/20210411Fisherman/06-Fisherman.jpg' },
-        { src: 'img/20210411Fisherman/07-Fisherman.jpg' }, 
+        { src: 'img/20210411Fisherman/07-Fisherman.jpg' },
       ],
       list44: [
         { src: 'img/20210418ChadseyLake/01-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/02-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/03-Chadsey-Lake.jpg' },
         { src: 'img/20210418ChadseyLake/04-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/05-Chadsey-Lake.jpg' }, { src: 'img/20210418ChadseyLake/06-Chadsey-Lake.jpg' },
-        { src: 'img/20210418ChadseyLake/07-Chadsey-Lake.jpg' }, 
+        { src: 'img/20210418ChadseyLake/07-Chadsey-Lake.jpg' },
       ],
       list45: [
         { src: 'img/20210508Minnekhada/01-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/02-Minnekhada.jpg' }, { src: 'img/20210508Minnekhada/03-Minnekhada.jpg' },
@@ -1097,17 +1107,17 @@ export default {
       list46: [
         { src: 'img/20210523WhiteLake/1-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/2-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/3-Whyte_Lake.jpg' },
         { src: 'img/20210523WhiteLake/4-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/5-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/6-Whyte_Lake.jpg' },
-        { src: 'img/20210523WhiteLake/7-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/8-Whyte_Lake.jpg' }, 
+        { src: 'img/20210523WhiteLake/7-Whyte_Lake.jpg' }, { src: 'img/20210523WhiteLake/8-Whyte_Lake.jpg' },
       ],
       list47: [
         { src: 'img/20213005Shoreline/01-Shoreline.jpg' }, { src: 'img/20213005Shoreline/02-Shoreline.jpg' }, { src: 'img/20213005Shoreline/03-Shoreline.jpg' },
         { src: 'img/20213005Shoreline/04-Shoreline.jpg' }, { src: 'img/20213005Shoreline/05-Shoreline.jpg' }, { src: 'img/20213005Shoreline/06-Shoreline.jpg' },
-        { src: 'img/20213005Shoreline/07-Shoreline.jpg' }, { src: 'img/20213005Shoreline/08-Shoreline.jpg' }, 
+        { src: 'img/20213005Shoreline/07-Shoreline.jpg' }, { src: 'img/20213005Shoreline/08-Shoreline.jpg' },
       ],
       list48: [
         { src: 'img/20210606Poco/01-Poco.jpg' }, { src: 'img/20210606Poco/02-Poco.jpg' }, { src: 'img/20210606Poco/03-Poco.jpg' },
         { src: 'img/20210606Poco/04-Poco.jpg' }, { src: 'img/20210606Poco/05-Poco.jpg' }, { src: 'img/20210606Poco/06-Poco.jpg' },
-        { src: 'img/20210606Poco/07-Poco.jpg' }, { src: 'img/20210606Poco/08-Poco.jpg' }, 
+        { src: 'img/20210606Poco/07-Poco.jpg' }, { src: 'img/20210606Poco/08-Poco.jpg' },
       ],
       list49: [
         { src: 'img/20210701CrescentBeach/01-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/02-Crescent.jpg' }, { src: 'img/20210701CrescentBeach/03-Crescent.jpg' },
@@ -1118,7 +1128,7 @@ export default {
       list50: [
         { src: 'img/20210705BuntzenLake/01-Buntzen.jpg' }, { src: 'img/20210705BuntzenLake/02-Buntzen.jpg' }, { src: 'img/20210705BuntzenLake/03-Buntzen.jpg' },
         { src: 'img/20210705BuntzenLake/04-Buntzen.jpg' }, { src: 'img/20210705BuntzenLake/05-Buntzen.jpg' }, { src: 'img/20210705BuntzenLake/06-Buntzen.jpg' },
-        { src: 'img/20210705BuntzenLake/07-Buntzen.jpg' }, 
+        { src: 'img/20210705BuntzenLake/07-Buntzen.jpg' },
       ],
       list51: [
         { src: 'img/20210711YewBlackMnt/1-Black_Mountain.jpg' }, { src: 'img/20210711YewBlackMnt/2-Black_Mountain.jpg' }, { src: 'img/20210711YewBlackMnt/3-Black_Mountain.jpg' },
@@ -1167,12 +1177,12 @@ export default {
       list59: [
         { src: 'img/20211011ElginHeritage/01-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/02-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/03-ElginHeritage.jpg' },
         { src: 'img/20211011ElginHeritage/04-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/05-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/06-ElginHeritage.jpg' },
-        { src: 'img/20211011ElginHeritage/07-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/08-ElginHeritage.jpg' }, 
+        { src: 'img/20211011ElginHeritage/07-ElginHeritage.jpg' }, { src: 'img/20211011ElginHeritage/08-ElginHeritage.jpg' },
       ],
       list60: [
         { src: 'img/20211026HistoricMushroom/1-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/2-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/3-Historic_Mushroom.jpg' },
         { src: 'img/20211026HistoricMushroom/4-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/5-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/6-Historic_Mushroom.jpg' },
-        { src: 'img/20211026HistoricMushroom/7-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/8-Historic_Mushroom.jpg' }, 
+        { src: 'img/20211026HistoricMushroom/7-Historic_Mushroom.jpg' }, { src: 'img/20211026HistoricMushroom/8-Historic_Mushroom.jpg' },
       ],
       list61: [
         { src: 'img/20211031KLDPBowen/1-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/2-KLDPBowen.jpg' }, { src: 'img/20211031KLDPBowen/3-KLDPBowen.jpg' },
@@ -1183,7 +1193,7 @@ export default {
       list62: [
         { src: 'img/20211121SasamtDiezVista/01-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/02-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/03-SasamatToDV.jpg' },
         { src: 'img/20211121SasamtDiezVista/04-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/05-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/06-SasamatToDV.jpg' },
-        { src: 'img/20211121SasamtDiezVista/07-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/08-SasamatToDV.jpg' }, 
+        { src: 'img/20211121SasamtDiezVista/07-SasamatToDV.jpg' }, { src: 'img/20211121SasamtDiezVista/08-SasamatToDV.jpg' },
       ],
       list63: [
         { src: 'img/20211205LynnSeymour/01-Two_Canyon_Loop-Lynn_Creek.jpg' }, { src: 'img/20211205LynnSeymour/02-Two_Canyon_Loop-Lynn_Cteek.jpg' }, { src: 'img/20211205LynnSeymour/03-Two_Canyon_Loop-Lynn_Creek.jpg' },
@@ -1209,8 +1219,15 @@ export default {
         { src: 'img/20220116Bowen/04-Bowen_Lookout.jpg' }, { src: 'img/20220116Bowen/05-Bowen_Lookout.jpg' }, { src: 'img/20220116Bowen/06-Bowen_Lookout.jpg' },
         { src: 'img/20220116Bowen/07-Bowen_Lookout.jpg' }, { src: 'img/20220116Bowen/08-Bowen_Lookout.jpg' },
       ],
+      list67: [
+        { src: 'img/20220129LynnLoop/01-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/02-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/03-LynnLoop.jpg' },
+        { src: 'img/20220129LynnLoop/04-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/05-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/06-LynnLoop.jpg' },
+        { src: 'img/20220129LynnLoop/07-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/08-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/09-LynnLoop.jpg' },
+        { src: 'img/20220129LynnLoop/10-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/11-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/12-LynnLoop.jpg' },
+        { src: 'img/20220129LynnLoop/13-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/14-LynnLoop.jpg' },
+      ],
       list0: [
-        { src: 'img/BOC-Newsletter.jpg' }, 
+        { src: 'img/BOC-Newsletter.jpg' },
       ]
     }
   },
