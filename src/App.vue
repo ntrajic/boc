@@ -62,6 +62,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Polar Bear Lunar New Year Event, February 01, 2022
+        <a class="vue-green" href="img/20220201PolarBearLunar/20220201PolarTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group68
+          class="thumbnail"
+          v-for="img in list68"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Lynn Loop and Headwaters/Rice Lake, January 29th, 2022
         <a class="vue-green" href="img/20220129LynnLoop/20220129LynnLoopTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1225,6 +1235,10 @@ export default {
         { src: 'img/20220129LynnLoop/07-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/08-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/09-LynnLoop.jpg' },
         { src: 'img/20220129LynnLoop/10-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/11-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/12-LynnLoop.jpg' },
         { src: 'img/20220129LynnLoop/13-LynnLoop.jpg' }, { src: 'img/20220129LynnLoop/14-LynnLoop.jpg' },
+      ],
+      list68: [
+        { src: 'img/20220201PolarBearLunar/01-Polar.jpg' }, { src: 'img/20220201PolarBearLunar/02-Polar.jpg' }, { src: 'img/20220201PolarBearLunar/03-Polar.jpg' },
+        { src: 'img/20220201PolarBearLunar/04-Polar.jpg' }, { src: 'img/20220201PolarBearLunar/05-Polar.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
