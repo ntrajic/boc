@@ -62,6 +62,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Black Mountain, Cypress, February 06, 2022
+        <a class="vue-green" href="img/20220206BlackMnt/20220206BlackMntTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group69
+          class="thumbnail"
+          v-for="img in list69"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Polar Bear Lunar New Year Event, February 01, 2022
         <a class="vue-green" href="img/20220201PolarBearLunar/20220201PolarTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1239,6 +1249,12 @@ export default {
       list68: [
         { src: 'img/20220201PolarBearLunar/01-Polar.jpg' }, { src: 'img/20220201PolarBearLunar/02-Polar.jpg' }, { src: 'img/20220201PolarBearLunar/03-Polar.jpg' },
         { src: 'img/20220201PolarBearLunar/04-Polar.jpg' }, { src: 'img/20220201PolarBearLunar/05-Polar.jpg' },
+      ],
+      list69: [
+        { src: 'img/20220206BlackMnt/01-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/02-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/03-Black_Mountain.jpg' },
+        { src: 'img/20220206BlackMnt/04-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/05-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/06-Black_Mountain.jpg' },
+        { src: 'img/20220206BlackMnt/07-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/08-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/09-Black_Mountain.jpg' },
+        { src: 'img/20220206BlackMnt/10-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/11-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/12-Black_Mountain.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
