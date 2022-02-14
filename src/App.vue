@@ -62,6 +62,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">New Westiminster Quay, Edmonds, February 12, 2022
+        <a class="vue-green" href="img/20220212NewWest/20220212NewWestTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group70
+          class="thumbnail"
+          v-for="img in list70"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Black Mountain, Cypress, February 06, 2022
         <a class="vue-green" href="img/20220206BlackMnt/20220206BlackMntTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1255,6 +1265,12 @@ export default {
         { src: 'img/20220206BlackMnt/04-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/05-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/06-Black_Mountain.jpg' },
         { src: 'img/20220206BlackMnt/07-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/08-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/09-Black_Mountain.jpg' },
         { src: 'img/20220206BlackMnt/10-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/11-Black_Mountain.jpg' }, { src: 'img/20220206BlackMnt/12-Black_Mountain.jpg' },
+      ],
+      list70: [
+        { src: 'img/20220212NewWest/01-NewWest.jpg' }, { src: 'img/20220212NewWest/02-NewWest.jpg' }, { src: 'img/20220212NewWest/03-NewWest.jpg' },
+        { src: 'img/20220212NewWest/04-NewWest.jpg' }, { src: 'img/20220212NewWest/05-NewWest.jpg' }, { src: 'img/20220212NewWest/06-NewWest.jpg' },
+        { src: 'img/20220212NewWest/07-NewWest.jpg' }, { src: 'img/20220212NewWest/08-NewWest.jpg' }, { src: 'img/20220212NewWest/09-NewWest.jpg' },
+        { src: 'img/20220212NewWest/10-NewWest.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
