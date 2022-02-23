@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Indian Arm Parks, North Van, February 21, 2022
+        <a class="vue-green" href="img/20220221IndianArm/20220222IndianArmTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group71
+          class="thumbnail"
+          v-for="img in list71"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">New Westiminster Quay, Edmonds, February 12, 2022
         <a class="vue-green" href="img/20220212NewWest/20220212NewWestTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1272,6 +1282,12 @@ export default {
         { src: 'img/20220212NewWest/04-NewWest.jpg' }, { src: 'img/20220212NewWest/05-NewWest.jpg' }, { src: 'img/20220212NewWest/06-NewWest.jpg' },
         { src: 'img/20220212NewWest/07-NewWest.jpg' }, { src: 'img/20220212NewWest/08-NewWest.jpg' }, { src: 'img/20220212NewWest/09-NewWest.jpg' },
         { src: 'img/20220212NewWest/10-NewWest.jpg' },
+      ],
+      list71: [
+        { src: 'img/20220221IndianArm/01-IndianArm.jpg' }, { src: 'img/20220221IndianArm/02-IndianArm.jpg' }, { src: 'img/20220221IndianArm/03-IndianArm.jpg' },
+        { src: 'img/20220221IndianArm/04-IndianArm.jpg' }, { src: 'img/20220221IndianArm/05-IndianArm.jpg' }, { src: 'img/20220221IndianArm/06-IndianArm.jpg' },
+        { src: 'img/20220221IndianArm/07-IndianArm.jpg' }, { src: 'img/20220221IndianArm/08-IndianArm.jpg' }, { src: 'img/20220221IndianArm/09-IndianArm.jpg' },
+        { src: 'img/20220221IndianArm/10-IndianArm.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
