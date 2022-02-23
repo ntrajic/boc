@@ -12,6 +12,7 @@
 
       <div class="subtitle"> Check the latest monthly newsletter
         <a class="vue-green" href="http://www.burnabyoutdoor.com/pdfs/BOC%20Newsletter.pdf" title="BOC Newsletter">BOC Newsletter</a>
+        <a class="vue-green" href="img/MOVE430KidsChallenge.pdf" title="MOVE430 Kids Challenge">MOVE430 Kids Challenge</a>
 
           <button @click="showNews = !showNews">
             <span class="vue-green">Breaking News</span>
@@ -1273,7 +1274,7 @@ export default {
         { src: 'img/20220212NewWest/10-NewWest.jpg' },
       ],
       list0: [
-        { src: 'img/BOC-Newsletter.jpg' },
+        { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
       ]
     }
   },
