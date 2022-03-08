@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Mount Seymour, Brockton Point, March 6, 2022
+        <a class="vue-green" href="img/20220306MntSeymour/20220306MntSeymourTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group72
+          class="thumbnail"
+          v-for="img in list72"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Indian Arm Parks, North Van, February 21, 2022
         <a class="vue-green" href="img/20220221IndianArm/20220222IndianArmTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1288,6 +1298,12 @@ export default {
         { src: 'img/20220221IndianArm/04-IndianArm.jpg' }, { src: 'img/20220221IndianArm/05-IndianArm.jpg' }, { src: 'img/20220221IndianArm/06-IndianArm.jpg' },
         { src: 'img/20220221IndianArm/07-IndianArm.jpg' }, { src: 'img/20220221IndianArm/08-IndianArm.jpg' }, { src: 'img/20220221IndianArm/09-IndianArm.jpg' },
         { src: 'img/20220221IndianArm/10-IndianArm.jpg' },
+      ],
+      list72: [
+        { src: 'img/20220306MntSeymour/01-Mount_Seymour.jpg' }, { src: 'img/20220306MntSeymour/02-Mount_Seymour.jpg' }, { src: 'img/20220306MntSeymour/03-Mount_Seymour.jpg' },
+        { src: 'img/20220306MntSeymour/04-Mount_Seymour.jpg' }, { src: 'img/20220306MntSeymour/05-Mount_Seymour.jpg' }, { src: 'img/20220306MntSeymour/06-Mount_Seymour.jpg' },
+        { src: 'img/20220306MntSeymour/07-Mount_Seymour.jpg' }, { src: 'img/20220306MntSeymour/08-Mount_Seymour.jpg' }, { src: 'img/20220306MntSeymour/09-Mount_Seymour.jpg' },
+        { src: 'img/20220306MntSeymour/10-Mount_Seymour.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
