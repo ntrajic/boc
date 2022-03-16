@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Burnaby Mountain, March 13, 2022
+        <a class="vue-green" href="img/20220313BbyMnt/20220313BbyMntTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group73
+          class="thumbnail"
+          v-for="img in list73"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Mount Seymour, Brockton Point, March 6, 2022
         <a class="vue-green" href="img/20220306MntSeymour/20220306MntSeymourTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1304,6 +1314,13 @@ export default {
         { src: 'img/20220306MntSeymour/04-Mount_Seymour.jpg' }, { src: 'img/20220306MntSeymour/05-Mount_Seymour.jpg' }, { src: 'img/20220306MntSeymour/06-Mount_Seymour.jpg' },
         { src: 'img/20220306MntSeymour/07-Mount_Seymour.jpg' }, { src: 'img/20220306MntSeymour/08-Mount_Seymour.jpg' }, { src: 'img/20220306MntSeymour/09-Mount_Seymour.jpg' },
         { src: 'img/20220306MntSeymour/10-Mount_Seymour.jpg' },
+      ],
+      list73: [
+        { src: 'img/20220313BbyMnt/01-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/02-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/03-BbyMnt.jpg' },
+        { src: 'img/20220313BbyMnt/04-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/05-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/06-BbyMnt.jpg' },
+        { src: 'img/20220313BbyMnt/07-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/08-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/09-BbyMnt.jpg' },
+        { src: 'img/20220313BbyMnt/10-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/11-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/12-BbyMnt.jpg' },
+        { src: 'img/20220313BbyMnt/13-BbyMnt.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
