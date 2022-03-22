@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Woodhaven Swamp and Sasamat Lake, March 20, 2022
+        <a class="vue-green" href="img/20220320Woodhaven/20220320WoodhavenTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group74
+          class="thumbnail"
+          v-for="img in list74"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Burnaby Mountain, March 13, 2022
         <a class="vue-green" href="img/20220313BbyMnt/20220313BbyMntTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1321,6 +1331,11 @@ export default {
         { src: 'img/20220313BbyMnt/07-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/08-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/09-BbyMnt.jpg' },
         { src: 'img/20220313BbyMnt/10-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/11-BbyMnt.jpg' }, { src: 'img/20220313BbyMnt/12-BbyMnt.jpg' },
         { src: 'img/20220313BbyMnt/13-BbyMnt.jpg' },
+      ],
+      list74: [
+        { src: 'img/20220320Woodhaven/01-Woodhaven_Swamp-Sasamt_Lake.jpg' }, { src: 'img/20220320Woodhaven/02-Woodhaven_Swamp-Sasamt_Lake.jpg' }, { src: 'img/20220320Woodhaven/03-Woodhaven_Swamp-Sasamt_Lake.jpg' },
+        { src: 'img/20220320Woodhaven/04-Woodhaven_Swamp-Sasamt_Lake.jpg' }, { src: 'img/20220320Woodhaven/05-Woodhaven_Swamp-Sasamt_Lake.jpg' }, { src: 'img/20220320Woodhaven/06-Woodhaven_Swamp-Sasamt_Lake.jpg' },
+        { src: 'img/20220320Woodhaven/07-Woodhaven_Swamp-Sasamt_Lake.jpg' }, { src: 'img/20220320Woodhaven/08-Woodhaven_Swamp-Sasamt_Lake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
