@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Coquitlam Crunch, April 03, 2022
+        <a class="vue-green" href="img/20020403Coquitlam/CoquitlamCrunchTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group75
+          class="thumbnail"
+          v-for="img in list75"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Woodhaven Swamp and Sasamat Lake, March 20, 2022
         <a class="vue-green" href="img/20220320Woodhaven/20220320WoodhavenTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1336,6 +1346,10 @@ export default {
         { src: 'img/20220320Woodhaven/01-Woodhaven_Swamp-Sasamt_Lake.jpg' }, { src: 'img/20220320Woodhaven/02-Woodhaven_Swamp-Sasamt_Lake.jpg' }, { src: 'img/20220320Woodhaven/03-Woodhaven_Swamp-Sasamt_Lake.jpg' },
         { src: 'img/20220320Woodhaven/04-Woodhaven_Swamp-Sasamt_Lake.jpg' }, { src: 'img/20220320Woodhaven/05-Woodhaven_Swamp-Sasamt_Lake.jpg' }, { src: 'img/20220320Woodhaven/06-Woodhaven_Swamp-Sasamt_Lake.jpg' },
         { src: 'img/20220320Woodhaven/07-Woodhaven_Swamp-Sasamt_Lake.jpg' }, { src: 'img/20220320Woodhaven/08-Woodhaven_Swamp-Sasamt_Lake.jpg' },
+      ],
+      list75: [
+        { src: 'img/20020403Coquitlam/01-Crunch.jpg' }, { src: 'img/20020403Coquitlam/02-Crunch.jpg' }, { src: 'img/20020403Coquitlam/03-Crunch.jpg' },
+        { src: 'img/20020403Coquitlam/04-Crunch.jpg' }, { src: 'img/20020403Coquitlam/05-Crunch.jpg' }, { src: 'img/20020403Coquitlam/06-Crunch.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
