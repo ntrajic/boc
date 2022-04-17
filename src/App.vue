@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Hayward Lake, April 10, 2022
+        <a class="vue-green" href="img/20220410HywardLake/20220410HywardLakeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group76
+          class="thumbnail"
+          v-for="img in list76"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Coquitlam Crunch, April 03, 2022
         <a class="vue-green" href="img/20020403Coquitlam/CoquitlamCrunchTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1350,6 +1360,12 @@ export default {
       list75: [
         { src: 'img/20020403Coquitlam/01-Crunch.jpg' }, { src: 'img/20020403Coquitlam/02-Crunch.jpg' }, { src: 'img/20020403Coquitlam/03-Crunch.jpg' },
         { src: 'img/20020403Coquitlam/04-Crunch.jpg' }, { src: 'img/20020403Coquitlam/05-Crunch.jpg' }, { src: 'img/20020403Coquitlam/06-Crunch.jpg' },
+      ],
+      list76: [
+        { src: 'img/20220410HywardLake/01-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/02-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/03-Hayward_Lake.jpg' },
+        { src: 'img/20220410HywardLake/04-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/05-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/06-Hayward_Lake.jpg' },
+        { src: 'img/20220410HywardLake/07-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/08-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/09-Hayward_Lake.jpg' },
+        { src: 'img/20220410HywardLake/10-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/11-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/12-Hayward_Lake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
