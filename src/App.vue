@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Cypress Falls and Whyte Lake, April 24, 2022
+        <a class="vue-green" href="img/20220422CypressFallWhyteLake/20220424CypressFallWhyteLakeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group77
+          class="thumbnail"
+          v-for="img in list77"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Hayward Lake, April 10, 2022
         <a class="vue-green" href="img/20220410HywardLake/20220410HywardLakeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1366,6 +1376,12 @@ export default {
         { src: 'img/20220410HywardLake/04-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/05-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/06-Hayward_Lake.jpg' },
         { src: 'img/20220410HywardLake/07-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/08-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/09-Hayward_Lake.jpg' },
         { src: 'img/20220410HywardLake/10-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/11-Hayward_Lake.jpg' }, { src: 'img/20220410HywardLake/12-Hayward_Lake.jpg' },
+      ],
+      list77: [
+        { src: 'img/20220422CypressFallWhyteLake/01-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/02-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/03-Cypress_Falls-Whyte_Lake.jpg' },
+        { src: 'img/20220422CypressFallWhyteLake/04-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/05-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/06-Cypress_Falls-Whyte_Lake.jpg' },
+        { src: 'img/20220422CypressFallWhyteLake/07-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/08-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/09-Cypress_Falls-Whyte_Lake.jpg' },
+        { src: 'img/20220422CypressFallWhyteLake/10-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/11-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/12-Cypress_Falls-Whyte_Lake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
