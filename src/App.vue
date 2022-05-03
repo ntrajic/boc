@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Crescent Beach Walk, May 1, 2022
+        <a class="vue-green" href="img/20220501CrescentBeach/20220501CrescentBeachTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group78
+          class="thumbnail"
+          v-for="img in list78"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Cypress Falls and Whyte Lake, April 24, 2022
         <a class="vue-green" href="img/20220422CypressFallWhyteLake/20220424CypressFallWhyteLakeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1382,6 +1392,12 @@ export default {
         { src: 'img/20220422CypressFallWhyteLake/04-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/05-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/06-Cypress_Falls-Whyte_Lake.jpg' },
         { src: 'img/20220422CypressFallWhyteLake/07-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/08-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/09-Cypress_Falls-Whyte_Lake.jpg' },
         { src: 'img/20220422CypressFallWhyteLake/10-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/11-Cypress_Falls-Whyte_Lake.jpg' }, { src: 'img/20220422CypressFallWhyteLake/12-Cypress_Falls-Whyte_Lake.jpg' },
+      ],
+      list78: [
+        { src: 'img/20220501CrescentBeach/01-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/02-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/03-Crescent.jpg' },
+        { src: 'img/20220501CrescentBeach/04-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/05-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/06-Crescent.jpg' },
+        { src: 'img/20220501CrescentBeach/07-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/08-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/09-Crescent.jpg' },
+        { src: 'img/20220501CrescentBeach/10-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/11-Crescent.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
