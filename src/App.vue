@@ -63,6 +63,7 @@
           :key="img.src + index">
       </div>
 
+      <!-- <div> 79 is already used </div> -->
       <div class="subtitle">Crescent Beach Walk, May 1, 2022
         <a class="vue-green" href="img/20220501CrescentBeach/20220501CrescentBeachTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -80,6 +81,17 @@
         <img v-gallery:group77
           class="thumbnail"
           v-for="img in list77"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
+      <div class="subtitle">Butnzen and Sasamat Lake, April 15, 2022
+        <a class="vue-green" href="img/20220415BuntzenSasamat/20220415BuntzenTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group79
+          class="thumbnail"
+          v-for="img in list79"
           :src="img.src"
           :key="img.src">
       </div>
@@ -1398,6 +1410,12 @@ export default {
         { src: 'img/20220501CrescentBeach/04-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/05-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/06-Crescent.jpg' },
         { src: 'img/20220501CrescentBeach/07-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/08-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/09-Crescent.jpg' },
         { src: 'img/20220501CrescentBeach/10-Crescent.jpg' }, { src: 'img/20220501CrescentBeach/11-Crescent.jpg' },
+      ],
+      list79: [
+        { src: 'img/20220415BuntzenSasamat/01-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/02-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/03-Buntzen.jpg' },
+        { src: 'img/20220415BuntzenSasamat/04-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/05-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/06-Buntzen.jpg' },
+        { src: 'img/20220415BuntzenSasamat/07-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/08-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/09-Buntzen.jpg' },
+        { src: 'img/20220415BuntzenSasamat/10-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/11-Buntzen.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
