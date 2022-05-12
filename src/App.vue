@@ -1430,6 +1430,9 @@ export default {
       list80: [
         { src: 'img/20220508Hill/01-Hill.jpg' }, { src: 'img/20220508Hill/02-Hill.jpg' }, { src: 'img/20220508Hill/03-Hill.jpg' },
         { src: 'img/20220508Hill/04-Hill.jpg' }, { src: 'img/20220508Hill/05-Hill.jpg' }, { src: 'img/20220508Hill/06-Hill.jpg' },
+        { src: 'img/20220508Hill/07-Hill.jpg' }, { src: 'img/20220508Hill/08-Hill.jpg' }, { src: 'img/20220508Hill/09-Hill.jpg' },
+        { src: 'img/20220508Hill/10-Hill.jpg' }, { src: 'img/20220508Hill/11-Hill.jpg' }, { src: 'img/20220508Hill/12-Hill.jpg' },
+        { src: 'img/20220508Hill/13-Hill.jpg' }, { src: 'img/20220508Hill/14-Hill.jpg' }, { src: 'img/20220508Hill/15-Hill.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
