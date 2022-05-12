@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Soames Hill and Gibsons, May 8, 2022
+        <a class="vue-green" href="img/20220508Hill/20220508HillTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group80
+          class="thumbnail"
+          v-for="img in list80"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <!-- <div> 79 is already used </div> -->
       <div class="subtitle">Crescent Beach Walk, May 1, 2022
         <a class="vue-green" href="img/20220501CrescentBeach/20220501CrescentBeachTR.pdf" title="Trip Report">Trip Report</a>
@@ -1416,6 +1426,10 @@ export default {
         { src: 'img/20220415BuntzenSasamat/04-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/05-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/06-Buntzen.jpg' },
         { src: 'img/20220415BuntzenSasamat/07-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/08-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/09-Buntzen.jpg' },
         { src: 'img/20220415BuntzenSasamat/10-Buntzen.jpg' }, { src: 'img/20220415BuntzenSasamat/11-Buntzen.jpg' },
+      ],
+      list80: [
+        { src: 'img/20220508Hill/01-Hill.jpg' }, { src: 'img/20220508Hill/02-Hill.jpg' }, { src: 'img/20220508Hill/03-Hill.jpg' },
+        { src: 'img/20220508Hill/04-Hill.jpg' }, { src: 'img/20220508Hill/05-Hill.jpg' }, { src: 'img/20220508Hill/06-Hill.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
