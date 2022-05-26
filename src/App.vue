@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Norvan Falls, May 22, 2022
+        <a class="vue-green" href="img/20220522NorVan/20220522NorVanTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group81
+          class="thumbnail"
+          v-for="img in list81"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Soames Hill and Gibsons, May 8, 2022
         <a class="vue-green" href="img/20220508Hill/20220508HillTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1433,6 +1443,15 @@ export default {
         { src: 'img/20220508Hill/07-Hill.jpg' }, { src: 'img/20220508Hill/08-Hill.jpg' }, { src: 'img/20220508Hill/09-Hill.jpg' },
         { src: 'img/20220508Hill/10-Hill.jpg' }, { src: 'img/20220508Hill/11-Hill.jpg' }, { src: 'img/20220508Hill/12-Hill.jpg' },
         { src: 'img/20220508Hill/13-Hill.jpg' }, { src: 'img/20220508Hill/14-Hill.jpg' }, { src: 'img/20220508Hill/15-Hill.jpg' },
+        { src: 'img/20220508Hill/16-Hill.jpg' }, { src: 'img/20220508Hill/17-Hill.jpg' }, { src: 'img/20220508Hill/18-Hill.jpg' },
+        { src: 'img/20220508Hill/19-Hill.jpg' }, { src: 'img/20220508Hill/20-Hill.jpg' }, { src: 'img/20220508Hill/21-Hill.jpg' },
+        { src: 'img/20220508Hill/22-Hill.jpg' }, { src: 'img/20220508Hill/23-Hill.jpg' }, { src: 'img/20220508Hill/24-Hill.jpg' },
+      ],
+      list81: [
+        { src: 'img/20220522NorVan/01-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/02-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/03-Norvan_Falls.jpg' },
+        { src: 'img/20220522NorVan/04-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/05-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/06-Norvan_Falls.jpg' },
+        { src: 'img/20220522NorVan/07-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/08-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/09-Norvan_Falls.jpg' },
+        { src: 'img/20220522NorVan/10-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/11-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/12-Norvan_Falls.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
