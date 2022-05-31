@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Whistler Train Wreck and Cheakamus River hike, May 29, 2022
+        <a class="vue-green" href="img/20220529Whistler/20220529WhistlerTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group82
+          class="thumbnail"
+          v-for="img in list82"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Norvan Falls, May 22, 2022
         <a class="vue-green" href="img/20220522NorVan/20220522NorVanTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1452,6 +1462,13 @@ export default {
         { src: 'img/20220522NorVan/04-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/05-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/06-Norvan_Falls.jpg' },
         { src: 'img/20220522NorVan/07-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/08-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/09-Norvan_Falls.jpg' },
         { src: 'img/20220522NorVan/10-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/11-Norvan_Falls.jpg' }, { src: 'img/20220522NorVan/12-Norvan_Falls.jpg' },
+      ],
+      list82: [
+        { src: 'img/20220529Whistler/01-Whistler.jpg' }, { src: 'img/20220529Whistler/02-Whistler.jpg' }, { src: 'img/20220529Whistler/03-Whistler.jpg' },
+        { src: 'img/20220529Whistler/04-Whistler.jpg' }, { src: 'img/20220529Whistler/05-Whistler.jpg' }, { src: 'img/20220529Whistler/06-Whistler.jpg' },
+        { src: 'img/20220529Whistler/07-Whistler.jpg' }, { src: 'img/20220529Whistler/08-Whistler.jpg' }, { src: 'img/20220529Whistler/09-Whistler.jpg' },
+        { src: 'img/20220529Whistler/10-Whistler.jpg' }, { src: 'img/20220529Whistler/11-Whistler.jpg' }, { src: 'img/20220529Whistler/12-Whistler.jpg' },
+        { src: 'img/20220529Whistler/13-Whistler.jpg' }, { src: 'img/20220529Whistler/14-Whistler.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
