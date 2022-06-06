@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">The Seymour River Lynn Canyon Loop, June 04, 2022
+        <a class="vue-green" href="img/20220604Lynn/20220604LynnTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group83
+          class="thumbnail"
+          v-for="img in list83"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Whistler Train Wreck and Cheakamus River hike, May 29, 2022
         <a class="vue-green" href="img/20220529Whistler/20220529WhistlerTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1469,6 +1479,13 @@ export default {
         { src: 'img/20220529Whistler/07-Whistler.jpg' }, { src: 'img/20220529Whistler/08-Whistler.jpg' }, { src: 'img/20220529Whistler/09-Whistler.jpg' },
         { src: 'img/20220529Whistler/10-Whistler.jpg' }, { src: 'img/20220529Whistler/11-Whistler.jpg' }, { src: 'img/20220529Whistler/12-Whistler.jpg' },
         { src: 'img/20220529Whistler/13-Whistler.jpg' }, { src: 'img/20220529Whistler/14-Whistler.jpg' },
+      ],
+      list83: [
+        { src: 'img/20220604Lynn/01-Lynn.jpg' }, { src: 'img/20220604Lynn/02-Lynn.jpg' }, { src: 'img/20220604Lynn/03-Lynn.jpg' },
+        { src: 'img/20220604Lynn/04-Lynn.jpg' }, { src: 'img/20220604Lynn/05-Lynn.jpg' }, { src: 'img/20220604Lynn/06-Lynn.jpg' },
+        { src: 'img/20220604Lynn/07-Lynn.jpg' }, { src: 'img/20220604Lynn/08-Lynn.jpg' }, { src: 'img/20220604Lynn/09-Lynn.jpg' },
+        { src: 'img/20220604Lynn/10-Lynn.jpg' }, { src: 'img/20220604Lynn/11-Lynn.jpg' }, { src: 'img/20220604Lynn/12-Lynn.jpg' },
+        { src: 'img/20220604Lynn/13-Lynn.jpg' }, { src: 'img/20220604Lynn/14-Lynn.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
