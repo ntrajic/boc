@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Golden Ears, East and West Canyon Trails - loop hike, June 12, 2022
+        <a class="vue-green" href="img/20220612GoldenEars/20220612GoldenEarsTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group84
+          class="thumbnail"
+          v-for="img in list84"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">The Seymour River Lynn Canyon Loop, June 04, 2022
         <a class="vue-green" href="img/20220604Lynn/20220604LynnTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1486,6 +1496,14 @@ export default {
         { src: 'img/20220604Lynn/07-Lynn.jpg' }, { src: 'img/20220604Lynn/08-Lynn.jpg' }, { src: 'img/20220604Lynn/09-Lynn.jpg' },
         { src: 'img/20220604Lynn/10-Lynn.jpg' }, { src: 'img/20220604Lynn/11-Lynn.jpg' }, { src: 'img/20220604Lynn/12-Lynn.jpg' },
         { src: 'img/20220604Lynn/13-Lynn.jpg' }, { src: 'img/20220604Lynn/14-Lynn.jpg' },
+      ],
+      list84: [
+        { src: 'img/20220612GoldenEars/01-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/02-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/03-Golden_Ears_Gold_Creek.jpg' },
+        { src: 'img/20220612GoldenEars/04-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/05-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/06-Golden_Ears_Gold_Creek.jpg' },
+        { src: 'img/20220612GoldenEars/07-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/08-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/09-Golden_Ears_Gold_Creek.jpg' },
+        { src: 'img/20220612GoldenEars/10-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/11-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/12-Golden_Ears_Gold_Creek.jpg' },
+        { src: 'img/20220612GoldenEars/13-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/14-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/15-Golden_Ears_Gold_Creek.jpg' },
+        { src: 'img/20220612GoldenEars/16-Golden_Ears_Gold_Creek.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
