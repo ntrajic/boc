@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Boundary Bay Regional Park & Dyke, June 19, 2022
+        <a class="vue-green" href="img/20220619Dyke/20220619DykeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group85
+          class="thumbnail"
+          v-for="img in list85"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Golden Ears, East and West Canyon Trails - loop hike, June 12, 2022
         <a class="vue-green" href="img/20220612GoldenEars/20220612GoldenEarsTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1504,6 +1514,12 @@ export default {
         { src: 'img/20220612GoldenEars/10-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/11-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/12-Golden_Ears_Gold_Creek.jpg' },
         { src: 'img/20220612GoldenEars/13-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/14-Golden_Ears_Gold_Creek.jpg' }, { src: 'img/20220612GoldenEars/15-Golden_Ears_Gold_Creek.jpg' },
         { src: 'img/20220612GoldenEars/16-Golden_Ears_Gold_Creek.jpg' },
+      ],
+      list85: [
+        { src: 'img/20220619Dyke/01-Dyke.jpg' }, { src: 'img/20220619Dyke/02-Dyke.jpg' }, { src: 'img/20220619Dyke/03-Dyke.jpg' },
+        { src: 'img/20220619Dyke/04-Dyke.jpg' }, { src: 'img/20220619Dyke/05-Dyke.jpg' }, { src: 'img/20220619Dyke/06-Dyke.jpg' },
+        { src: 'img/20220619Dyke/07-Dyke.jpg' }, { src: 'img/20220619Dyke/08-Dyke.jpg' }, { src: 'img/20220619Dyke/09-Dyke.jpg' },
+        { src: 'img/20220619Dyke/10-Dyke.jpg' }, { src: 'img/20220619Dyke/11-Dyke.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
