@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Brohm Lake Hike, June 26, 2022
+        <a class="vue-green" href="img/20220626Brohm/20220626BrohmTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group86
+          class="thumbnail"
+          v-for="img in list86"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Boundary Bay Regional Park & Dyke, June 19, 2022
         <a class="vue-green" href="img/20220619Dyke/20220619DykeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1520,6 +1530,12 @@ export default {
         { src: 'img/20220619Dyke/04-Dyke.jpg' }, { src: 'img/20220619Dyke/05-Dyke.jpg' }, { src: 'img/20220619Dyke/06-Dyke.jpg' },
         { src: 'img/20220619Dyke/07-Dyke.jpg' }, { src: 'img/20220619Dyke/08-Dyke.jpg' }, { src: 'img/20220619Dyke/09-Dyke.jpg' },
         { src: 'img/20220619Dyke/10-Dyke.jpg' }, { src: 'img/20220619Dyke/11-Dyke.jpg' },
+      ],
+      list86: [
+        { src: 'img/20220626Brohm/01-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/02-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/03-Brohm_Lake.jpg' },
+        { src: 'img/20220626Brohm/04-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/05-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/06-Brohm_Lake.jpg' },
+        { src: 'img/20220626Brohm/07-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/08-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/09-Brohm_Lake.jpg' },
+        { src: 'img/20220626Brohm/10-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/11-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/12-Brohm_Lake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
