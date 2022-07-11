@@ -67,6 +67,16 @@
         <a class="vue-green" href="img/20220710FourLakes/20220710FourLakesTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
+        <img v-gallery:group88
+          class="thumbnail"
+          v-for="img in list88"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle">Elk Mountain, July 01, 2022
+        <a class="vue-green" href="img/20220701ElkMnt/2020701ElkMntTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
         <img v-gallery:group87
           class="thumbnail"
           v-for="img in list87"
@@ -1548,6 +1558,10 @@ export default {
         { src: 'img/20220626Brohm/10-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/11-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/12-Brohm_Lake.jpg' },
       ],
       list87: [
+        { src: 'img/20220701ElkMnt/01-ElkMnt.jpeg' }, { src: 'img/20220701ElkMnt/02-ElkMnt.jpeg' }, { src: 'img/20220701ElkMnt/03-ElkMnt.jpeg' },
+        { src: 'img/20220701ElkMnt/04-ElkMnt.jpeg' }, { src: 'img/20220701ElkMnt/05-ElkMnt.jpeg' }, { src: 'img/20220701ElkMnt/06-ElkMnt.jpeg' },
+      ],
+      list88: [
         { src: 'img/20220710FourLakes/01-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/02-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/03-Hollyburn_4_Lakes.jpg' },
         { src: 'img/20220710FourLakes/04-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/05-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/06-Hollyburn_4_Lakes.jpg' },
         { src: 'img/20220710FourLakes/07-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/08-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/09-Hollyburn_4_Lakes.jpg' },
