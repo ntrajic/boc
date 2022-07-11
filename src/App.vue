@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Hollyburn Four Lakes Hike, July 10, 2022
+        <a class="vue-green" href="img/20220710FourLakes/20220710FourLakesTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group87
+          class="thumbnail"
+          v-for="img in list87"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Brohm Lake Hike, June 26, 2022
         <a class="vue-green" href="img/20220626Brohm/20220626BrohmTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1536,6 +1546,13 @@ export default {
         { src: 'img/20220626Brohm/04-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/05-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/06-Brohm_Lake.jpg' },
         { src: 'img/20220626Brohm/07-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/08-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/09-Brohm_Lake.jpg' },
         { src: 'img/20220626Brohm/10-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/11-Brohm_Lake.jpg' }, { src: 'img/20220626Brohm/12-Brohm_Lake.jpg' },
+      ],
+      list87: [
+        { src: 'img/20220710FourLakes/01-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/02-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/03-Hollyburn_4_Lakes.jpg' },
+        { src: 'img/20220710FourLakes/04-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/05-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/06-Hollyburn_4_Lakes.jpg' },
+        { src: 'img/20220710FourLakes/07-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/08-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/09-Hollyburn_4_Lakes.jpg' },
+        { src: 'img/20220710FourLakes/10-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/11-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/12-Hollyburn_4_Lakes.jpg' },
+        { src: 'img/20220710FourLakes/13-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/14-Hollyburn_4_Lakes.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
