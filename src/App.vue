@@ -1581,7 +1581,9 @@ export default {
       list89: [
         { src: 'img/20220717EagleBluffs/01-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/02-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/03-Eagle.jpg' },
         { src: 'img/20220717EagleBluffs/04-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/05-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/06-Eagle.jpg' },
-        { src: 'img/20220717EagleBluffs/07-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/08-Eagle.jpg' },
+        { src: 'img/20220717EagleBluffs/07-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/08-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/09-Eagle.jpg' },
+        { src: 'img/20220717EagleBluffs/10-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/11-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/12-Eagle.jpg' },
+        { src: 'img/20220717EagleBluffs/13-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/14-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/15-Eagle.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
