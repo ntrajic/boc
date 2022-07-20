@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Black Mountain & Eagle Bluffs, July 17, 2022
+        <a class="vue-green" href="img/20220717EagleBluffs/20220717EagleTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group89
+          class="thumbnail"
+          v-for="img in list89"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Hollyburn Four Lakes Hike, July 10, 2022
         <a class="vue-green" href="img/20220710FourLakes/20220710FourLakesTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1567,6 +1577,11 @@ export default {
         { src: 'img/20220710FourLakes/07-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/08-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/09-Hollyburn_4_Lakes.jpg' },
         { src: 'img/20220710FourLakes/10-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/11-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/12-Hollyburn_4_Lakes.jpg' },
         { src: 'img/20220710FourLakes/13-Hollyburn_4_Lakes.jpg' }, { src: 'img/20220710FourLakes/14-Hollyburn_4_Lakes.jpg' },
+      ],
+      list89: [
+        { src: 'img/20220717EagleBluffs/01-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/02-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/03-Eagle.jpg' },
+        { src: 'img/20220717EagleBluffs/04-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/05-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/06-Eagle.jpg' },
+        { src: 'img/20220717EagleBluffs/07-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/08-Eagle.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
