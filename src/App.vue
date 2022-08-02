@@ -62,7 +62,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-
+      <div class="subtitle">Mt Gardner Bowen Island - July 31, 2022
+        <a class="vue-green" href="img/20220731MntGardner/20220731MntGardnerTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group90
+          class="thumbnail"
+          v-for="img in list90"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Black Mountain & Eagle Bluffs, July 17, 2022
         <a class="vue-green" href="img/20220717EagleBluffs/20220717EagleTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1584,6 +1593,12 @@ export default {
         { src: 'img/20220717EagleBluffs/07-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/08-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/09-Eagle.jpg' },
         { src: 'img/20220717EagleBluffs/10-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/11-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/12-Eagle.jpg' },
         { src: 'img/20220717EagleBluffs/13-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/14-Eagle.jpg' }, { src: 'img/20220717EagleBluffs/15-Eagle.jpg' },
+      ],
+      list90: [
+        { src: 'img/20220731MntGardner/01-MntGardner.jpg' }, { src: 'img/20220731MntGardner/02-MntGardner.jpg' }, { src: 'img/20220731MntGardner/03-MntGardner.jpg' },
+        { src: 'img/20220731MntGardner/04-MntGardner.jpg' }, { src: 'img/20220731MntGardner/05-MntGardner.jpg' }, { src: 'img/20220731MntGardner/06-MntGardner.jpg' },
+        { src: 'img/20220731MntGardner/07-MntGardner.jpg' }, { src: 'img/20220731MntGardner/08-MntGardner.jpg' }, { src: 'img/20220731MntGardner/09-MntGardner.jpg' },
+        { src: 'img/20220731MntGardner/10-MntGardner.jpg' }, { src: 'img/20220731MntGardner/11-MntGardner.jpg' }, { src: 'img/20220731MntGardner/12-MntGardner.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
