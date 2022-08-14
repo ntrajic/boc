@@ -62,6 +62,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+      <div class="subtitle">Elfin Lakes, August 9, 2022
+        <a class="vue-green" href="img/20220809Elfin/20220809ElfinTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group91
+          class="thumbnail"
+          v-for="img in list91"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Mt Gardner Bowen Island - July 31, 2022
         <a class="vue-green" href="img/20220731MntGardner/20220731MntGardnerTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1599,6 +1609,13 @@ export default {
         { src: 'img/20220731MntGardner/04-MntGardner.jpg' }, { src: 'img/20220731MntGardner/05-MntGardner.jpg' }, { src: 'img/20220731MntGardner/06-MntGardner.jpg' },
         { src: 'img/20220731MntGardner/07-MntGardner.jpg' }, { src: 'img/20220731MntGardner/08-MntGardner.jpg' }, { src: 'img/20220731MntGardner/09-MntGardner.jpg' },
         { src: 'img/20220731MntGardner/10-MntGardner.jpg' }, { src: 'img/20220731MntGardner/11-MntGardner.jpg' }, { src: 'img/20220731MntGardner/12-MntGardner.jpg' },
+      ],
+      list91: [
+        { src: 'img/20220809Elfin/00-image.jpg' },
+        { src: 'img/20220809Elfin/01-image.jpg' }, { src: 'img/20220809Elfin/02-image.jpg' }, { src: 'img/20220809Elfin/03-image.jpg' },
+        { src: 'img/20220809Elfin/04-image.jpg' }, { src: 'img/20220809Elfin/05-image.jpg' }, { src: 'img/20220809Elfin/06-image.jpg' },
+        { src: 'img/20220809Elfin/07-image.jpg' }, { src: 'img/20220809Elfin/08-image.jpg' }, { src: 'img/20220809Elfin/09-image.jpg' },
+        { src: 'img/20220809Elfin/10-image.jpg' }, { src: 'img/20220809Elfin/11-image.jpg' }, { src: 'img/20220809Elfin/12-image.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
