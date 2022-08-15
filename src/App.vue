@@ -62,6 +62,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+      <div class="subtitle">Tynehead Regional Park, Surrey Lake & Fleetwood Park -- August 14, 2022
+        <a class="vue-green" href="img/20220814Tynehead/20220814TyneheadTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group92
+          class="thumbnail"
+          v-for="img in list92"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Elfin Lakes, August 9, 2022
         <a class="vue-green" href="img/20220809Elfin/20220809ElfinTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1616,6 +1626,11 @@ export default {
         { src: 'img/20220809Elfin/04-image.jpg' }, { src: 'img/20220809Elfin/05-image.jpg' }, { src: 'img/20220809Elfin/06-image.jpg' },
         { src: 'img/20220809Elfin/07-image.jpg' }, { src: 'img/20220809Elfin/08-image.jpg' }, { src: 'img/20220809Elfin/09-image.jpg' },
         { src: 'img/20220809Elfin/10-image.jpg' }, { src: 'img/20220809Elfin/11-image.jpg' }, { src: 'img/20220809Elfin/12-image.jpg' },
+      ],
+      list92: [
+        { src: 'img/20220814Tynehead/01-Tynehead.jpg' }, { src: 'img/20220814Tynehead/02-Tynehead.jpg' }, { src: 'img/20220814Tynehead/03-Tynehead.jpg' },
+        { src: 'img/20220814Tynehead/04-Tynehead.jpg' }, { src: 'img/20220814Tynehead/05-Tynehead.jpg' }, { src: 'img/20220814Tynehead/06-Tynehead.jpg' },
+        { src: 'img/20220814Tynehead/07-Tynehead.jpg' }, { src: 'img/20220814Tynehead/08-Tynehead.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
