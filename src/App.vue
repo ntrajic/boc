@@ -62,6 +62,17 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+
+      <div class="subtitle">Dog Mountain & Suicide Bluffs hike, Aug 21, 2022
+        <a class="vue-green" href="img/20220822Dog/20220821DogTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group93
+          class="thumbnail"
+          v-for="img in list93"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Tynehead Regional Park, Surrey Lake & Fleetwood Park -- August 14, 2022
         <a class="vue-green" href="img/20220814Tynehead/20220814TyneheadTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1095,7 +1106,7 @@
       color="#ffff00"/>
 
       <footer @click="toBocHome">
-        <i class="iconfont icon-github"></i>GoTo Burnabyoutdoor.com, 2019, 2020, 2021</footer>
+        <i class="iconfont icon-github"></i>GoTo Burnabyoutdoor.com, 2019, 2020, 2021, 2022, 2023</footer>
     </div>
   </scroller>
 </template>
@@ -1631,6 +1642,13 @@ export default {
         { src: 'img/20220814Tynehead/01-Tynehead.jpg' }, { src: 'img/20220814Tynehead/02-Tynehead.jpg' }, { src: 'img/20220814Tynehead/03-Tynehead.jpg' },
         { src: 'img/20220814Tynehead/04-Tynehead.jpg' }, { src: 'img/20220814Tynehead/05-Tynehead.jpg' }, { src: 'img/20220814Tynehead/06-Tynehead.jpg' },
         { src: 'img/20220814Tynehead/07-Tynehead.jpg' }, { src: 'img/20220814Tynehead/08-Tynehead.jpg' },
+      ],
+      list93: [
+        { src: 'img/20220822Dog/01-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/02-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/03-Dog_Mt_and_Suicide_Bluffs.jpg' },
+        { src: 'img/20220822Dog/04-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/05-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/06-Dog_Mt_and_Suicide_Bluffs.jpg' },
+        { src: 'img/20220822Dog/07-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/08-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/09-Dog_Mt_and_Suicide_Bluffs.jpg' },
+        { src: 'img/20220822Dog/10-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/11-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/12-Dog_Mt_and_Suicide_Bluffs.jpg' },
+        { src: 'img/20220822Dog/13-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/14-Dog_Mt_and_Suicide_Bluffs.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
