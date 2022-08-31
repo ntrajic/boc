@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">St. Mark's Summit hike, Aug 27, 2022
+        <a class="vue-green" href="img/20220827StMark/20220827StMarkTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group94
+          class="thumbnail"
+          v-for="img in list94"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Dog Mountain & Suicide Bluffs hike, Aug 21, 2022
         <a class="vue-green" href="img/20220822Dog/20220821DogTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1649,6 +1659,11 @@ export default {
         { src: 'img/20220822Dog/07-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/08-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/09-Dog_Mt_and_Suicide_Bluffs.jpg' },
         { src: 'img/20220822Dog/10-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/11-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/12-Dog_Mt_and_Suicide_Bluffs.jpg' },
         { src: 'img/20220822Dog/13-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/14-Dog_Mt_and_Suicide_Bluffs.jpg' },
+      ],
+list94: [
+        { src: 'img/20220827StMark/01-StMark.jpg' }, { src: 'img/20220827StMark/02-StMark.jpg' }, { src: 'img/20220827StMark/03-StMark.jpg' },
+        { src: 'img/20220827StMark/04-StMark.jpg' }, { src: 'img/20220827StMark/05-StMark.jpg' }, { src: 'img/20220827StMark/06-StMark.jpg' },
+        { src: 'img/20220827StMark/07-StMark.jpg' }, { src: 'img/20220827StMark/08-StMark.jpg' }, { src: 'img/20220827StMark/09-StMark.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
