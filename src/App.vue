@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Mystery Falls and Historic Mushroom, Sep 04, 2022
+        <a class="vue-green" href="img/20220904Mistery/20220904MisteryTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group95
+          class="thumbnail"
+          v-for="img in list95"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">St. Mark's Summit hike, Aug 27, 2022
         <a class="vue-green" href="img/20220827StMark/20220827StMarkTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1660,10 +1670,16 @@ export default {
         { src: 'img/20220822Dog/10-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/11-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/12-Dog_Mt_and_Suicide_Bluffs.jpg' },
         { src: 'img/20220822Dog/13-Dog_Mt_and_Suicide_Bluffs.jpg' }, { src: 'img/20220822Dog/14-Dog_Mt_and_Suicide_Bluffs.jpg' },
       ],
-list94: [
+      list94: [
         { src: 'img/20220827StMark/01-StMark.jpg' }, { src: 'img/20220827StMark/02-StMark.jpg' }, { src: 'img/20220827StMark/03-StMark.jpg' },
         { src: 'img/20220827StMark/04-StMark.jpg' }, { src: 'img/20220827StMark/05-StMark.jpg' }, { src: 'img/20220827StMark/06-StMark.jpg' },
         { src: 'img/20220827StMark/07-StMark.jpg' }, { src: 'img/20220827StMark/08-StMark.jpg' }, { src: 'img/20220827StMark/09-StMark.jpg' },
+      ],
+      list95: [
+        { src: 'img/20220904Mistery/01-Mystery.jpg' }, { src: 'img/20220904Mistery/02-Mystery.jpg' }, { src: 'img/20220904Mistery/03-Mystery.jpg' },
+        { src: 'img/20220904Mistery/04-Mystery.jpg' }, { src: 'img/20220904Mistery/05-Mystery.jpg' }, { src: 'img/20220904Mistery/06-Mystery.jpg' },
+        { src: 'img/20220904Mistery/07-Mystery.jpg' }, { src: 'img/20220904Mistery/08-Mystery.jpg' }, { src: 'img/20220904Mistery/09-Mystery.jpg' },
+        { src: 'img/20220904Mistery/10-Mystery.jpg' }, { src: 'img/20220904Mistery/11-Mystery.jpg' }, { src: 'img/20220904Mistery/12-Mystery.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
