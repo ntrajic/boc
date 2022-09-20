@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">BOC 30th Anniversary BBQ, Buntzen Lake, Sep 17, 2022
+        <a class="vue-green" href="img/20220917BOC30thAnniversary/20220917BOC30thAnniversaryTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group96
+          class="thumbnail"
+          v-for="img in list96"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Mystery Falls and Historic Mushroom, Sep 04, 2022
         <a class="vue-green" href="img/20220904Mistery/20220904MisteryTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1680,6 +1690,10 @@ export default {
         { src: 'img/20220904Mistery/04-Mystery.jpg' }, { src: 'img/20220904Mistery/05-Mystery.jpg' }, { src: 'img/20220904Mistery/06-Mystery.jpg' },
         { src: 'img/20220904Mistery/07-Mystery.jpg' }, { src: 'img/20220904Mistery/08-Mystery.jpg' }, { src: 'img/20220904Mistery/09-Mystery.jpg' },
         { src: 'img/20220904Mistery/10-Mystery.jpg' }, { src: 'img/20220904Mistery/11-Mystery.jpg' }, { src: 'img/20220904Mistery/12-Mystery.jpg' },
+      ],
+      list96: [
+        { src: 'img/20220917BOC30thAnniversary/01-BOC30thAnniversary.jpg' }, { src: 'img/20220917BOC30thAnniversary/02-BOC30thAnniversary.jpg' }, { src: 'img/20220917BOC30thAnniversary/03-BOC30thAnniversary.jpg' },
+        { src: 'img/20220917BOC30thAnniversary/04-BOC30thAnniversary.jpg' }, { src: 'img/20220917BOC30thAnniversary/05-BOC30thAnniversary.jpg' }, { src: 'img/20220917BOC30thAnniversary/06-BOC30thAnniversary.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
