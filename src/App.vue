@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Mount Seymour, Peaks 1 and 2, September 25, 2022
+        <a class="vue-green" href="img/20220925Peaks/20220925PeaksTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group97
+          class="thumbnail"
+          v-for="img in list97"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">BOC 30th Anniversary BBQ, Buntzen Lake, Sep 17, 2022
         <a class="vue-green" href="img/20220917BOC30thAnniversary/20220917BOC30thAnniversaryTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1694,6 +1704,12 @@ export default {
       list96: [
         { src: 'img/20220917BOC30thAnniversary/01-BOC30thAnniversary.jpg' }, { src: 'img/20220917BOC30thAnniversary/02-BOC30thAnniversary.jpg' }, { src: 'img/20220917BOC30thAnniversary/03-BOC30thAnniversary.jpg' },
         { src: 'img/20220917BOC30thAnniversary/04-BOC30thAnniversary.jpg' }, { src: 'img/20220917BOC30thAnniversary/05-BOC30thAnniversary.jpg' }, { src: 'img/20220917BOC30thAnniversary/06-BOC30thAnniversary.jpg' },
+      ],
+      list97: [
+        { src: 'img/20220925Peaks/01-Peaks.jpg' }, { src: 'img/20220925Peaks/02-Peaks.jpg' }, { src: 'img/20220925Peaks/03-Peaks.jpg' },
+        { src: 'img/20220925Peaks/04-Peaks.jpg' }, { src: 'img/20220925Peaks/05-Peaks.jpg' }, { src: 'img/20220925Peaks/06-Peaks.jpg' },
+        { src: 'img/20220925Peaks/07-Peaks.jpg' }, { src: 'img/20220925Peaks/08-Peaks.jpg' }, { src: 'img/20220925Peaks/09-Peaks.jpg' },
+        { src: 'img/20220925Peaks/10-Peaks.jpg' }, { src: 'img/20220925Peaks/11-Peaks.jpg' }, { src: 'img/20220925Peaks/12-Peaks.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
