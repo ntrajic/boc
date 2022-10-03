@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Hollyburn Peak Hike,October 1, 2022
+        <a class="vue-green" href="img/20221001Holly/20221001HollyTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group98
+          class="thumbnail"
+          v-for="img in list98"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Mount Seymour, Peaks 1 and 2, September 25, 2022
         <a class="vue-green" href="img/20220925Peaks/20220925PeaksTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1710,6 +1720,10 @@ export default {
         { src: 'img/20220925Peaks/04-Peaks.jpg' }, { src: 'img/20220925Peaks/05-Peaks.jpg' }, { src: 'img/20220925Peaks/06-Peaks.jpg' },
         { src: 'img/20220925Peaks/07-Peaks.jpg' }, { src: 'img/20220925Peaks/08-Peaks.jpg' }, { src: 'img/20220925Peaks/09-Peaks.jpg' },
         { src: 'img/20220925Peaks/10-Peaks.jpg' }, { src: 'img/20220925Peaks/11-Peaks.jpg' }, { src: 'img/20220925Peaks/12-Peaks.jpg' },
+      ],
+      list98: [
+        { src: 'img/20221001Holly/01-Holly.jpg' }, { src: 'img/20221001Holly/02-Holly.jpg' }, { src: 'img/20221001Holly/03-Holly.jpg' },
+        { src: 'img/20221001Holly/04-Holly.jpg' }, { src: 'img/20221001Holly/05-Holly.jpg' }, { src: 'img/20221001Holly/06-Holly.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
