@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Belcarra Park - Jug Island, October 10, 2022
+        <a class="vue-green" href="img/20221010Jug/20221010jugTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group99
+          class="thumbnail"
+          v-for="img in list99"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Hollyburn Peak Hike,October 1, 2022
         <a class="vue-green" href="img/20221001Holly/20221001HollyTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1724,6 +1734,12 @@ export default {
       list98: [
         { src: 'img/20221001Holly/01-Holly.jpg' }, { src: 'img/20221001Holly/02-Holly.jpg' }, { src: 'img/20221001Holly/03-Holly.jpg' },
         { src: 'img/20221001Holly/04-Holly.jpg' }, { src: 'img/20221001Holly/05-Holly.jpg' }, { src: 'img/20221001Holly/06-Holly.jpg' },
+      ],
+      list99: [
+        { src: 'img/20221010Jug/01-jug.jpg' }, { src: 'img/20221010Jug/02-jug.jpg' }, { src: 'img/20221010Jug/03-jug.jpg' },
+        { src: 'img/20221010Jug/04-jug.jpg' }, { src: 'img/20221010Jug/05-jug.jpg' }, { src: 'img/20221010Jug/06-jug.jpg' },
+        { src: 'img/20221010Jug/07-jug.jpg' }, { src: 'img/20221010Jug/08-jug.jpg' }, { src: 'img/20221010Jug/09-jug.jpg' },
+        { src: 'img/20221010Jug/10-jug.jpg' }, { src: 'img/20221010Jug/11-jug.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
