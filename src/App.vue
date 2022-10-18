@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Caulfeild Trail & Lighthouse Park, October 15, 2022
+        <a class="vue-green" href="img/20221015Caul/20221015CaulTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group100
+          class="thumbnail"
+          v-for="img in list100"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Belcarra Park - Jug Island, October 10, 2022
         <a class="vue-green" href="img/20221010Jug/20221010jugTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1740,6 +1750,12 @@ export default {
         { src: 'img/20221010Jug/04-jug.jpg' }, { src: 'img/20221010Jug/05-jug.jpg' }, { src: 'img/20221010Jug/06-jug.jpg' },
         { src: 'img/20221010Jug/07-jug.jpg' }, { src: 'img/20221010Jug/08-jug.jpg' }, { src: 'img/20221010Jug/09-jug.jpg' },
         { src: 'img/20221010Jug/10-jug.jpg' }, { src: 'img/20221010Jug/11-jug.jpg' },
+      ],
+      list100: [
+        { src: 'img/20221015Caul/01-Caul.jpg' }, { src: 'img/20221015Caul/02-Caul.jpg' }, { src: 'img/20221015Caul/03-Caul.jpg' },
+        { src: 'img/20221015Caul/04-Caul.jpg' }, { src: 'img/20221015Caul/05-Caul.jpg' }, { src: 'img/20221015Caul/06-Caul.jpg' },
+        { src: 'img/20221015Caul/07-Caul.jpg' }, { src: 'img/20221015Caul/08-Caul.jpg' }, { src: 'img/20221015Caul/09-Caul.jpg' },
+        { src: 'img/20221015Caul/10-Caul.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
