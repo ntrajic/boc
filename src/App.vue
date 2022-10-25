@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Killarney Lake and Dorman Point, Bowen Island, October 22, 2022
+        <a class="vue-green" href="img/20221022Dorman/20221022DormanTR" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group101
+          class="thumbnail"
+          v-for="img in list101"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Caulfeild Trail & Lighthouse Park, October 15, 2022
         <a class="vue-green" href="img/20221015Caul/20221015CaulTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1756,6 +1766,13 @@ export default {
         { src: 'img/20221015Caul/04-Caul.jpg' }, { src: 'img/20221015Caul/05-Caul.jpg' }, { src: 'img/20221015Caul/06-Caul.jpg' },
         { src: 'img/20221015Caul/07-Caul.jpg' }, { src: 'img/20221015Caul/08-Caul.jpg' }, { src: 'img/20221015Caul/09-Caul.jpg' },
         { src: 'img/20221015Caul/10-Caul.jpg' },
+      ],
+      list101: [
+        { src: 'img/20221022Dorman/01-Dorman.jpg' }, { src: 'img/20221022Dorman/02-Dorman.jpg' }, { src: 'img/20221022Dorman/03-Dorman.jpg' },
+        { src: 'img/20221022Dorman/04-Dorman.jpg' }, { src: 'img/20221022Dorman/05-Dorman.jpg' }, { src: 'img/20221022Dorman/06-Dorman.jpg' },
+        { src: 'img/20221022Dorman/07-Dorman.jpg' }, { src: 'img/20221022Dorman/08-Dorman.jpg' }, { src: 'img/20221022Dorman/09-Dorman.jpg' },
+        { src: 'img/20221022Dorman/10-Dorman.jpg' }, { src: 'img/20221022Dorman/11-Dorman.jpg' }, { src: 'img/20221022Dorman/12-Dorman.jpg' },
+        { src: 'img/20221022Dorman/13-Dorman.jpg' }, { src: 'img/20221022Dorman/14-Dorman.jpg' }, { src: 'img/20221022Dorman/15-Dorman.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
