@@ -63,8 +63,18 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Norvan Falls, Lynn Headwaters & Cedars Mill, November 05, 2022
+        <a class="vue-green" href="img/20221105Norvan/20221105NorvanTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group102
+          class="thumbnail"
+          v-for="img in list102"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Killarney Lake and Dorman Point, Bowen Island, October 22, 2022
-        <a class="vue-green" href="img/20221022Dorman/20221022DormanTR" title="Trip Report">Trip Report</a>
+        <a class="vue-green" href="img/20221022Dorman/20221022DormanTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
         <img v-gallery:group101
@@ -1773,6 +1783,12 @@ export default {
         { src: 'img/20221022Dorman/07-Dorman.jpg' }, { src: 'img/20221022Dorman/08-Dorman.jpg' }, { src: 'img/20221022Dorman/09-Dorman.jpg' },
         { src: 'img/20221022Dorman/10-Dorman.jpg' }, { src: 'img/20221022Dorman/11-Dorman.jpg' }, { src: 'img/20221022Dorman/12-Dorman.jpg' },
         { src: 'img/20221022Dorman/13-Dorman.jpg' }, { src: 'img/20221022Dorman/14-Dorman.jpg' }, { src: 'img/20221022Dorman/15-Dorman.jpg' },
+      ],
+      list102: [
+        { src: 'img/20221105Norvan/01-Lynn.jpg' }, { src: 'img/20221105Norvan/02-Lynn.jpg' }, { src: 'img/20221105Norvan/03-Lynn.jpg' },
+        { src: 'img/20221105Norvan/04-Lynn.jpg' }, { src: 'img/20221105Norvan/05-Lynn.jpg' }, { src: 'img/20221105Norvan/06-Lynn.jpg' },
+        { src: 'img/20221105Norvan/07-Lynn.jpg' }, { src: 'img/20221105Norvan/08-Lynn.jpg' }, { src: 'img/20221105Norvan/09-Lynn.jpg' },
+        { src: 'img/20221105Norvan/10-Lynn.jpg' }, { src: 'img/20221105Norvan/11-Lynn.jpg' }, { src: 'img/20221105Norvan/12-Lynn.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
