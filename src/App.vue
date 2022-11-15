@@ -62,7 +62,26 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-
+      <div class="subtitle">Woodhaven Swamp to Sasamat Lake, November 13th, 2022
+        <a class="vue-green" href="img/20221113Wood/20221113WoodTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group104
+          class="thumbnail"
+          v-for="img in list104"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle">Burnaby Mountain Loop, Friday, November 11th, 2022
+        <a class="vue-green" href="img/20221111BbyMnt/20221111BbyMntTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group103
+          class="thumbnail"
+          v-for="img in list103"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Norvan Falls, Lynn Headwaters & Cedars Mill, November 05, 2022
         <a class="vue-green" href="img/20221105Norvan/20221105NorvanTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1789,6 +1808,17 @@ export default {
         { src: 'img/20221105Norvan/04-Lynn.jpg' }, { src: 'img/20221105Norvan/05-Lynn.jpg' }, { src: 'img/20221105Norvan/06-Lynn.jpg' },
         { src: 'img/20221105Norvan/07-Lynn.jpg' }, { src: 'img/20221105Norvan/08-Lynn.jpg' }, { src: 'img/20221105Norvan/09-Lynn.jpg' },
         { src: 'img/20221105Norvan/10-Lynn.jpg' }, { src: 'img/20221105Norvan/11-Lynn.jpg' }, { src: 'img/20221105Norvan/12-Lynn.jpg' },
+      ],
+      list103: [
+        { src: 'img/20221111BbyMnt/01-BbyMnt.jpg' }, { src: 'img/20221111BbyMnt/02-BbyMnt.jpg' }, { src: 'img/20221111BbyMnt/03-BbyMnt.jpg' },
+        { src: 'img/20221111BbyMnt/04-BbyMnt.jpg' }, { src: 'img/20221111BbyMnt/05-BbyMnt.jpg' }, { src: 'img/20221111BbyMnt/06-BbyMnt.jpg' },
+        { src: 'img/20221111BbyMnt/07-BbyMnt.jpg' }, { src: 'img/20221111BbyMnt/08-BbyMnt.jpg' },
+      ],
+      list104: [
+        { src: 'img/20221113Wood/01-Wood.jpg' }, { src: 'img/20221113Wood/02-Wood.jpg' }, { src: 'img/20221113Wood/03-Wood.jpg' },
+        { src: 'img/20221113Wood/04-Wood.jpg' }, { src: 'img/20221113Wood/05-Wood.jpg' }, { src: 'img/20221113Wood/06-Wood.jpg' },
+        { src: 'img/20221113Wood/07-Wood.jpg' }, { src: 'img/20221113Wood/08-Wood.jpg' }, { src: 'img/20221113Wood/09-Wood.jpg' },
+        { src: 'img/20221113Wood/10-Wood.jpg' }, { src: 'img/20221113Wood/11-Wood.jpg' }, { src: 'img/20221113Wood/12-Wood.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
