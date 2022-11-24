@@ -62,6 +62,17 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+
+      <div class="subtitle">Knoll, Nicomekl and Redwood Parks, November 20th, 2022
+        <a class="vue-green" href="img/20221120Knoll/20221120KnollTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group105
+          class="thumbnail"
+          v-for="img in list105"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Woodhaven Swamp to Sasamat Lake, November 13th, 2022
         <a class="vue-green" href="img/20221113Wood/20221113WoodTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1819,6 +1830,11 @@ export default {
         { src: 'img/20221113Wood/04-Wood.jpg' }, { src: 'img/20221113Wood/05-Wood.jpg' }, { src: 'img/20221113Wood/06-Wood.jpg' },
         { src: 'img/20221113Wood/07-Wood.jpg' }, { src: 'img/20221113Wood/08-Wood.jpg' }, { src: 'img/20221113Wood/09-Wood.jpg' },
         { src: 'img/20221113Wood/10-Wood.jpg' }, { src: 'img/20221113Wood/11-Wood.jpg' }, { src: 'img/20221113Wood/12-Wood.jpg' },
+      ],
+      list105: [
+        { src: 'img/20221120Knoll/01-Knoll.jpg' }, { src: 'img/20221120Knoll/02-Knoll.jpg' }, { src: 'img/20221120Knoll/03-Knoll.jpg' },
+        { src: 'img/20221120Knoll/04-Knoll.jpg' }, { src: 'img/20221120Knoll/05-Knoll.jpg' }, { src: 'img/20221120Knoll/06-Knoll.jpg' },
+        { src: 'img/20221120Knoll/07-Knoll.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
