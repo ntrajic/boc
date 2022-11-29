@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Lynn Creek and Seymour River, November 17th, 2022
+        <a class="vue-green" href="img/20221127Lynn/20221127LynnTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group106
+          class="thumbnail"
+          v-for="img in list106"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Knoll, Nicomekl and Redwood Parks, November 20th, 2022
         <a class="vue-green" href="img/20221120Knoll/20221120KnollTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1835,6 +1845,12 @@ export default {
         { src: 'img/20221120Knoll/01-Knoll.jpg' }, { src: 'img/20221120Knoll/02-Knoll.jpg' }, { src: 'img/20221120Knoll/03-Knoll.jpg' },
         { src: 'img/20221120Knoll/04-Knoll.jpg' }, { src: 'img/20221120Knoll/05-Knoll.jpg' }, { src: 'img/20221120Knoll/06-Knoll.jpg' },
         { src: 'img/20221120Knoll/07-Knoll.jpg' },
+      ],
+      list106: [
+        { src: 'img/20221127Lynn/01-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/02-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/03-Lynn_Creek-and-Seymour_River.jpg' },
+        { src: 'img/20221127Lynn/04-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/05-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/06-Lynn_Creek-and-Seymour_River.jpg' },
+        { src: 'img/20221127Lynn/07-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/08-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/09-Lynn_Creek-and-Seymour_River.jpg' },
+        { src: 'img/20221127Lynn/10-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/11-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/12-Lynn_Creek-and-Seymour_River.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
