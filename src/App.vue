@@ -63,7 +63,7 @@
           :key="img.src + index">
       </div>
 
-      <div class="subtitle">Lynn Creek and Seymour River, November 17th, 2022
+      <div class="subtitle">Lynn Creek and Seymour River, November 27th, 2022
         <a class="vue-green" href="img/20221127Lynn/20221127LynnTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
