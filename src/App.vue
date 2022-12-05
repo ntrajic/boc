@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Burnaby Lake Walk, December 3rd, 2022
+        <a class="vue-green" href="img/202212033BbyLake/20221203BbyLakeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group107
+          class="thumbnail"
+          v-for="img in list107"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Lynn Creek and Seymour River, November 27th, 2022
         <a class="vue-green" href="img/20221127Lynn/20221127LynnTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1851,6 +1861,11 @@ export default {
         { src: 'img/20221127Lynn/04-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/05-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/06-Lynn_Creek-and-Seymour_River.jpg' },
         { src: 'img/20221127Lynn/07-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/08-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/09-Lynn_Creek-and-Seymour_River.jpg' },
         { src: 'img/20221127Lynn/10-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/11-Lynn_Creek-and-Seymour_River.jpg' }, { src: 'img/20221127Lynn/12-Lynn_Creek-and-Seymour_River.jpg' },
+      ],
+      list107: [
+        { src: 'img/202212033BbyLake/01-IMG.jpg' }, { src: 'img/202212033BbyLake/02-IMG.jpg' }, { src: 'img/202212033BbyLake/03-IMG.jpg' },
+        { src: 'img/202212033BbyLake/04-IMG.jpg' }, { src: 'img/202212033BbyLake/05-IMG.jpg' }, { src: 'img/202212033BbyLake/06-IMG.jpg' },
+        { src: 'img/202212033BbyLake/07-IMG.jpg' }, { src: 'img/202212033BbyLake/08-IMG.jpg' }, { src: 'img/202212033BbyLake/09-IMG.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
