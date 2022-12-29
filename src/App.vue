@@ -12,7 +12,6 @@
 
       <div class="subtitle"> Check the latest monthly newsletter
         <a class="vue-green" href="http://www.burnabyoutdoor.com/pdfs/BOC%20Newsletter.pdf" title="BOC Newsletter">BOC Newsletter</a>
-        <a class="vue-green" href="img/MOVE430KidsChallenge.pdf" title="MOVE430 Kids Challenge">MOVE430 Kids Challenge</a>
 
           <button @click="showNews = !showNews">
             <span class="vue-green">Breaking News</span>
@@ -39,6 +38,7 @@
                             <p>
                               <span class="vue-green">
                               BOC is operating in groups of six following Health Canada restrictions. Larger number of participants are allowed. Stay tuned!
+                              Take a leap of faith and begin this wondrous New year 2023 by believing!
                               </span>
                             </p>
                           </article>
@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Burnaby Mountain Walk, December 26th, 2022
+        <a class="vue-green" href="img/20221226bbymnt/20221226bbymntTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group108
+          class="thumbnail"
+          v-for="img in list108"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Burnaby Lake Walk, December 3rd, 2022
         <a class="vue-green" href="img/202212033BbyLake/20221203BbyLakeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1867,8 +1877,11 @@ export default {
         { src: 'img/202212033BbyLake/04-IMG.jpg' }, { src: 'img/202212033BbyLake/05-IMG.jpg' }, { src: 'img/202212033BbyLake/06-IMG.jpg' },
         { src: 'img/202212033BbyLake/07-IMG.jpg' }, { src: 'img/202212033BbyLake/08-IMG.jpg' }, { src: 'img/202212033BbyLake/09-IMG.jpg' },
       ],
+      list108: [
+        { src: 'img/20221226bbymnt/01-bbymnt.jpg' }, { src: 'img/20221226bbymnt/02-bbymnt.jpg' },
+      ],
       list0: [
-        { src: 'img/BOC-Newsletter.jpg' }, { src: 'img/MOVE430KidsChallenge.png' },
+        { src: 'img/BOC-Newsletter.jpg' },
       ]
     }
   },
