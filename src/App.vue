@@ -1878,7 +1878,7 @@ export default {
         { src: 'img/202212033BbyLake/07-IMG.jpg' }, { src: 'img/202212033BbyLake/08-IMG.jpg' }, { src: 'img/202212033BbyLake/09-IMG.jpg' },
       ],
       list108: [
-        { src: 'img/20221226bbymnt/01-bbymnt.jpg' }, { src: 'img/20221226bbymnt/02-bbymnt.jpg' },
+        { src: 'img/20221226bbymnt/01-bbymnt.jpg' }, { src: 'img/20221226bbymnt/02-bbymnt.jpg' }, { src: 'img/20221226bbymnt/03-bbymnt.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
