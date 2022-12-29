@@ -1879,6 +1879,7 @@ export default {
       ],
       list108: [
         { src: 'img/20221226bbymnt/01-bbymnt.jpg' }, { src: 'img/20221226bbymnt/02-bbymnt.jpg' }, { src: 'img/20221226bbymnt/03-bbymnt.jpg' },
+        { src: 'img/20221226bbymnt/04-bbymnt.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
