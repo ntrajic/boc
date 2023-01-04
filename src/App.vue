@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Barnet Marine Park, Polar Bear Walk & Swim, January 1st, 2023
+        <a class="vue-green" href="img/20230101Barnet/20230101BarnetTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group109
+          class="thumbnail"
+          v-for="img in list109"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Burnaby Mountain Walk, December 26th, 2022
         <a class="vue-green" href="img/20221226bbymnt/20221226bbymntTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1880,6 +1890,11 @@ export default {
       list108: [
         { src: 'img/20221226bbymnt/01-bbymnt.jpg' }, { src: 'img/20221226bbymnt/02-bbymnt.jpg' }, { src: 'img/20221226bbymnt/03-bbymnt.jpg' },
         { src: 'img/20221226bbymnt/04-bbymnt.jpg' },
+      ],
+      list109: [
+        { src: 'img/20230101Barnet/01-Barnet.jpg' }, { src: 'img/20230101Barnet/02-Barnet.jpg' }, { src: 'img/20230101Barnet/03-Barnet.jpg' },
+        { src: 'img/20230101Barnet/04-Barnet.jpg' }, { src: 'img/20230101Barnet/05-Barnet.jpg' }, { src: 'img/20230101Barnet/06-Barnet.jpg' },
+        { src: 'img/20230101Barnet/07-Barnet.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
