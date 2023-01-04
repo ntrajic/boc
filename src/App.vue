@@ -1894,7 +1894,7 @@ export default {
       list109: [
         { src: 'img/20230101Barnet/01-Barnet.jpg' }, { src: 'img/20230101Barnet/02-Barnet.jpg' }, { src: 'img/20230101Barnet/03-Barnet.jpg' },
         { src: 'img/20230101Barnet/04-Barnet.jpg' }, { src: 'img/20230101Barnet/05-Barnet.jpg' }, { src: 'img/20230101Barnet/06-Barnet.jpg' },
-        { src: 'img/20230101Barnet/07-Barnet.jpg' },
+        { src: 'img/20230101Barnet/07-Barnet.jpg' }, { src: 'img/20230101Barnet/08-Barnet.jpg' }, { src: 'img/20230101Barnet/09-Barnet.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
