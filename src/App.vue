@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Poco Trail, January 7th, 2023
+        <a class="vue-green" href="img/20230107Poco/20230107PocoTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group110
+          class="thumbnail"
+          v-for="img in list110"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Barnet Marine Park, Polar Bear Walk & Swim, January 1st, 2023
         <a class="vue-green" href="img/20230101Barnet/20230101BarnetTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1895,6 +1905,10 @@ export default {
         { src: 'img/20230101Barnet/01-Barnet.jpg' }, { src: 'img/20230101Barnet/02-Barnet.jpg' }, { src: 'img/20230101Barnet/03-Barnet.jpg' },
         { src: 'img/20230101Barnet/04-Barnet.jpg' }, { src: 'img/20230101Barnet/05-Barnet.jpg' }, { src: 'img/20230101Barnet/06-Barnet.jpg' },
         { src: 'img/20230101Barnet/07-Barnet.jpg' }, { src: 'img/20230101Barnet/08-Barnet.jpg' }, { src: 'img/20230101Barnet/09-Barnet.jpg' },
+      ],
+      list110: [
+        { src: 'img/20230107Poco/01-Poco.jpg' }, { src: 'img/20230107Poco/02-Poco.jpg' }, { src: 'img/20230107Poco/03-Poco.jpg' },
+        { src: 'img/20230107Poco/04-Poco.jpg' }, { src: 'img/20230107Poco/05-Poco.jpg' }, { src: 'img/20230107Poco/06-Poco.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
