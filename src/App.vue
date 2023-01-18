@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Bowen Lookout, January 15th, 2023
+        <a class="vue-green" href="img/20230115Bowen/20230115BowenTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group111
+          class="thumbnail"
+          v-for="img in list111"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Poco Trail, January 7th, 2023
         <a class="vue-green" href="img/20230107Poco/20230107PocoTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1909,6 +1919,11 @@ export default {
       list110: [
         { src: 'img/20230107Poco/01-Poco.jpg' }, { src: 'img/20230107Poco/02-Poco.jpg' }, { src: 'img/20230107Poco/03-Poco.jpg' },
         { src: 'img/20230107Poco/04-Poco.jpg' }, { src: 'img/20230107Poco/05-Poco.jpg' }, { src: 'img/20230107Poco/06-Poco.jpg' },
+      ],
+      list111: [
+        { src: 'img/20230115Bowen/01-Bowen_Lookout.jpg' }, { src: 'img/20230115Bowen/02-Bowen_Lookout.jpg' }, { src: 'img/20230115Bowen/03-Bowen_Lookout.jpg' },
+        { src: 'img/20230115Bowen/04-Bowen_Lookout.jpg' }, { src: 'img/20230115Bowen/05-Bowen_Lookout.jpg' }, { src: 'img/20230115Bowen/06-Bowen_Lookout.jpg' },
+        { src: 'img/20230115Bowen/07-Bowen_Lookout.jpg' }, { src: 'img/20230115Bowen/08-Bowen_Lookout.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
