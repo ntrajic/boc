@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Buntzen Lakeview Trail Hike, January 21st, 2023
+        <a class="vue-green" href="img/20230121Buntzen/20230121BuntzenTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group112
+          class="thumbnail"
+          v-for="img in list112"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Bowen Lookout, January 15th, 2023
         <a class="vue-green" href="img/20230115Bowen/20230115BowenTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1924,6 +1934,12 @@ export default {
         { src: 'img/20230115Bowen/01-Bowen_Lookout.jpg' }, { src: 'img/20230115Bowen/02-Bowen_Lookout.jpg' }, { src: 'img/20230115Bowen/03-Bowen_Lookout.jpg' },
         { src: 'img/20230115Bowen/04-Bowen_Lookout.jpg' }, { src: 'img/20230115Bowen/05-Bowen_Lookout.jpg' }, { src: 'img/20230115Bowen/06-Bowen_Lookout.jpg' },
         { src: 'img/20230115Bowen/07-Bowen_Lookout.jpg' }, { src: 'img/20230115Bowen/08-Bowen_Lookout.jpg' },
+      ],
+      list112: [
+        { src: 'img/20230121Buntzen/21-Buntzen_Lake.jpg' }, { src: 'img/20230121Buntzen/22-Buntzen_Lake.jpg' }, { src: 'img/20230121Buntzen/23-Buntzen_Lake.jpg' },
+        { src: 'img/20230121Buntzen/24-Buntzen_Lake.jpg' }, { src: 'img/20230121Buntzen/25-Buntzen_Lake.jpg' }, { src: 'img/20230121Buntzen/26-Buntzen_Lake.jpg' },
+        { src: 'img/20230121Buntzen/27-Buntzen_Lake.jpg' }, { src: 'img/20230121Buntzen/28-Buntzen_Lake.jpg' }, { src: 'img/20230121Buntzen/29-Buntzen_Lake.jpg' },
+        { src: 'img/20230121Buntzen/30-Buntzen_Lake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
