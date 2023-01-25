@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Campbell Valley Regional Park, January 22nd, 2023
+        <a class="vue-green" href="img/20230122Campbell/20230122CampbellTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group113
+          class="thumbnail"
+          v-for="img in list113"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Buntzen Lakeview Trail Hike, January 21st, 2023
         <a class="vue-green" href="img/20230121Buntzen/20230121BuntzenTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1940,6 +1950,9 @@ export default {
         { src: 'img/20230121Buntzen/24-Buntzen_Lake.jpg' }, { src: 'img/20230121Buntzen/25-Buntzen_Lake.jpg' }, { src: 'img/20230121Buntzen/26-Buntzen_Lake.jpg' },
         { src: 'img/20230121Buntzen/27-Buntzen_Lake.jpg' }, { src: 'img/20230121Buntzen/28-Buntzen_Lake.jpg' }, { src: 'img/20230121Buntzen/29-Buntzen_Lake.jpg' },
         { src: 'img/20230121Buntzen/30-Buntzen_Lake.jpg' },
+      ],
+      list113: [
+        { src: 'img/20230122Campbell/01-Campbell.jpg' }, { src: 'img/20230122Campbell/02-Campbell.jpg' }, { src: 'img/20230122Campbell/03-Campbell.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
