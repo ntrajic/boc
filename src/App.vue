@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Vancouver’s Seawall & Seaside (English Bay, Science World), January 29, 2023
+        <a class="vue-green" href="img/20230129Seawall/20230129SeawallTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group114
+          class="thumbnail"
+          v-for="img in list114"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Campbell Valley Regional Park, January 22nd, 2023
         <a class="vue-green" href="img/20230122Campbell/20230122CampbellTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1953,6 +1963,13 @@ export default {
       ],
       list113: [
         { src: 'img/20230122Campbell/01-Campbell.jpg' }, { src: 'img/20230122Campbell/02-Campbell.jpg' }, { src: 'img/20230122Campbell/03-Campbell.jpg' },
+      ],
+      list114: [
+        { src: 'img/20230129Seawall/00-image.jpeg' },
+        { src: 'img/20230129Seawall/01-image.jpeg' }, { src: 'img/20230129Seawall/02-image.jpeg' }, { src: 'img/20230129Seawall/03-image.jpeg' },
+        { src: 'img/20230129Seawall/04-image.jpeg' }, { src: 'img/20230129Seawall/05-image.jpeg' }, { src: 'img/20230129Seawall/06-image.jpeg' },
+        { src: 'img/20230129Seawall/07-image.jpeg' }, { src: 'img/20230129Seawall/08-image.jpeg' }, { src: 'img/20230129Seawall/09-image.jpeg' },
+        { src: 'img/20230129Seawall/10-image.jpeg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
