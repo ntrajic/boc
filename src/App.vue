@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Mosquito & Mahon Creeks, February 5, 2023
+        <a class="vue-green" href="img/20230205Mosquito/20230205MosquitoTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group115
+          class="thumbnail"
+          v-for="img in list115"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Vancouver’s Seawall & Seaside (English Bay, Science World), January 29, 2023
         <a class="vue-green" href="img/20230129Seawall/20230129SeawallTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1970,6 +1980,11 @@ export default {
         { src: 'img/20230129Seawall/04-image.jpeg' }, { src: 'img/20230129Seawall/05-image.jpeg' }, { src: 'img/20230129Seawall/06-image.jpeg' },
         { src: 'img/20230129Seawall/07-image.jpeg' }, { src: 'img/20230129Seawall/08-image.jpeg' }, { src: 'img/20230129Seawall/09-image.jpeg' },
         { src: 'img/20230129Seawall/10-image.jpeg' },
+      ],
+      list115: [
+        { src: 'img/20230205Mosquito/1-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/2-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/3-Mosquito_Creek.jpg' },
+        { src: 'img/20230205Mosquito/4-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/5-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/6-Mosquito_Creek.jpg' },
+        { src: 'img/20230205Mosquito/7-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/8-Mosquito_Creek.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
