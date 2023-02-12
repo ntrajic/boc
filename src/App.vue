@@ -1984,7 +1984,7 @@ export default {
       list115: [
         { src: 'img/20230205Mosquito/1-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/2-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/3-Mosquito_Creek.jpg' },
         { src: 'img/20230205Mosquito/4-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/5-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/6-Mosquito_Creek.jpg' },
-        { src: 'img/20230205Mosquito/7-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/8-Mosquito_Creek.jpg' },
+        { src: 'img/20230205Mosquito/7-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/8-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/9-Mosquito_Creek.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
