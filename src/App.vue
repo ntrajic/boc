@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Mt Seymour-Dinkey Peak an First Lake Snowshoe Hike, February 12, 2023
+        <a class="vue-green" href="img/20230212Dinkey/20230212DinkeyTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group116
+          class="thumbnail"
+          v-for="img in list116"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Mosquito & Mahon Creeks, February 5, 2023
         <a class="vue-green" href="img/20230205Mosquito/20230205MosquitoTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -1985,6 +1995,13 @@ export default {
         { src: 'img/20230205Mosquito/1-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/2-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/3-Mosquito_Creek.jpg' },
         { src: 'img/20230205Mosquito/4-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/5-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/6-Mosquito_Creek.jpg' },
         { src: 'img/20230205Mosquito/7-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/8-Mosquito_Creek.jpg' }, { src: 'img/20230205Mosquito/9-Mosquito_Creek.jpg' },
+      ],
+      list116: [
+        { src: 'img/20230212Dinkey/01-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/02-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/03-Dinkey_Peak_First_Lake.jpg' },
+        { src: 'img/20230212Dinkey/04-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/05-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/06-Dinkey_Peak_First_Lake.jpg' },
+        { src: 'img/20230212Dinkey/07-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/08-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/09-Dinkey_Peak_First_Lake.jpg' },
+        { src: 'img/20230212Dinkey/10-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/11-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/12-Dinkey_Peak_First_Lake.jpg' },
+        { src: 'img/20230212Dinkey/13-Dinkey_Peak_First_Lake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
