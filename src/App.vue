@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Seymour River & Lynn Creek Hike, February 18, 2023
+        <a class="vue-green" href="img/20230218Lynn/20230218LynnTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group117
+          class="thumbnail"
+          v-for="img in list117"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Mt Seymour-Dinkey Peak an First Lake Snowshoe Hike, February 12, 2023
         <a class="vue-green" href="img/20230212Dinkey/20230212DinkeyTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2002,6 +2012,12 @@ export default {
         { src: 'img/20230212Dinkey/07-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/08-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/09-Dinkey_Peak_First_Lake.jpg' },
         { src: 'img/20230212Dinkey/10-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/11-Dinkey_Peak_First_Lake.jpg' }, { src: 'img/20230212Dinkey/12-Dinkey_Peak_First_Lake.jpg' },
         { src: 'img/20230212Dinkey/13-Dinkey_Peak_First_Lake.jpg' },
+      ],
+      list117: [
+        { src: 'img/20230218Lynn/01-Lynn.jpg' }, { src: 'img/20230218Lynn/02-Lynn.jpg' }, { src: 'img/20230218Lynn/03-Lynn.jpg' },
+        { src: 'img/20230218Lynn/04-Lynn.jpg' }, { src: 'img/20230218Lynn/05-Lynn.jpg' }, { src: 'img/20230218Lynn/06-Lynn.jpg' },
+        { src: 'img/20230218Lynn/07-Lynn.jpg' }, { src: 'img/20230218Lynn/08-Lynn.jpg' }, { src: 'img/20230218Lynn/09-Lynn.jpg' },
+        { src: 'img/20230218Lynn/10-Lynn.jpg' }, { src: 'img/20230218Lynn/11-Lynn.jpg' }, { src: 'img/20230218Lynn/12-Lynn.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
