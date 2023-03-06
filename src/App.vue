@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Black Mnt Snowshoe Hike, March 04, 2023
+        <a class="vue-green" href="img/20230304Black/20230304BlackTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group118
+          class="thumbnail"
+          v-for="img in list118"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Seymour River & Lynn Creek Hike, February 18, 2023
         <a class="vue-green" href="img/20230218Lynn/20230218LynnTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2018,6 +2028,11 @@ export default {
         { src: 'img/20230218Lynn/04-Lynn.jpg' }, { src: 'img/20230218Lynn/05-Lynn.jpg' }, { src: 'img/20230218Lynn/06-Lynn.jpg' },
         { src: 'img/20230218Lynn/07-Lynn.jpg' }, { src: 'img/20230218Lynn/08-Lynn.jpg' }, { src: 'img/20230218Lynn/09-Lynn.jpg' },
         { src: 'img/20230218Lynn/10-Lynn.jpg' }, { src: 'img/20230218Lynn/11-Lynn.jpg' }, { src: 'img/20230218Lynn/12-Lynn.jpg' },
+      ],
+      list118: [
+        { src: 'img/20230304Black/1-Black_Mountain-Cypress.jpg' }, { src: 'img/20230304Black/2-Black_Mountain-Cypress.jpg' }, { src: 'img/20230304Black/3-Black_Mountain-Cypress.jpg' },
+        { src: 'img/20230304Black/4-Black_Mountain-Cypress.jpg' }, { src: 'img/20230304Black/5-Black_Mountain-Cypress.jpg' }, { src: 'img/20230304Black/6-Black_Mountain-Cypress.jpg' },
+        { src: 'img/20230304Black/7-Black_Mountain-Cypress.jpg' }, { src: 'img/20230304Black/8-Black_Mountain-Cypress.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
