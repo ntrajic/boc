@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Burnaby Mountain area to Port Moody, March 12, 2023
+        <a class="vue-green" href="img/20230312BbyMnt/20230312BbyMntTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group119
+          class="thumbnail"
+          v-for="img in list119"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Black Mnt Snowshoe Hike, March 04, 2023
         <a class="vue-green" href="img/20230304Black/20230304BlackTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2033,6 +2043,10 @@ export default {
         { src: 'img/20230304Black/1-Black_Mountain-Cypress.jpg' }, { src: 'img/20230304Black/2-Black_Mountain-Cypress.jpg' }, { src: 'img/20230304Black/3-Black_Mountain-Cypress.jpg' },
         { src: 'img/20230304Black/4-Black_Mountain-Cypress.jpg' }, { src: 'img/20230304Black/5-Black_Mountain-Cypress.jpg' }, { src: 'img/20230304Black/6-Black_Mountain-Cypress.jpg' },
         { src: 'img/20230304Black/7-Black_Mountain-Cypress.jpg' }, { src: 'img/20230304Black/8-Black_Mountain-Cypress.jpg' },
+      ],
+      list119: [
+        { src: 'img/20230312BbyMnt/01-IMG.jpg' }, { src: 'img/20230312BbyMnt/02-IMG.jpg' }, { src: 'img/20230312BbyMnt/03-IMG.jpg' },
+        { src: 'img/20230312BbyMnt/04-IMG.jpg' }, { src: 'img/20230312BbyMnt/05-IMG.jpg' }, { src: 'img/20230312BbyMnt/06-IMG.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
