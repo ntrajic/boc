@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Reifel Bird Sanctuary, Delta, and West Dyke Trail, Richmond, March 18, 2023
+        <a class="vue-green" href="img/20230318Reifel/20230318ReifelTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group120
+          class="thumbnail"
+          v-for="img in list120"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Burnaby Mountain area to Port Moody, March 12, 2023
         <a class="vue-green" href="img/20230312BbyMnt/20230312BbyMntTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2047,6 +2057,11 @@ export default {
       list119: [
         { src: 'img/20230312BbyMnt/01-IMG.jpg' }, { src: 'img/20230312BbyMnt/02-IMG.jpg' }, { src: 'img/20230312BbyMnt/03-IMG.jpg' },
         { src: 'img/20230312BbyMnt/04-IMG.jpg' }, { src: 'img/20230312BbyMnt/05-IMG.jpg' }, { src: 'img/20230312BbyMnt/06-IMG.jpg' },
+      ],
+      list120: [
+        { src: 'img/20230318Reifel/01-Reifel.jpg' }, { src: 'img/20230318Reifel/02-Reifel.jpg' }, { src: 'img/20230318Reifel/03-Reifel.jpg' },
+        { src: 'img/20230318Reifel/04-Reifel.jpg' }, { src: 'img/20230318Reifel/05-Reifel.jpg' }, { src: 'img/20230318Reifel/06-Reifel.jpg' },
+        { src: 'img/20230318Reifel/07-Reifel.jpg' }, { src: 'img/20230318Reifel/08-Reifel.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
