@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Indian Arm Parks, North Van., March 26, 2023
+        <a class="vue-green" href="img/20230326IndArm/20230326indarmTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group121
+          class="thumbnail"
+          v-for="img in list121"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Reifel Bird Sanctuary, Delta, and West Dyke Trail, Richmond, March 18, 2023
         <a class="vue-green" href="img/20230318Reifel/20230318ReifelTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2062,6 +2072,11 @@ export default {
         { src: 'img/20230318Reifel/01-Reifel.jpg' }, { src: 'img/20230318Reifel/02-Reifel.jpg' }, { src: 'img/20230318Reifel/03-Reifel.jpg' },
         { src: 'img/20230318Reifel/04-Reifel.jpg' }, { src: 'img/20230318Reifel/05-Reifel.jpg' }, { src: 'img/20230318Reifel/06-Reifel.jpg' },
         { src: 'img/20230318Reifel/07-Reifel.jpg' }, { src: 'img/20230318Reifel/08-Reifel.jpg' },
+      ],
+      list121: [
+        { src: 'img/20230326IndArm/01-indarm.jpg' }, { src: 'img/20230326IndArm/02-indarm.jpg' }, { src: 'img/20230326IndArm/03-indarm.jpg' },
+        { src: 'img/20230326IndArm/04-indarm.jpg' }, { src: 'img/20230326IndArm/05-indarm.jpg' }, { src: 'img/20230326IndArm/06-indarm.jpg' },
+        { src: 'img/20230326IndArm/07-indarm.jpg' }, { src: 'img/20230326IndArm/08-indarm.jpg' }, { src: 'img/20230326IndArm/09-indarm.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
