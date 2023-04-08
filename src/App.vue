@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Coquitlam Crunch and Shoreline Trail, April 7th, 2023
+        <a class="vue-green" href="img/20230407Coq/20230407CoqTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group122
+          class="thumbnail"
+          v-for="img in list122"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Indian Arm Parks, North Van., March 26, 2023
         <a class="vue-green" href="img/20230326IndArm/20230326indarmTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2077,6 +2087,13 @@ export default {
         { src: 'img/20230326IndArm/01-indarm.jpg' }, { src: 'img/20230326IndArm/02-indarm.jpg' }, { src: 'img/20230326IndArm/03-indarm.jpg' },
         { src: 'img/20230326IndArm/04-indarm.jpg' }, { src: 'img/20230326IndArm/05-indarm.jpg' }, { src: 'img/20230326IndArm/06-indarm.jpg' },
         { src: 'img/20230326IndArm/07-indarm.jpg' }, { src: 'img/20230326IndArm/08-indarm.jpg' }, { src: 'img/20230326IndArm/09-indarm.jpg' },
+      ],
+      list122: [
+        { src: 'img/20230407Coq/01.jpg' }, { src: 'img/20230407Coq/02.jpg' }, { src: 'img/20230407Coq/03.jpg' },
+        { src: 'img/20230407Coq/04.jpg' }, { src: 'img/20230407Coq/05.jpg' }, { src: 'img/20230407Coq/06.jpg' },
+        { src: 'img/20230407Coq/07.jpg' }, { src: 'img/20230407Coq/08.jpg' }, { src: 'img/20230407Coq/09.jpg' },
+        { src: 'img/20230407Coq/10.jpg' }, { src: 'img/20230407Coq/11.jpg' }, { src: 'img/20230407Coq/12.jpg' },
+        { src: 'img/20230407Coq/13.jpg' }, { src: 'img/20230407Coq/14.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
