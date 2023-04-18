@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Buntzen Lake to Sasamat Lake, April 15th, 2023
+        <a class="vue-green" href="img/20230415Buntzen/20230415BunTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group123
+          class="thumbnail"
+          v-for="img in list123"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Coquitlam Crunch and Shoreline Trail, April 7th, 2023
         <a class="vue-green" href="img/20230407Coq/20230407CoqTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2094,6 +2104,12 @@ export default {
         { src: 'img/20230407Coq/07.jpg' }, { src: 'img/20230407Coq/08.jpg' }, { src: 'img/20230407Coq/09.jpg' },
         { src: 'img/20230407Coq/10.jpg' }, { src: 'img/20230407Coq/11.jpg' }, { src: 'img/20230407Coq/12.jpg' },
         { src: 'img/20230407Coq/13.jpg' }, { src: 'img/20230407Coq/14.jpg' },
+      ],
+      list123: [
+        { src: 'img/20230415Buntzen/01-Bun.jpg' }, { src: 'img/20230415Buntzen/02-Bun.jpg' }, { src: 'img/20230415Buntzen/03-Bun.jpg' },
+        { src: 'img/20230415Buntzen/04-Bun.jpg' }, { src: 'img/20230415Buntzen/05-Bun.jpg' }, { src: 'img/20230415Buntzen/06-Bun.jpg' },
+        { src: 'img/20230415Buntzen/07-Bun.jpg' }, { src: 'img/20230415Buntzen/08-Bun.jpg' }, { src: 'img/20230415Buntzen/09-Bun.jpg' },
+        { src: 'img/20230415Buntzen/10-Bun.jpg' }, { src: 'img/20230415Buntzen/11-Bun.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
