@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Aldergrove Regional Park & Serpentine Fen, April 23, 2023
+        <a class="vue-green" href="img/20230423Ald/20230423AldTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group124
+          class="thumbnail"
+          v-for="img in list124"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Buntzen Lake to Sasamat Lake, April 15th, 2023
         <a class="vue-green" href="img/20230415Buntzen/20230415BunTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2110,6 +2120,11 @@ export default {
         { src: 'img/20230415Buntzen/04-Bun.jpg' }, { src: 'img/20230415Buntzen/05-Bun.jpg' }, { src: 'img/20230415Buntzen/06-Bun.jpg' },
         { src: 'img/20230415Buntzen/07-Bun.jpg' }, { src: 'img/20230415Buntzen/08-Bun.jpg' }, { src: 'img/20230415Buntzen/09-Bun.jpg' },
         { src: 'img/20230415Buntzen/10-Bun.jpg' }, { src: 'img/20230415Buntzen/11-Bun.jpg' },
+      ],
+      list124: [
+        { src: 'img/20230423Ald/01-Ald.jpg' }, { src: 'img/20230423Ald/02-Ald.jpg' }, { src: 'img/20230423Ald/03-Ald.jpg' },
+        { src: 'img/20230423Ald/04-Ald.jpg' }, { src: 'img/20230423Ald/05-Ald.jpg' }, { src: 'img/20230423Ald/06-Ald.jpg' },
+        { src: 'img/20230423Ald/07-Ald.jpg' }, { src: 'img/20230423Ald/08-Ald.jpg' }, { src: 'img/20230423Ald/09-Ald.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
