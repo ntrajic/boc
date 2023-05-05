@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Norvan Falls, April 29th, 2023
+        <a class="vue-green" href="img/20230429NVFalls/20230429NVFallsTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group125
+          class="thumbnail"
+          v-for="img in list125"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Aldergrove Regional Park & Serpentine Fen, April 23, 2023
         <a class="vue-green" href="img/20230423Ald/20230423AldTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2125,6 +2135,12 @@ export default {
         { src: 'img/20230423Ald/01-Ald.jpg' }, { src: 'img/20230423Ald/02-Ald.jpg' }, { src: 'img/20230423Ald/03-Ald.jpg' },
         { src: 'img/20230423Ald/04-Ald.jpg' }, { src: 'img/20230423Ald/05-Ald.jpg' }, { src: 'img/20230423Ald/06-Ald.jpg' },
         { src: 'img/20230423Ald/07-Ald.jpg' }, { src: 'img/20230423Ald/08-Ald.jpg' }, { src: 'img/20230423Ald/09-Ald.jpg' },
+      ],
+      list125: [
+        { src: 'img/20230429NVFalls/01.jpg' }, { src: 'img/20230429NVFalls/02.jpg' }, { src: 'img/20230429NVFalls/03.jpg' },
+        { src: 'img/20230429NVFalls/04.jpg' }, { src: 'img/20230429NVFalls/05.jpg' }, { src: 'img/20230429NVFalls/06.jpg' },
+        { src: 'img/20230429NVFalls/07.jpg' }, { src: 'img/20230429NVFalls/08.jpg' }, { src: 'img/20230429NVFalls/09.jpg' },
+        { src: 'img/20230429NVFalls/10.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
