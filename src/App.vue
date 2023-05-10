@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Sunshine Coast -- Soames Hill & Gibsons, May 7, 2023
+        <a class="vue-green" href="img/20230507SC/20230507SCTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group126
+          class="thumbnail"
+          v-for="img in list126"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Norvan Falls, April 29th, 2023
         <a class="vue-green" href="img/20230429NVFalls/20230429NVFallsTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2141,6 +2151,11 @@ export default {
         { src: 'img/20230429NVFalls/04.jpg' }, { src: 'img/20230429NVFalls/05.jpg' }, { src: 'img/20230429NVFalls/06.jpg' },
         { src: 'img/20230429NVFalls/07.jpg' }, { src: 'img/20230429NVFalls/08.jpg' }, { src: 'img/20230429NVFalls/09.jpg' },
         { src: 'img/20230429NVFalls/10.jpg' },
+      ],
+      list126: [
+        { src: 'img/20230507SC/01-SC.jpg' }, { src: 'img/20230507SC/02-SC.jpg' }, { src: 'img/20230507SC/03-SC.jpg' },
+        { src: 'img/20230507SC/04-SC.jpg' }, { src: 'img/20230507SC/05-SC.jpg' }, { src: 'img/20230507SC/06-SC.jpg' },
+        { src: 'img/20230507SC/07-SC.jpg' }, { src: 'img/20230507SC/08-SC.jpg' }, { src: 'img/20230507SC/09-SC.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
