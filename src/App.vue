@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Seymour Canyon and Lynn Canyon Loop, May 6, 2023
+        <a class="vue-green" href="img/20230506SL/20230506slTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group127
+          class="thumbnail"
+          v-for="img in list127"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Sunshine Coast -- Soames Hill & Gibsons, May 7, 2023
         <a class="vue-green" href="img/20230507SC/20230507SCTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2156,6 +2166,13 @@ export default {
         { src: 'img/20230507SC/01-SC.jpg' }, { src: 'img/20230507SC/02-SC.jpg' }, { src: 'img/20230507SC/03-SC.jpg' },
         { src: 'img/20230507SC/04-SC.jpg' }, { src: 'img/20230507SC/05-SC.jpg' }, { src: 'img/20230507SC/06-SC.jpg' },
         { src: 'img/20230507SC/07-SC.jpg' }, { src: 'img/20230507SC/08-SC.jpg' }, { src: 'img/20230507SC/09-SC.jpg' },
+      ],
+      list127: [
+        { src: 'img/20230506SL/01.jpg' }, { src: 'img/20230506SL/02.jpg' }, { src: 'img/20230506SL/03.jpg' },
+        { src: 'img/20230506SL/04.jpg' }, { src: 'img/20230506SL/05.jpg' }, { src: 'img/20230506SL/06.jpg' },
+        { src: 'img/20230506SL/07.jpg' }, { src: 'img/20230506SL/08.jpg' }, { src: 'img/20230506SL/09.jpg' },
+        { src: 'img/20230506SL/10.jpg' }, { src: 'img/20230506SL/11.jpg' }, { src: 'img/20230506SL/12.jpg' },
+        { src: 'img/20230506SL/13.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
