@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Hayward Lake Hike, May 13, 2023
+        <a class="vue-green" href="img/20230513Hayward/20230513HaywardTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group128
+          class="thumbnail"
+          v-for="img in list128"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Seymour Canyon and Lynn Canyon Loop, May 6, 2023
         <a class="vue-green" href="img/20230506SL/20230506slTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2173,6 +2183,12 @@ export default {
         { src: 'img/20230506SL/07.jpg' }, { src: 'img/20230506SL/08.jpg' }, { src: 'img/20230506SL/09.jpg' },
         { src: 'img/20230506SL/10.jpg' }, { src: 'img/20230506SL/11.jpg' }, { src: 'img/20230506SL/12.jpg' },
         { src: 'img/20230506SL/13.jpg' },
+      ],
+      list128: [
+        { src: 'img/20230513Hayward/11-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/12-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/13-Hayward_Lake.jpg' },
+        { src: 'img/20230513Hayward/14-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/15-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/16-Hayward_Lake.jpg' },
+        { src: 'img/20230513Hayward/17-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/18-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/19-Hayward_Lake.jpg' },
+        { src: 'img/20230513Hayward/20-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/21-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/22-Hayward_Lake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
