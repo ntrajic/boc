@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Poco Trail Bike Trip, Sunday May 21, 2023
+        <a class="vue-green" href="img/20230521Poco/20230521PocoTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group129
+          class="thumbnail"
+          v-for="img in list129"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Hayward Lake Hike, May 13, 2023
         <a class="vue-green" href="img/20230513Hayward/20230513HaywardTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2189,6 +2199,11 @@ export default {
         { src: 'img/20230513Hayward/14-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/15-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/16-Hayward_Lake.jpg' },
         { src: 'img/20230513Hayward/17-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/18-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/19-Hayward_Lake.jpg' },
         { src: 'img/20230513Hayward/20-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/21-Hayward_Lake.jpg' }, { src: 'img/20230513Hayward/22-Hayward_Lake.jpg' },
+      ],
+      list129: [
+        { src: 'img/20230521Poco/01-IMG.jpg' }, { src: 'img/20230521Poco/02-IMG.jpg' }, { src: 'img/20230521Poco/03-IMG.jpg' },
+        { src: 'img/20230521Poco/04-IMG.jpg' }, { src: 'img/20230521Poco/05-IMG.jpg' }, { src: 'img/20230521Poco/06-IMG.jpg' },
+        { src: 'img/20230521Poco/07-IMG.jpg' }, { src: 'img/20230521Poco/08-IMG.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
