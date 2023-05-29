@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">Confederation Trail, Sunday May 28, 2023
+        <a class="vue-green" href="img/20230528Conf/20230528ConfTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group130
+          class="thumbnail"
+          v-for="img in list130"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Poco Trail Bike Trip, Sunday May 21, 2023
         <a class="vue-green" href="img/20230521Poco/20230521PocoTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2204,6 +2214,13 @@ export default {
         { src: 'img/20230521Poco/01-IMG.jpg' }, { src: 'img/20230521Poco/02-IMG.jpg' }, { src: 'img/20230521Poco/03-IMG.jpg' },
         { src: 'img/20230521Poco/04-IMG.jpg' }, { src: 'img/20230521Poco/05-IMG.jpg' }, { src: 'img/20230521Poco/06-IMG.jpg' },
         { src: 'img/20230521Poco/07-IMG.jpg' }, { src: 'img/20230521Poco/08-IMG.jpg' },
+      ],
+      list130: [
+        { src: 'img/20230528Conf/01-Conf.jpg' }, { src: 'img/20230528Conf/02-Conf.jpg' }, { src: 'img/20230528Conf/03-Conf.jpg' },
+        { src: 'img/20230528Conf/04-Conf.jpg' }, { src: 'img/20230528Conf/05-Conf.jpg' }, { src: 'img/20230528Conf/06-Conf.jpg' },
+        { src: 'img/20230528Conf/07-Conf.jpg' }, { src: 'img/20230528Conf/08-Conf.jpg' }, { src: 'img/20230528Conf/09-Conf.jpg' },
+        { src: 'img/20230528Conf/10-Conf.jpg' }, { src: 'img/20230528Conf/11-Conf.jpg' }, { src: 'img/20230528Conf/12-Conf.jpg' },
+        { src: 'img/20230528Conf/13-Conf.jpg' }, { src: 'img/20230528Conf/14-Conf.jpg' }, { src: 'img/20230528Conf/15-Conf.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
