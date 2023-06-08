@@ -63,6 +63,26 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Cheakamus Canyon Hike, June 04, 2023
+        <a class="vue-green" href="img/20230604Cheak/20230504CheakTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group132
+          class="thumbnail"
+          v-for="img in list132"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle">Barbara Waldern's Alberta Walks, June 02, 2023
+        <a class="vue-green" href="img/20230602Alberta/20230602AlbertaTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group131
+          class="thumbnail"
+          v-for="img in list131"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">Confederation Trail, Sunday May 28, 2023
         <a class="vue-green" href="img/20230528Conf/20230528ConfTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2221,6 +2241,16 @@ export default {
         { src: 'img/20230528Conf/07-Conf.jpg' }, { src: 'img/20230528Conf/08-Conf.jpg' }, { src: 'img/20230528Conf/09-Conf.jpg' },
         { src: 'img/20230528Conf/10-Conf.jpg' }, { src: 'img/20230528Conf/11-Conf.jpg' }, { src: 'img/20230528Conf/12-Conf.jpg' },
         { src: 'img/20230528Conf/13-Conf.jpg' }, { src: 'img/20230528Conf/14-Conf.jpg' }, { src: 'img/20230528Conf/15-Conf.jpg' },
+      ],
+      list131: [
+        { src: 'img/20230602Alberta/01-Alberta.jpg' }, { src: 'img/20230602Alberta/02-Alberta.jpg' }, { src: 'img/20230602Alberta/03-Alberta.jpg' },
+        { src: 'img/20230602Alberta/04-Alberta.jpg' }, { src: 'img/20230602Alberta/05-Alberta.jpg' },
+      ],
+      list132: [
+        { src: 'img/20230604Cheak/21-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/22-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/23-Cheakamus_Canyon.jpg' },
+        { src: 'img/20230604Cheak/24-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/25-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/26-Cheakamus_Canyon.jpg' },
+        { src: 'img/20230604Cheak/27-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/28-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/29-Cheakamus_Canyon.jpg' },
+        { src: 'img/20230604Cheak/30-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/31-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/32-Cheakamus_Canyon.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
