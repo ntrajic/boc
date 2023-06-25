@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Mt. Gardener, Bowen Island, June 24th, 2023
+        <a class="vue-green" href="img/20230624Bowen/20230524BowenTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group133
+          class="thumbnail"
+          v-for="img in list133"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Cheakamus Canyon Hike, June 04, 2023
         <a class="vue-green" href="img/20230604Cheak/20230504CheakTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2251,6 +2261,12 @@ export default {
         { src: 'img/20230604Cheak/24-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/25-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/26-Cheakamus_Canyon.jpg' },
         { src: 'img/20230604Cheak/27-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/28-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/29-Cheakamus_Canyon.jpg' },
         { src: 'img/20230604Cheak/30-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/31-Cheakamus_Canyon.jpg' }, { src: 'img/20230604Cheak/32-Cheakamus_Canyon.jpg' },
+      ],
+      list133: [
+        { src: 'img/20230624Bowen/1.jpg' }, { src: 'img/20230624Bowen/2.jpg' }, { src: 'img/20230624Bowen/3.jpg' },
+        { src: 'img/20230624Bowen/4.jpg' }, { src: 'img/20230624Bowen/5.jpg' }, { src: 'img/20230624Bowen/6.jpg' },
+        { src: 'img/20230624Bowen/7.jpg' }, { src: 'img/20230624Bowen/8.jpg' }, { src: 'img/20230624Bowen/9.jpg' },
+        { src: 'img/20230624Bowen/10.jpg' }, { src: 'img/20230624Bowen/11.jpg' }, { src: 'img/20230624Bowen/12.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
