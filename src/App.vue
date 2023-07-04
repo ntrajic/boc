@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> ELK Mountain Hike, July 1, 2023
+        <a class="vue-green" href="img/20230701Elk/20230701ElkTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group134
+          class="thumbnail"
+          v-for="img in list134"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Mt. Gardener, Bowen Island, June 24th, 2023
         <a class="vue-green" href="img/20230624Bowen/20230524BowenTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2267,6 +2277,13 @@ export default {
         { src: 'img/20230624Bowen/4.jpg' }, { src: 'img/20230624Bowen/5.jpg' }, { src: 'img/20230624Bowen/6.jpg' },
         { src: 'img/20230624Bowen/7.jpg' }, { src: 'img/20230624Bowen/8.jpg' }, { src: 'img/20230624Bowen/9.jpg' },
         { src: 'img/20230624Bowen/10.jpg' }, { src: 'img/20230624Bowen/11.jpg' }, { src: 'img/20230624Bowen/12.jpg' },
+      ],
+      list134: [
+        { src: 'img/20230701Elk/07-elk.jpeg' }, { src: 'img/20230701Elk/08-elk.jpeg' }, { src: 'img/20230701Elk/09-elk.jpeg' },
+        { src: 'img/20230701Elk/10-elk.jpeg' }, { src: 'img/20230701Elk/11-elk.jpeg' }, { src: 'img/20230701Elk/12-elk.jpeg' },
+        { src: 'img/20230701Elk/13-elk.jpeg' }, { src: 'img/20230701Elk/14-elk.jpeg' }, { src: 'img/20230701Elk/15-elk.jpeg' },
+        { src: 'img/20230701Elk/16-elk.jpeg' }, { src: 'img/20230701Elk/17-elk.jpeg' }, { src: 'img/20230701Elk/18-elk.jpeg' },
+        { src: 'img/20230701Elk/19-elk.jpeg' }, { src: 'img/20230701Elk/20-elk.jpeg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
