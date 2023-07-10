@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Buranby Mountain, July 9, 2023
+        <a class="vue-green" href="img/20230709BbyMnt/20230709BbyMntTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group135
+          class="thumbnail"
+          v-for="img in list135"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> ELK Mountain Hike, July 1, 2023
         <a class="vue-green" href="img/20230701Elk/20230701ElkTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2284,6 +2294,10 @@ export default {
         { src: 'img/20230701Elk/13-elk.jpeg' }, { src: 'img/20230701Elk/14-elk.jpeg' }, { src: 'img/20230701Elk/15-elk.jpeg' },
         { src: 'img/20230701Elk/16-elk.jpeg' }, { src: 'img/20230701Elk/17-elk.jpeg' }, { src: 'img/20230701Elk/18-elk.jpeg' },
         { src: 'img/20230701Elk/19-elk.jpeg' }, { src: 'img/20230701Elk/20-elk.jpeg' },
+      ],
+      list135: [
+        { src: 'img/20230709BbyMnt/01-bbymnt.jpg' }, { src: 'img/20230709BbyMnt/02-bbymnt.jpg' }, { src: 'img/20230709BbyMnt/03-bbymnt.jpg' },
+        { src: 'img/20230709BbyMnt/04-bbymnt.jpg' }, { src: 'img/20230709BbyMnt/05-bbymnt.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
