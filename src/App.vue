@@ -63,7 +63,17 @@
           :key="img.src + index">
       </div>
 
-      <div class="subtitle"> Buranby Mountain, July 9, 2023
+      <div class="subtitle"> Petgill Lake, July 16, 2023
+        <a class="vue-green" href="img/20230716Pet/20230716PetTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group136
+          class="thumbnail"
+          v-for="img in list136"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle"> Burnaby Mountain, July 9, 2023
         <a class="vue-green" href="img/20230709BbyMnt/20230709BbyMntTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
@@ -2298,6 +2308,13 @@ export default {
       list135: [
         { src: 'img/20230709BbyMnt/01-bbymnt.jpg' }, { src: 'img/20230709BbyMnt/02-bbymnt.jpg' }, { src: 'img/20230709BbyMnt/03-bbymnt.jpg' },
         { src: 'img/20230709BbyMnt/04-bbymnt.jpg' }, { src: 'img/20230709BbyMnt/05-bbymnt.jpg' },
+      ],
+      list136: [
+        { src: 'img/20230716Pet/01-Pet.jpg' }, { src: 'img/20230716Pet/02-Pet.jpg' }, { src: 'img/20230716Pet/03-Pet.jpg' },
+        { src: 'img/20230716Pet/04-Pet.jpg' }, { src: 'img/20230716Pet/05-Pet.jpg' }, { src: 'img/20230716Pet/06-Pet.jpg' },
+        { src: 'img/20230716Pet/07-Pet.jpg' }, { src: 'img/20230716Pet/08-Pet.jpg' }, { src: 'img/20230716Pet/09-Pet.jpg' },
+        { src: 'img/20230716Pet/10-Pet.jpg' }, { src: 'img/20230716Pet/11-Pet.jpg' }, { src: 'img/20230716Pet/12-Pet.jpg' },
+        { src: 'img/20230716Pet/13-Pet.jpg' }, { src: 'img/20230716Pet/14-Pet.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
