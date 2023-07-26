@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Four Lakes Trail & Alice Lake Potluck, July 22, 2023
+        <a class="vue-green" href="img/20230722Alice/20230722AliceTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group137
+          class="thumbnail"
+          v-for="img in list137"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Petgill Lake, July 16, 2023
         <a class="vue-green" href="img/20230716Pet/20230716PetTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2315,6 +2325,12 @@ export default {
         { src: 'img/20230716Pet/07-Pet.jpg' }, { src: 'img/20230716Pet/08-Pet.jpg' }, { src: 'img/20230716Pet/09-Pet.jpg' },
         { src: 'img/20230716Pet/10-Pet.jpg' }, { src: 'img/20230716Pet/11-Pet.jpg' }, { src: 'img/20230716Pet/12-Pet.jpg' },
         { src: 'img/20230716Pet/13-Pet.jpg' }, { src: 'img/20230716Pet/14-Pet.jpg' },
+      ],
+      list137: [
+        { src: 'img/20230722Alice/01-Alice.jpg' }, { src: 'img/20230722Alice/02-Alice.jpg' }, { src: 'img/20230722Alice/03-Alice.jpg' },
+        { src: 'img/20230722Alice/04-Alice.jpg' }, { src: 'img/20230722Alice/05-Alice.jpg' }, { src: 'img/20230722Alice/06-Alice.jpg' },
+        { src: 'img/20230722Alice/07-Alice.jpg' }, { src: 'img/20230722Alice/08-Alice.jpg' }, { src: 'img/20230722Alice/09-Alice.jpg' },
+        { src: 'img/20230722Alice/10-Alice.jpg' }, { src: 'img/20230722Alice/11-Alice.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
