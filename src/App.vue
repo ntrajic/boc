@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Black Mountain, July 30, 2023
+        <a class="vue-green" href="img/20230730BlackMnt/20230730BlackMntTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group138
+          class="thumbnail"
+          v-for="img in list138"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Four Lakes Trail & Alice Lake Potluck, July 22, 2023
         <a class="vue-green" href="img/20230722Alice/20230722AliceTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2331,6 +2341,12 @@ export default {
         { src: 'img/20230722Alice/04-Alice.jpg' }, { src: 'img/20230722Alice/05-Alice.jpg' }, { src: 'img/20230722Alice/06-Alice.jpg' },
         { src: 'img/20230722Alice/07-Alice.jpg' }, { src: 'img/20230722Alice/08-Alice.jpg' }, { src: 'img/20230722Alice/09-Alice.jpg' },
         { src: 'img/20230722Alice/10-Alice.jpg' }, { src: 'img/20230722Alice/11-Alice.jpg' },
+      ],
+      list138: [
+        { src: 'img/20230730BlackMnt/01-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/02-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/03-BlackMnt.jpg' },
+        { src: 'img/20230730BlackMnt/04-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/05-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/06-BlackMnt.jpg' },
+        { src: 'img/20230730BlackMnt/07-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/08-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/09-BlackMnt.jpg' },
+        { src: 'img/20230730BlackMnt/10-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/11-BlackMnt.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
