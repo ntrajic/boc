@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Garibaldi Lake Hike, Aug 4, 2023
+        <a class="vue-green" href="img/20230804Garib/20230804GaribTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group139
+          class="thumbnail"
+          v-for="img in list139"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Black Mountain, July 30, 2023
         <a class="vue-green" href="img/20230730BlackMnt/20230730BlackMntTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2347,6 +2357,12 @@ export default {
         { src: 'img/20230730BlackMnt/04-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/05-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/06-BlackMnt.jpg' },
         { src: 'img/20230730BlackMnt/07-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/08-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/09-BlackMnt.jpg' },
         { src: 'img/20230730BlackMnt/10-BlackMnt.jpg' }, { src: 'img/20230730BlackMnt/11-BlackMnt.jpg' },
+      ],
+      list139: [
+        { src: 'img/20230804Garib/01-Garib.jpg' }, { src: 'img/20230804Garib/02-Garib.jpg' }, { src: 'img/20230804Garib/03-Garib.jpg' },
+        { src: 'img/20230804Garib/04-Garib.jpg' }, { src: 'img/20230804Garib/05-Garib.jpg' }, { src: 'img/20230804Garib/06-Garib.jpg' },
+        { src: 'img/20230804Garib/07-Garib.jpg' }, { src: 'img/20230804Garib/08-Garib.jpg' }, { src: 'img/20230804Garib/09-Garib.jpg' },
+        { src: 'img/20230804Garib/10-Garib.jpg' }, { src: 'img/20230804Garib/11-Garib.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
