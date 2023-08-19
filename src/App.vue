@@ -63,7 +63,7 @@
           :key="img.src + index">
       </div>
 
-      <div class="subtitle"> St Mark's Summit Hike, Aug 4, 2023
+      <div class="subtitle"> St Mark's Summit Hike, Aug 12, 2023
         <a class="vue-green" href="img/20230812StMark/20230812StMarkTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
