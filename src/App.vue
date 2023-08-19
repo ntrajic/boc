@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> St Mark's Summit Hike, Aug 4, 2023
+        <a class="vue-green" href="img/20230812StMark/20230812StMarkTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group140
+          class="thumbnail"
+          v-for="img in list140"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Garibaldi Lake Hike, Aug 4, 2023
         <a class="vue-green" href="img/20230804Garib/20230804GaribTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2363,6 +2373,13 @@ export default {
         { src: 'img/20230804Garib/04-Garib.jpg' }, { src: 'img/20230804Garib/05-Garib.jpg' }, { src: 'img/20230804Garib/06-Garib.jpg' },
         { src: 'img/20230804Garib/07-Garib.jpg' }, { src: 'img/20230804Garib/08-Garib.jpg' }, { src: 'img/20230804Garib/09-Garib.jpg' },
         { src: 'img/20230804Garib/10-Garib.jpg' }, { src: 'img/20230804Garib/11-Garib.jpg' },
+      ],
+      list140: [
+        { src: 'img/20230812StMark/21-St_Marks.jpg' }, { src: 'img/20230812StMark/22-St_Marks.jpg' }, { src: 'img/20230812StMark/23-St_Marks.jpg' },
+        { src: 'img/20230812StMark/24-St_Marks.jpg' }, { src: 'img/20230812StMark/25-St_Marks.jpg' }, { src: 'img/20230812StMark/26-St_Marks.jpg' },
+        { src: 'img/20230812StMark/27-St_Marks.jpg' }, { src: 'img/20230812StMark/28-St_Marks.jpg' }, { src: 'img/20230812StMark/29-St_Marks.jpg' },
+        { src: 'img/20230812StMark/30-St_Marks.jpg' }, { src: 'img/20230812StMark/31-St_Marks.jpg' }, { src: 'img/20230812StMark/32-St_Marks.jpg' },
+        { src: 'img/20230812StMark/33-St_Marks.jpg' }, { src: 'img/20230812StMark/34-St_Marks.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
