@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Point Grey Tour, Aug 13, 2023
+        <a class="vue-green" href="img/20230813PG/20230813PGTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group141
+          class="thumbnail"
+          v-for="img in list141"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> St Mark's Summit Hike, Aug 12, 2023
         <a class="vue-green" href="img/20230812StMark/20230812StMarkTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2380,6 +2390,11 @@ export default {
         { src: 'img/20230812StMark/27-St_Marks.jpg' }, { src: 'img/20230812StMark/28-St_Marks.jpg' }, { src: 'img/20230812StMark/29-St_Marks.jpg' },
         { src: 'img/20230812StMark/30-St_Marks.jpg' }, { src: 'img/20230812StMark/31-St_Marks.jpg' }, { src: 'img/20230812StMark/32-St_Marks.jpg' },
         { src: 'img/20230812StMark/33-St_Marks.jpg' }, { src: 'img/20230812StMark/34-St_Marks.jpg' },
+      ],
+      list141: [
+        { src: 'img/20230813PG/01-PG.jpg' }, { src: 'img/20230813PG/02-PG.jpg' }, { src: 'img/20230813PG/03-PG.jpg' },
+        { src: 'img/20230813PG/04-PG.jpg' }, { src: 'img/20230813PG/05-PG.jpg' }, { src: 'img/20230813PG/06-PG.jpg' },
+        { src: 'img/20230813PG/07-PG.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
