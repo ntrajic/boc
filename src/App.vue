@@ -63,6 +63,12 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> August 20, 2023, Happy 80th Birthday Gerard!
+        <a class="vue-green" href="https://photos.app.goo.gl/sBhx3aaH9ZL27HsH6" title="t">Photos</a>
+        <a class="vue-green" href="img/20230820Gerard/GerardBdayR.pdf" title="Report">Report</a>
+      </div>
+      <div style="overflow:hidden">
+      </div>
       <div class="subtitle"> Point Grey Tour, Aug 13, 2023
         <a class="vue-green" href="img/20230813PG/20230813PGTR.pdf" title="Trip Report">Trip Report</a>
       </div>
