@@ -68,6 +68,11 @@
         <a class="vue-green" href="img/20230820Gerard/GerardBdayR.pdf" title="Report">Report</a>
       </div>
       <div style="overflow:hidden">
+        <img v-gallery:group142
+          class="thumbnail"
+          v-for="img in list142"
+          :src="img.src"
+          :key="img.src">
       </div>
       <div class="subtitle"> Point Grey Tour, Aug 13, 2023
         <a class="vue-green" href="img/20230813PG/20230813PGTR.pdf" title="Trip Report">Trip Report</a>
@@ -2401,6 +2406,8 @@ export default {
         { src: 'img/20230813PG/01-PG.jpg' }, { src: 'img/20230813PG/02-PG.jpg' }, { src: 'img/20230813PG/03-PG.jpg' },
         { src: 'img/20230813PG/04-PG.jpg' }, { src: 'img/20230813PG/05-PG.jpg' }, { src: 'img/20230813PG/06-PG.jpg' },
         { src: 'img/20230813PG/07-PG.jpg' },
+      ],
+      list142: [
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
