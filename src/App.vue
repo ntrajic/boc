@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Burnaby Mt Loop Hike, Sep 02, 2023
+        <a class="vue-green" href="img/20230902BbyMnt/20230902BbyMntTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group143
+          class="thumbnail"
+          v-for="img in list143"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> August 20, 2023, Happy 80th Birthday Gerard!
         <a class="vue-green" href="https://photos.app.goo.gl/sBhx3aaH9ZL27HsH6" title="t">Photos</a>
         <a class="vue-green" href="img/20230820Gerard/GerardBdayR.pdf" title="Report">Report</a>
@@ -2408,6 +2418,12 @@ export default {
         { src: 'img/20230813PG/07-PG.jpg' },
       ],
       list142: [
+      ],
+      list143: [
+        { src: 'img/20230902BbyMnt/01-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/02-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/03-Burnaby_Mountain Loop.jpg' },
+        { src: 'img/20230902BbyMnt/04-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/05-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/06-Burnaby_Mountain Loop.jpg' },
+        { src: 'img/20230902BbyMnt/07-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/08-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/09-Burnaby_Mountain Loop.jpg' },
+        { src: 'img/20230902BbyMnt/10-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/11-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/12-Burnaby_Mountain Loop.jpg' }
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
