@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Tynehead-Green Timbers Parks Bike Ride, Sep 09, 2023
+        <a class="vue-green" href="img/20230908TH/20230909thTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group144
+          class="thumbnail"
+          v-for="img in list144"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Burnaby Mt Loop Hike, Sep 02, 2023
         <a class="vue-green" href="img/20230902BbyMnt/20230902BbyMntTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2424,6 +2434,9 @@ export default {
         { src: 'img/20230902BbyMnt/04-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/05-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/06-Burnaby_Mountain Loop.jpg' },
         { src: 'img/20230902BbyMnt/07-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/08-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/09-Burnaby_Mountain Loop.jpg' },
         { src: 'img/20230902BbyMnt/10-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/11-Burnaby_Mountain Loop.jpg' }, { src: 'img/20230902BbyMnt/12-Burnaby_Mountain Loop.jpg' }
+      ],
+      list144: [
+        { src: 'img/20230908TH/01-TH.jpg' }, { src: 'img/20230908TH/02-TH.jpg' }, { src: 'img/20230908TH/03-TH.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
