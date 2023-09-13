@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Al's Habrich Ridge Trail, Sep 10, 2023
+        <a class="vue-green" href="img/20230912AlHabrich/20230910AlHabrichTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group145
+          class="thumbnail"
+          v-for="img in list145"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Tynehead-Green Timbers Parks Bike Ride, Sep 09, 2023
         <a class="vue-green" href="img/20230908TH/20230909thTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2437,6 +2447,13 @@ export default {
       ],
       list144: [
         { src: 'img/20230908TH/01-TH.jpg' }, { src: 'img/20230908TH/02-TH.jpg' }, { src: 'img/20230908TH/03-TH.jpg' },
+      ],
+      list145: [
+        { src: 'img/20230912AlHabrich/11-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/12-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/13-Al_Habrich_Ridge.jpg' },
+        { src: 'img/20230912AlHabrich/14-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/15-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/16-Al_Habrich_Ridge.jpg' },
+        { src: 'img/20230912AlHabrich/17-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/18-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/19-Al_Habrich_Ridge.jpg' },
+        { src: 'img/20230912AlHabrich/20-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/21-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/22-Al_Habrich_Ridge.jpg' },
+        { src: 'img/20230912AlHabrich/23-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/24-Al_Habrich_Ridge.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
