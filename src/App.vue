@@ -2471,11 +2471,7 @@ export default {
         { src: 'img/20230916Ptrarmigan/07-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/08-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/09-Ptarmigan_Ridge_Mt_BAker.jpg' },
         { src: 'img/20230916Ptrarmigan/10-Ptarmigan_Ridge_Mt_BAker.jpg' },
         { src: 'img/20230916Ptrarmigan/11-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/12-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/13-Ptarmigan_Ridge_Mt_BAker.jpg' },
-        { src: 'img/20230916Ptrarmigan/14-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/15-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/16-Ptarmigan_Ridge_Mt_BAker.jpg' },
-        { src: 'img/20230916Ptrarmigan/17-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/18-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/19-Ptarmigan_Ridge_Mt_BAker.jpg' },
-        { src: 'img/20230916Ptrarmigan/20-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/21-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/22-Ptarmigan_Ridge_Mt_BAker.jpg' },
-        { src: 'img/20230916Ptrarmigan/23-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/24-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/25-Ptarmigan_Ridge_Mt_BAker.jpg' },
-        { src: 'img/20230916Ptrarmigan/26-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/27-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/28-Ptarmigan_Ridge_Mt_BAker.jpg' },
+        { src: 'img/20230916Ptrarmigan/14-Ptarmigan_Ridge_Mt_BAker.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
