@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Ptarmigan Ridge Trail, Sep 16, 2023
+        <a class="vue-green" href="img/20230916Ptrarmigan/20230916PtarmiganTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group146
+          class="thumbnail"
+          v-for="img in list146"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Al's Habrich Ridge Trail, Sep 10, 2023
         <a class="vue-green" href="img/20230912AlHabrich/20230910AlHabrichTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2454,6 +2464,18 @@ export default {
         { src: 'img/20230912AlHabrich/17-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/18-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/19-Al_Habrich_Ridge.jpg' },
         { src: 'img/20230912AlHabrich/20-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/21-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/22-Al_Habrich_Ridge.jpg' },
         { src: 'img/20230912AlHabrich/23-Al_Habrich_Ridge.jpg' }, { src: 'img/20230912AlHabrich/24-Al_Habrich_Ridge.jpg' },
+      ],
+      list146: [
+        { src: 'img/20230916Ptrarmigan/01-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/02-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/03-Ptarmigan_Ridge_Mt_BAker.jpg' },
+        { src: 'img/20230916Ptrarmigan/04-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/05-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/06-Ptarmigan_Ridge_Mt_BAker.jpg' },
+        { src: 'img/20230916Ptrarmigan/07-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/08-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/09-Ptarmigan_Ridge_Mt_BAker.jpg' },
+        { src: 'img/20230916Ptrarmigan/10-Ptarmigan_Ridge_Mt_BAker.jpg' },
+        { src: 'img/20230916Ptrarmigan/11-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/12-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/13-Ptarmigan_Ridge_Mt_BAker.jpg' },
+        { src: 'img/20230916Ptrarmigan/14-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/15-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/16-Ptarmigan_Ridge_Mt_BAker.jpg' },
+        { src: 'img/20230916Ptrarmigan/17-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/18-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/19-Ptarmigan_Ridge_Mt_BAker.jpg' },
+        { src: 'img/20230916Ptrarmigan/20-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/21-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/22-Ptarmigan_Ridge_Mt_BAker.jpg' },
+        { src: 'img/20230916Ptrarmigan/23-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/24-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/25-Ptarmigan_Ridge_Mt_BAker.jpg' },
+        { src: 'img/20230916Ptrarmigan/26-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/27-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/28-Ptarmigan_Ridge_Mt_BAker.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
