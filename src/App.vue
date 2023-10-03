@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Diez Vistas Hike, Sep 30, 2023
+        <a class="vue-green" href="img/20230930DV/20230930dvTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group147
+          class="thumbnail"
+          v-for="img in list147"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Ptarmigan Ridge Trail, Sep 16, 2023
         <a class="vue-green" href="img/20230916Ptrarmigan/20230916PtarmiganTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2472,6 +2482,12 @@ export default {
         { src: 'img/20230916Ptrarmigan/10-Ptarmigan_Ridge_Mt_BAker.jpg' },
         { src: 'img/20230916Ptrarmigan/11-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/12-Ptarmigan_Ridge_Mt_BAker.jpg' }, { src: 'img/20230916Ptrarmigan/13-Ptarmigan_Ridge_Mt_BAker.jpg' },
         { src: 'img/20230916Ptrarmigan/14-Ptarmigan_Ridge_Mt_BAker.jpg' },
+      ],
+      list147: [
+        { src: 'img/20230930DV/01-dv.jpg' }, { src: 'img/20230930DV/02-dv.jpg' }, { src: 'img/20230930DV/03-dv.jpg' },
+        { src: 'img/20230930DV/04-dv.jpg' }, { src: 'img/20230930DV/05-dv.jpg' }, { src: 'img/20230930DV/06-dv.jpg' },
+        { src: 'img/20230930DV/07-dv.jpg' }, { src: 'img/20230930DV/08-dv.jpg' }, { src: 'img/20230930DV/09-dv.jpg' },
+        { src: 'img/20230930DV/10-dv.jpg' }, { src: 'img/20230930DV/11-dv.jpg' }, { src: 'img/20230930DV/12-dv.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
