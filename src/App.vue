@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Vedder Loop Hike, Oct 1, 2023
+        <a class="vue-green" href="img/20231001VLoop/20231001VLoopTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group148
+          class="thumbnail"
+          v-for="img in list148"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Diez Vistas Hike, Sep 30, 2023
         <a class="vue-green" href="img/20230930DV/20230930dvTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2488,6 +2498,13 @@ export default {
         { src: 'img/20230930DV/04-dv.jpg' }, { src: 'img/20230930DV/05-dv.jpg' }, { src: 'img/20230930DV/06-dv.jpg' },
         { src: 'img/20230930DV/07-dv.jpg' }, { src: 'img/20230930DV/08-dv.jpg' }, { src: 'img/20230930DV/09-dv.jpg' },
         { src: 'img/20230930DV/10-dv.jpg' }, { src: 'img/20230930DV/11-dv.jpg' }, { src: 'img/20230930DV/12-dv.jpg' },
+      ],
+      list148: [
+        { src: 'img/20231001VLoop/01-VLoop.jpg' }, { src: 'img/20231001VLoop/02-VLoop.jpg' }, { src: 'img/20231001VLoop/03-VLoop.jpg' },
+        { src: 'img/20231001VLoop/04-VLoop.jpg' }, { src: 'img/20231001VLoop/05-VLoop.jpg' }, { src: 'img/20231001VLoop/06-VLoop.jpg' },
+        { src: 'img/20231001VLoop/07-VLoop.jpg' }, { src: 'img/20231001VLoop/08-VLoop.jpg' }, { src: 'img/20231001VLoop/09-VLoop.jpg' },
+        { src: 'img/20231001VLoop/10-VLoop.jpg' }, { src: 'img/20231001VLoop/11-VLoop.jpg' }, { src: 'img/20231001VLoop/12-VLoop.jpg' },
+        { src: 'img/20231001VLoop/13-VLoop.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
