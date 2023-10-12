@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Cypress Falls and Whyte Lake Hike, Oct 8, 2023
+        <a class="vue-green" href="img/20231008CW/20231008cwTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group149
+          class="thumbnail"
+          v-for="img in list149"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Vedder Loop Hike, Oct 1, 2023
         <a class="vue-green" href="img/20231001VLoop/20231001VLoopTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2505,6 +2515,12 @@ export default {
         { src: 'img/20231001VLoop/07-VLoop.jpg' }, { src: 'img/20231001VLoop/08-VLoop.jpg' }, { src: 'img/20231001VLoop/09-VLoop.jpg' },
         { src: 'img/20231001VLoop/10-VLoop.jpg' }, { src: 'img/20231001VLoop/11-VLoop.jpg' }, { src: 'img/20231001VLoop/12-VLoop.jpg' },
         { src: 'img/20231001VLoop/13-VLoop.jpg' },
+      ],
+      list149: [
+        { src: 'img/20231008CW/11-Cypress_Falls.jpg' }, { src: 'img/20231008CW/12-Cypress_Falls.jpg' }, { src: 'img/20231008CW/13-Cypress_Falls.jpg' },
+        { src: 'img/20231008CW/14-Cypress_Falls.jpg' }, { src: 'img/20231008CW/15-Cypress_Falls.jpg' }, { src: 'img/20231008CW/16-Cypress_Falls.jpg' },
+        { src: 'img/20231008CW/17-Cypress_Falls.jpg' }, { src: 'img/20231008CW/18-Cypress_Falls.jpg' }, { src: 'img/20231008CW/19-Cypress_Falls.jpg' },
+        { src: 'img/20231008CW/20-Cypress_Falls.jpg' }, { src: 'img/20231008CW/21-Cypress_Falls.jpg' }, { src: 'img/20231008CW/22-Cypress_Falls.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
