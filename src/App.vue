@@ -2511,7 +2511,7 @@ export default {
       ],
       list148: [
         { src: 'img/20231001VLoop/01-VLoop.jpg' }, { src: 'img/20231001VLoop/02-VLoop.jpg' }, { src: 'img/20231001VLoop/03-VLoop.jpg' },
-        { src: 'img/20231001VLoop/04-VLoop.jpg' }, { src: 'img/20231001VLoop/05-VLoop.jpg' }, { src: 'img/20231001VLoop/06-VLoop.jpg' },
+        { src: 'img/20231001VLoop/05-VLoop.jpg' }, { src: 'img/20231001VLoop/06-VLoop.jpg' },
         { src: 'img/20231001VLoop/07-VLoop.jpg' }, { src: 'img/20231001VLoop/08-VLoop.jpg' }, { src: 'img/20231001VLoop/09-VLoop.jpg' },
         { src: 'img/20231001VLoop/10-VLoop.jpg' }, { src: 'img/20231001VLoop/11-VLoop.jpg' }, { src: 'img/20231001VLoop/12-VLoop.jpg' },
         { src: 'img/20231001VLoop/13-VLoop.jpg' },
