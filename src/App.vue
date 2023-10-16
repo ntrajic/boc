@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Mary Hill, Colony Farm Oct 15, 2023
+        <a class="vue-green" href="img/20231015MHFarm/20231015MHFarmTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group150
+          class="thumbnail"
+          v-for="img in list150"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Cypress Falls and Whyte Lake Hike, Oct 8, 2023
         <a class="vue-green" href="img/20231008CW/20231008cwTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2521,6 +2531,11 @@ export default {
         { src: 'img/20231008CW/14-Cypress_Falls.jpg' }, { src: 'img/20231008CW/15-Cypress_Falls.jpg' }, { src: 'img/20231008CW/16-Cypress_Falls.jpg' },
         { src: 'img/20231008CW/17-Cypress_Falls.jpg' }, { src: 'img/20231008CW/18-Cypress_Falls.jpg' }, { src: 'img/20231008CW/19-Cypress_Falls.jpg' },
         { src: 'img/20231008CW/20-Cypress_Falls.jpg' }, { src: 'img/20231008CW/21-Cypress_Falls.jpg' }, { src: 'img/20231008CW/22-Cypress_Falls.jpg' },
+      ],
+      list150: [
+        { src: 'img/20231015MHFarm/01-mhfarm.jpg' }, { src: 'img/20231015MHFarm/02-mhfarm.jpg' }, { src: 'img/20231015MHFarm/03-mhfarm.jpg' },
+        { src: 'img/20231015MHFarm/04-mhfarm.jpg' }, { src: 'img/20231015MHFarm/05-mhfarm.jpg' }, { src: 'img/20231015MHFarm/06-mhfarm.jpg' },
+        { src: 'img/20231015MHFarm/07-mhfarm.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
