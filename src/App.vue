@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Hollyburn Peak hike, Oct 14, 2023
+        <a class="vue-green" href="img/20231018Hollyburn/20231014HollyburnTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group151
+          class="thumbnail"
+          v-for="img in list151"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Mary Hill, Colony Farm Oct 15, 2023
         <a class="vue-green" href="img/20231015MHFarm/20231015MHFarmTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2536,6 +2546,14 @@ export default {
         { src: 'img/20231015MHFarm/01-mhfarm.jpg' }, { src: 'img/20231015MHFarm/02-mhfarm.jpg' }, { src: 'img/20231015MHFarm/03-mhfarm.jpg' },
         { src: 'img/20231015MHFarm/04-mhfarm.jpg' }, { src: 'img/20231015MHFarm/05-mhfarm.jpg' }, { src: 'img/20231015MHFarm/06-mhfarm.jpg' },
         { src: 'img/20231015MHFarm/07-mhfarm.jpg' },
+      ],
+      list151: [
+        { src: 'img/20231018Hollyburn/01-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/02-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/03-Hollyburn.jpg' },
+        { src: 'img/20231018Hollyburn/04-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/05-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/06-Hollyburn.jpg' },
+        { src: 'img/20231018Hollyburn/07-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/08-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/09-Hollyburn.jpg' },
+        { src: 'img/20231018Hollyburn/10-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/11-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/12-Hollyburn.jpg' },
+        { src: 'img/20231018Hollyburn/13-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/14-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/15-Hollyburn.jpg' },
+        { src: 'img/20231018Hollyburn/16-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/17-Hollyburn.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
