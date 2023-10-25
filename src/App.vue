@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Lighthouse Park, October 22, 2023
+        <a class="vue-green" href="img/20231022LHPark/202310LHParkTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group152
+          class="thumbnail"
+          v-for="img in list152"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Hollyburn Peak hike, Oct 14, 2023
         <a class="vue-green" href="img/20231018Hollyburn/20231014HollyburnTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2554,6 +2564,12 @@ export default {
         { src: 'img/20231018Hollyburn/10-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/11-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/12-Hollyburn.jpg' },
         { src: 'img/20231018Hollyburn/13-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/14-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/15-Hollyburn.jpg' },
         { src: 'img/20231018Hollyburn/16-Hollyburn.jpg' }, { src: 'img/20231018Hollyburn/17-Hollyburn.jpg' },
+      ],
+      list152: [
+        { src: 'img/20231022LHPark/01-lhpark.jpg' }, { src: 'img/20231022LHPark/02-lhpark.jpg' }, { src: 'img/20231022LHPark/03-lhpark.jpg' },
+        { src: 'img/20231022LHPark/04-lhpark.jpg' }, { src: 'img/20231022LHPark/05-lhpark.jpg' }, { src: 'img/20231022LHPark/06-lhpark.jpg' },
+        { src: 'img/20231022LHPark/07-lhpark.jpg' }, { src: 'img/20231022LHPark/09-lhpark.jpg' },
+        { src: 'img/20231022LHPark/10-lhpark.jpg' }, { src: 'img/20231022LHPark/11-lhpark.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
