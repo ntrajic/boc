@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Belcarra Park, October 28, 2023
+        <a class="vue-green" href="img/20231028Belcarra/20231028BelcarraTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group153
+          class="thumbnail"
+          v-for="img in list153"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Lighthouse Park, October 22, 2023
         <a class="vue-green" href="img/20231022LHPark/202310LHParkTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2570,6 +2580,12 @@ export default {
         { src: 'img/20231022LHPark/04-lhpark.jpg' }, { src: 'img/20231022LHPark/05-lhpark.jpg' }, { src: 'img/20231022LHPark/06-lhpark.jpg' },
         { src: 'img/20231022LHPark/07-lhpark.jpg' }, { src: 'img/20231022LHPark/09-lhpark.jpg' },
         { src: 'img/20231022LHPark/10-lhpark.jpg' }, { src: 'img/20231022LHPark/11-lhpark.jpg' },
+      ],
+      list153: [
+        { src: 'img/20231028Belcarra/21-Belcarra.jpg' }, { src: 'img/20231028Belcarra/22-Belcarra.jpg' }, { src: 'img/20231028Belcarra/23-Belcarra.jpg' },
+        { src: 'img/20231028Belcarra/24-Belcarra.jpg' }, { src: 'img/20231028Belcarra/25-Belcarra.jpg' }, { src: 'img/20231028Belcarra/26-Belcarra.jpg' },
+        { src: 'img/20231028Belcarra/27-Belcarra.jpg' }, { src: 'img/20231028Belcarra/28-Belcarra.jpg' }, { src: 'img/20231028Belcarra/29-Belcarra.jpg' },
+        { src: 'img/20231028Belcarra/30-Belcarra.jpg' }, { src: 'img/20231028Belcarra/31-Belcarra.jpg' }, { src: 'img/20231028Belcarra/32-Belcarra.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
