@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Buntzen Lakeview Trail, November 12, 2023
+        <a class="vue-green" href="img/20231112BL/20231112blTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group154
+          class="thumbnail"
+          v-for="img in list154"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Belcarra Park, October 28, 2023
         <a class="vue-green" href="img/20231028Belcarra/20231028BelcarraTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2586,6 +2596,11 @@ export default {
         { src: 'img/20231028Belcarra/24-Belcarra.jpg' }, { src: 'img/20231028Belcarra/25-Belcarra.jpg' }, { src: 'img/20231028Belcarra/26-Belcarra.jpg' },
         { src: 'img/20231028Belcarra/27-Belcarra.jpg' }, { src: 'img/20231028Belcarra/28-Belcarra.jpg' }, { src: 'img/20231028Belcarra/29-Belcarra.jpg' },
         { src: 'img/20231028Belcarra/30-Belcarra.jpg' }, { src: 'img/20231028Belcarra/31-Belcarra.jpg' }, { src: 'img/20231028Belcarra/32-Belcarra.jpg' },
+      ],
+      list154: [
+        { src: 'img/20231112BL/01-BL.jpg' }, { src: 'img/20231112BL/02-BL.jpg' }, { src: 'img/20231112BL/03-BL.jpg' },
+        { src: 'img/20231112BL/04-BL.jpg' }, { src: 'img/20231112BL/05-BL.jpg' }, { src: 'img/20231112BL/06-BL.jpg' },
+        { src: 'img/20231112BL/07-BL.jpg' }, { src: 'img/20231112BL/08-BL.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
