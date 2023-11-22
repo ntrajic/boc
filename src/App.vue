@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Historic Mushroom hike, November 18, 2023
+        <a class="vue-green" href="img/20231118HM/20231118hmTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group155
+          class="thumbnail"
+          v-for="img in list155"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Buntzen Lakeview Trail, November 12, 2023
         <a class="vue-green" href="img/20231112BL/20231112blTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2601,6 +2611,12 @@ export default {
         { src: 'img/20231112BL/01-BL.jpg' }, { src: 'img/20231112BL/02-BL.jpg' }, { src: 'img/20231112BL/03-BL.jpg' },
         { src: 'img/20231112BL/04-BL.jpg' }, { src: 'img/20231112BL/05-BL.jpg' }, { src: 'img/20231112BL/06-BL.jpg' },
         { src: 'img/20231112BL/07-BL.jpg' }, { src: 'img/20231112BL/08-BL.jpg' },
+      ],
+      list155: [
+        { src: 'img/20231118HM/01-HM.jpg' }, { src: 'img/20231118HM/02-HM.jpg' }, { src: 'img/20231118HM/03-HM.jpg' },
+        { src: 'img/20231118HM/04-HM.jpg' }, { src: 'img/20231118HM/05-HM.jpg' }, { src: 'img/20231118HM/06-HM.jpg' },
+        { src: 'img/20231118HM/07-HM.jpg' }, { src: 'img/20231118HM/08-HM.jpg' }, { src: 'img/20231118HM/09-HM.jpg' },
+        { src: 'img/20231118HM/10-HM.jpg' }, { src: 'img/20231118HM/11-HM.jpg' }, { src: 'img/20231118HM/12-HM.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
