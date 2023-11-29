@@ -63,6 +63,17 @@
           :key="img.src + index">
       </div>
 
+
+      <div class="subtitle"> BOC's Year End Party, November 25, 2023
+        <a class="vue-green" href="img/20231125Xmas/20231125XmasTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group156
+          class="thumbnail"
+          v-for="img in list156"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Historic Mushroom hike, November 18, 2023
         <a class="vue-green" href="img/20231118HM/20231118hmTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2617,6 +2628,10 @@ export default {
         { src: 'img/20231118HM/04-HM.jpg' }, { src: 'img/20231118HM/05-HM.jpg' }, { src: 'img/20231118HM/06-HM.jpg' },
         { src: 'img/20231118HM/07-HM.jpg' }, { src: 'img/20231118HM/08-HM.jpg' }, { src: 'img/20231118HM/09-HM.jpg' },
         { src: 'img/20231118HM/10-HM.jpg' }, { src: 'img/20231118HM/11-HM.jpg' }, { src: 'img/20231118HM/12-HM.jpg' },
+      ],
+      list156: [
+        { src: 'img/20231125Xmas/0-IMG_0140.jpg' }, { src: 'img/20231125Xmas/1-IMG_0143.jpg' }, { src: 'img/20231125Xmas/2-IMG_0144.jpg' },
+        { src: 'img/20231125Xmas/3-IMG_0145.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
