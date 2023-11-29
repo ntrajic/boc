@@ -63,7 +63,7 @@
           :key="img.src + index">
       </div>
 
-
+      <!--157 is the current last-->
       <div class="subtitle"> BOC's Year End Party, November 25, 2023
         <a class="vue-green" href="img/20231125Xmas/20231125XmasTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -71,6 +71,16 @@
         <img v-gallery:group156
           class="thumbnail"
           v-for="img in list156"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle"> Burnaby Lake Walk, November 22, 2023
+        <a class="vue-green" href="img/20231122BbyLake/20231122BbyLakeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group157
+          class="thumbnail"
+          v-for="img in list157"
           :src="img.src"
           :key="img.src">
       </div>
@@ -2632,6 +2642,10 @@ export default {
       list156: [
         { src: 'img/20231125Xmas/0-IMG_0140.jpg' }, { src: 'img/20231125Xmas/1-IMG_0143.jpg' }, { src: 'img/20231125Xmas/2-IMG_0144.jpg' },
         { src: 'img/20231125Xmas/3-IMG_0145.jpg' },
+      ],
+      list157: [
+        { src: 'img/20231122BbyLake/00-BbyLake.jpg' }, { src: 'img/20231122BbyLake/01-BbyLake.jpg' }, { src: 'img/20231122BbyLake/02-BbyLake.jpg' },
+        { src: 'img/20231122BbyLake/03-BbyLake.jpg' }, { src: 'img/20231122BbyLake/04-BbyLake.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
