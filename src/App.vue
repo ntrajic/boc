@@ -63,7 +63,16 @@
           :key="img.src + index">
       </div>
 
-      <!--157 is the current last-->
+      <div class="subtitle"> Minnekhada hike, December 09, 2023
+        <a class="vue-green" href="img\20231209Minn\20231209MinnTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group158
+          class="thumbnail"
+          v-for="img in list158"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> BOC's Year End Party, November 25, 2023
         <a class="vue-green" href="img/20231125Xmas/20231125XmasTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2646,6 +2655,12 @@ export default {
       list157: [
         { src: 'img/20231122BbyLake/00-BbyLake.jpg' }, { src: 'img/20231122BbyLake/01-BbyLake.jpg' }, { src: 'img/20231122BbyLake/02-BbyLake.jpg' },
         { src: 'img/20231122BbyLake/03-BbyLake.jpg' }, { src: 'img/20231122BbyLake/04-BbyLake.jpg' },
+      ],
+      list158: [
+        { src: 'img/20231209Minn/21-Minnekhada_Park.jpg' }, { src: 'img/20231209Minn/22-Minnekhada_Park.jpg' }, { src: 'img/20231209Minn/23-Minnekhada_Park.jpg' },
+        { src: 'img/20231209Minn/24-Minnekhada_Park.jpg' }, { src: 'img/20231209Minn/25-Minnekhada_Park.jpg' }, { src: 'img/20231209Minn/26-Minnekhada_Park.jpg' },
+        { src: 'img/20231209Minn/27-Minnekhada_Park.jpg' }, { src: 'img/20231209Minn/28-Minnekhada_Park.jpg' }, { src: 'img/20231209Minn/29-Minnekhada_Park.jpg' },
+        { src: 'img/20231209Minn/30-Minnekhada_Park.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
