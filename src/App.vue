@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Lynn Creek and Seymour River hike, December 17, 2023
+        <a class="vue-green" href="img\20231217Lynn\20231217LynnTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group159
+          class="thumbnail"
+          v-for="img in list159"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Minnekhada hike, December 09, 2023
         <a class="vue-green" href="img\20231209Minn\20231209MinnTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2661,6 +2671,12 @@ export default {
         { src: 'img/20231209Minn/24-Minnekhada_Park.jpg' }, { src: 'img/20231209Minn/25-Minnekhada_Park.jpg' }, { src: 'img/20231209Minn/26-Minnekhada_Park.jpg' },
         { src: 'img/20231209Minn/27-Minnekhada_Park.jpg' }, { src: 'img/20231209Minn/28-Minnekhada_Park.jpg' }, { src: 'img/20231209Minn/29-Minnekhada_Park.jpg' },
         { src: 'img/20231209Minn/30-Minnekhada_Park.jpg' },
+      ],
+      list159: [
+        { src: 'img/20231217Lynn/21-Lunn.jpg' }, { src: 'img/20231217Lynn/22-Lunn.jpg' }, { src: 'img/20231217Lynn/23-Lunn.jpg' },
+        { src: 'img/20231217Lynn/24-Lunn.jpg' }, { src: 'img/20231217Lynn/25-Lunn.jpg' }, { src: 'img/20231217Lynn/26-Lunn.jpg' },
+        { src: 'img/20231217Lynn/27-Lunn.jpg' }, { src: 'img/20231217Lynn/28-Lunn.jpg' }, { src: 'img/20231217Lynn/29-Lunn.jpg' },
+        { src: 'img/20231217Lynn/30-Lunn.jpg' }, { src: 'img/20231217Lynn/31-Lunn.jpg' }, { src: 'img/20231217Lynn/32-Lunn.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
