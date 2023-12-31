@@ -63,6 +63,26 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Grouse Mountain, December 30, 2023
+        <a class="vue-green" href="img\20231230Grouse\20231230GrouseTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group161
+          class="thumbnail"
+          v-for="img in list161"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle"> Baden-Powell Trail (Hyannis Point to Quarry Rock), December 26, 2023
+        <a class="vue-green" href="img\20231226Baden\20231226bpTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group160
+          class="thumbnail"
+          v-for="img in list160"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Lynn Creek and Seymour River hike, December 17, 2023
         <a class="vue-green" href="img\20231217Lynn\20231217LynnTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2677,6 +2697,16 @@ export default {
         { src: 'img/20231217Lynn/24-Lunn.jpg' }, { src: 'img/20231217Lynn/25-Lunn.jpg' }, { src: 'img/20231217Lynn/26-Lunn.jpg' },
         { src: 'img/20231217Lynn/27-Lunn.jpg' }, { src: 'img/20231217Lynn/28-Lunn.jpg' }, { src: 'img/20231217Lynn/29-Lunn.jpg' },
         { src: 'img/20231217Lynn/30-Lunn.jpg' }, { src: 'img/20231217Lynn/31-Lunn.jpg' }, { src: 'img/20231217Lynn/32-Lunn.jpg' },
+      ],
+      list160: [
+        { src: 'img/20231226Baden/01-bp.jpg' }, { src: 'img/20231226Baden/02-bp.jpg' }, { src: 'img/20231226Baden/03-bp.jpg' },
+        { src: 'img/20231226Baden/04-bp.jpg' }, { src: 'img/20231226Baden/05-bp.jpg' }, { src: 'img/20231226Baden/06-bp.jpg' },
+        { src: 'img/20231226Baden/07-bp.jpg' }, { src: 'img/20231226Baden/08-bp.jpg' }, { src: 'img/20231226Baden/09-bp.jpg' },
+        { src: 'img/20231226Baden/10-bp.jpg' },
+      ],
+      list161: [
+        { src: 'img/20231230Grouse/01-grouse.jpg' }, { src: 'img/20231230Grouse/02-grouse.jpg' }, { src: 'img/20231230Grouse/03-grouse.jpg' },
+        { src: 'img/20231230Grouse/04-grouse.jpg' }, { src: 'img/20231230Grouse/05-grouse.jpg' }, { src: 'img/20231230Grouse/06-grouse.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
