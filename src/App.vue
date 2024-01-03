@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Polar Bear Event, January 01, 2024
+        <a class="vue-green" href="img\20240101PolarBear\20240101PolarBearTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group162
+          class="thumbnail"
+          v-for="img in list162"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Grouse Mountain, December 30, 2023
         <a class="vue-green" href="img\20231230Grouse\20231230GrouseTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2707,6 +2717,10 @@ export default {
       list161: [
         { src: 'img/20231230Grouse/01-grouse.jpg' }, { src: 'img/20231230Grouse/02-grouse.jpg' }, { src: 'img/20231230Grouse/03-grouse.jpg' },
         { src: 'img/20231230Grouse/04-grouse.jpg' }, { src: 'img/20231230Grouse/05-grouse.jpg' }, { src: 'img/20231230Grouse/06-grouse.jpg' },
+      ],
+      list162: [
+        { src: 'img/20240101PolarBear/1.jpg' }, { src: 'img/20240101PolarBear/2.jpg' }, { src: 'img/20240101PolarBear/3.jpg' },
+        { src: 'img/20240101PolarBear/4.jpg' }, { src: 'img/20240101PolarBear/5.jpg' },
       ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
