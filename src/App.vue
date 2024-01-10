@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Indian Arm Parks, North Van, January 6, 2024
+        <a class="vue-green" href="img\20240106iarm\20240106iarmTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group163
+          class="thumbnail"
+          v-for="img in list163"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Polar Bear Event, January 01, 2024
         <a class="vue-green" href="img\20240101PolarBear\20240101PolarBearTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2722,6 +2732,13 @@ export default {
         { src: 'img/20240101PolarBear/1.jpg' }, { src: 'img/20240101PolarBear/2.jpg' }, { src: 'img/20240101PolarBear/3.jpg' },
         { src: 'img/20240101PolarBear/4.jpg' }, { src: 'img/20240101PolarBear/5.jpg' },
       ],
+      list163: [
+        { src: 'img/20240106iarm/01-iarm.jpg' }, { src: 'img/20240106iarm/02-iarm.jpg' }, { src: 'img/20240106iarm/03-iarm.jpg' },
+        { src: 'img/20240106iarm/04-iarm.jpg' }, { src: 'img/20240106iarm/05-iarm.jpg' }, { src: 'img/20240106iarm/06-iarm.jpg' },
+        { src: 'img/20240106iarm/07-iarm.jpg' }, { src: 'img/20240106iarm/08-iarm.jpg' }, { src: 'img/20240106iarm/09-iarm.jpg' },
+        { src: 'img/20240106iarm/10-iarm.jpg' }, { src: 'img/20240106iarm/11-iarm.jpg' }, { src: 'img/20240106iarm/12-iarm.jpg' },
+        { src: 'img/20240106iarm/13-iarm.jpg' },
+    ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
       ]
