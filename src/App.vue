@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Baden-Powell Trail (Hyannis Point to Lynn Headwaters), Feb 3, 2024
+        <a class="vue-green" href="img\20240203HiannisHead\20240203HainnisHeadTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group164
+          class="thumbnail"
+          v-for="img in list164"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Indian Arm Parks, North Van, January 6, 2024
         <a class="vue-green" href="img\20240106iarm\20240106iarmTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2738,6 +2748,12 @@ export default {
         { src: 'img/20240106iarm/07-iarm.jpg' }, { src: 'img/20240106iarm/08-iarm.jpg' }, { src: 'img/20240106iarm/09-iarm.jpg' },
         { src: 'img/20240106iarm/10-iarm.jpg' }, { src: 'img/20240106iarm/11-iarm.jpg' }, { src: 'img/20240106iarm/12-iarm.jpg' },
         { src: 'img/20240106iarm/13-iarm.jpg' },
+    ],
+    list164: [
+        { src: 'img/20240203HiannisHead/01-hh.jpg' }, { src: 'img/20240203HiannisHead/02-hh.jpg' }, { src: 'img/20240203HiannisHead/03-hh.jpg' },
+        { src: 'img/20240203HiannisHead/04-hh.jpg' }, { src: 'img/20240203HiannisHead/05-hh.jpg' }, { src: 'img/20240203HiannisHead/06-hh.jpg' },
+        { src: 'img/20240203HiannisHead/07-hh.jpg' }, { src: 'img/20240203HiannisHead/08-hh.jpg' }, { src: 'img/20240203HiannisHead/09-hh.jpg' },
+        { src: 'img/20240203HiannisHead/10-hh.jpg' }, { src: 'img/20240203HiannisHead/11-hh.jpg' }, { src: 'img/20240203HiannisHead/12-hh.jpg' },
     ],
       list0: [
         { src: 'img/BOC-Newsletter.jpg' },
