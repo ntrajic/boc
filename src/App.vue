@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle"> Mosquito & Mahon Creeks, February 18, 2024
+        <a class="vue-green" href="img\20240218Mahon\MahonTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group165
+          class="thumbnail"
+          v-for="img in list165"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Baden-Powell Trail (Hyannis Point to Lynn Headwaters), Feb 3, 2024
         <a class="vue-green" href="img\20240203HiannisHead\20240203HainnisHeadTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2755,10 +2765,15 @@ export default {
         { src: 'img/20240203HiannisHead/07-hh.jpg' }, { src: 'img/20240203HiannisHead/08-hh.jpg' }, { src: 'img/20240203HiannisHead/09-hh.jpg' },
         { src: 'img/20240203HiannisHead/10-hh.jpg' }, { src: 'img/20240203HiannisHead/11-hh.jpg' }, { src: 'img/20240203HiannisHead/12-hh.jpg' },
     ],
-      list0: [
-        { src: 'img/BOC-Newsletter.jpg' },
-      ]
-    }
+    list165: [
+        { src: 'img/20240218Mahon/01-Mahon.jpg' }, { src: 'img/20240218Mahon/02-Mahon.jpg' }, { src: 'img/20240218Mahon/03-Mahon.jpg' },
+        { src: 'img/20240218Mahon/04-Mahon.jpg' }, { src: 'img/20240218Mahon/05-Mahon.jpg' }, { src: 'img/20240218Mahon/06-Mahon.jpg' },
+        { src: 'img/20240218Mahon/07-Mahon.jpg' }, { src: 'img/20240218Mahon/08-Mahon.jpg' },
+    ],
+    list0: [
+      { src: 'img/BOC-Newsletter.jpg' },
+    ]
+  }
   },
   methods: {
     toBocHome() {
