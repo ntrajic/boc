@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Lower Seymour Conservation Reserve, February 25, 2024
+        <a class="vue-green" href="img\20240225Conserv\20240225ConservTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group166
+          class="thumbnail"
+          v-for="img in list166"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle"> Mosquito & Mahon Creeks, February 18, 2024
         <a class="vue-green" href="img\20240218Mahon\MahonTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2769,6 +2779,11 @@ export default {
         { src: 'img/20240218Mahon/01-Mahon.jpg' }, { src: 'img/20240218Mahon/02-Mahon.jpg' }, { src: 'img/20240218Mahon/03-Mahon.jpg' },
         { src: 'img/20240218Mahon/04-Mahon.jpg' }, { src: 'img/20240218Mahon/05-Mahon.jpg' }, { src: 'img/20240218Mahon/06-Mahon.jpg' },
         { src: 'img/20240218Mahon/07-Mahon.jpg' }, { src: 'img/20240218Mahon/08-Mahon.jpg' },
+    ],
+    list166: [
+        { src: 'img/20240225Conserv/01-Conserv.jpg' }, { src: 'img/20240225Conserv/02-Conserv.jpg' }, { src: 'img/20240225Conserv/03-Conserv.jpg' },
+        { src: 'img/20240225Conserv/04-Conserv.jpg' }, { src: 'img/20240225Conserv/05-Conserv.jpg' }, { src: 'img/20240225Conserv/06-Conserv.jpg' },
+        { src: 'img/20240225Conserv/07-Conserv.jpg' }, { src: 'img/20240225Conserv/08-Conserv.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
