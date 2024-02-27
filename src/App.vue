@@ -63,7 +63,17 @@
           :key="img.src + index">
       </div>
 
-      <div class="subtitle">  Lower Seymour Conservation Reserve, February 25, 2024
+      <div class="subtitle">  Rice Lake and Fisherman’s Trail loop, February 24, 2024
+        <a class="vue-green" href="img\20240224Rice\20240224RiceTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group167
+          class="thumbnail"
+          v-for="img in list167"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle">  Lower Seymour Conservation Reserve, February 24, 2024
         <a class="vue-green" href="img\20240225Conserv\20240225ConservTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
@@ -2784,6 +2794,12 @@ export default {
         { src: 'img/20240225Conserv/01-Conserv.jpg' }, { src: 'img/20240225Conserv/02-Conserv.jpg' }, { src: 'img/20240225Conserv/03-Conserv.jpg' },
         { src: 'img/20240225Conserv/04-Conserv.jpg' }, { src: 'img/20240225Conserv/05-Conserv.jpg' }, { src: 'img/20240225Conserv/06-Conserv.jpg' },
         { src: 'img/20240225Conserv/07-Conserv.jpg' }, { src: 'img/20240225Conserv/08-Conserv.jpg' },
+    ],
+    list167: [
+        { src: 'img/20240224Rice/01-Rice_Lake.jpg' }, { src: 'img/20240224Rice/02-Rice_Lake.jpg' }, { src: 'img/20240224Rice/03-Rice_Lake.jpg' },
+        { src: 'img/20240224Rice/04-Rice_Lake.jpg' }, { src: 'img/20240224Rice/05-Rice_Lake.jpg' }, { src: 'img/20240224Rice/06-Rice_Lake.jpg' },
+        { src: 'img/20240224Rice/07-Rice_Lake.jpg' }, { src: 'img/20240224Rice/08-Rice_Lake.jpg' }, { src: 'img/20240224Rice/09-Rice_Lake.jpg' },
+        { src: 'img/20240224Rice/10-Rice_Lake.jpg' }, { src: 'img/20240224Rice/11-Rice_Lake.jpg' }, { src: 'img/20240224Rice/12-Rice_Lake.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
