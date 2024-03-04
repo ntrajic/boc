@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Iona Beach hike, March 03, 2024
+        <a class="vue-green" href="img\20240303Iona\20240303IonaTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group168
+          class="thumbnail"
+          v-for="img in list168"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Rice Lake and Fisherman’s Trail loop, February 24, 2024
         <a class="vue-green" href="img\20240224Rice\20240224RiceTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2800,6 +2810,12 @@ export default {
         { src: 'img/20240224Rice/04-Rice_Lake.jpg' }, { src: 'img/20240224Rice/05-Rice_Lake.jpg' }, { src: 'img/20240224Rice/06-Rice_Lake.jpg' },
         { src: 'img/20240224Rice/07-Rice_Lake.jpg' }, { src: 'img/20240224Rice/08-Rice_Lake.jpg' }, { src: 'img/20240224Rice/09-Rice_Lake.jpg' },
         { src: 'img/20240224Rice/10-Rice_Lake.jpg' }, { src: 'img/20240224Rice/11-Rice_Lake.jpg' }, { src: 'img/20240224Rice/12-Rice_Lake.jpg' },
+    ],
+    list168: [
+        { src: 'img/20240303Iona/01-Iona.jpg' }, { src: 'img/20240303Iona/02-Iona.jpg' }, { src: 'img/20240303Iona/03-Iona.jpg' },
+        { src: 'img/20240303Iona/04-Iona.jpg' }, { src: 'img/20240303Iona/05-Iona.jpg' }, { src: 'img/20240303Iona/06-Iona.jpg' },
+        { src: 'img/20240303Iona/07-Iona.jpg' }, { src: 'img/20240303Iona/08-Iona.jpg' }, { src: 'img/20240303Iona/09-Iona.jpg' },
+        { src: 'img/20240303Iona/10-Iona.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
