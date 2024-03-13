@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Fort-to-Fort Trail, March 10, 2024
+        <a class="vue-green" href="img\202410310Fort\20240310FortTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group169
+          class="thumbnail"
+          v-for="img in list169"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Iona Beach hike, March 03, 2024
         <a class="vue-green" href="img\20240303Iona\20240303IonaTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2816,6 +2826,11 @@ export default {
         { src: 'img/20240303Iona/04-Iona.jpg' }, { src: 'img/20240303Iona/05-Iona.jpg' }, { src: 'img/20240303Iona/06-Iona.jpg' },
         { src: 'img/20240303Iona/07-Iona.jpg' }, { src: 'img/20240303Iona/08-Iona.jpg' }, { src: 'img/20240303Iona/09-Iona.jpg' },
         { src: 'img/20240303Iona/10-Iona.jpg' },
+    ],
+    list169: [
+        { src: 'img/202410310Fort/01-Fort.jpg' }, { src: 'img/202410310Fort/02-Fort.jpg' }, { src: 'img/202410310Fort/03-Fort.jpg' },
+        { src: 'img/202410310Fort/04-Fort.jpg' }, { src: 'img/202410310Fort/05-Fort.jpg' }, { src: 'img/202410310Fort/06-Fort.jpg' },
+        { src: 'img/202410310Fort/07-Fort.jpg' }, { src: 'img/202410310Fort/08-Fort.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
