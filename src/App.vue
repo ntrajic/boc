@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Buntzen Lake to Sasamat Lake, March 09, 2024
+        <a class="vue-green" href="img\202340309BS\20240309bsTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group170
+          class="thumbnail"
+          v-for="img in list170"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Fort-to-Fort Trail, March 10, 2024
         <a class="vue-green" href="img\202410310Fort\20240310FortTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2831,6 +2841,11 @@ export default {
         { src: 'img/202410310Fort/01-Fort.jpg' }, { src: 'img/202410310Fort/02-Fort.jpg' }, { src: 'img/202410310Fort/03-Fort.jpg' },
         { src: 'img/202410310Fort/04-Fort.jpg' }, { src: 'img/202410310Fort/05-Fort.jpg' }, { src: 'img/202410310Fort/06-Fort.jpg' },
         { src: 'img/202410310Fort/07-Fort.jpg' }, { src: 'img/202410310Fort/08-Fort.jpg' },
+    ],
+    list170: [
+        { src: 'img/202340309BS/11-BS.jpg' }, { src: 'img/202340309BS/12-BS.jpg' }, { src: 'img/202340309BS/13-BS.jpg' },
+        { src: 'img/202340309BS/14-BS.jpg' }, { src: 'img/202340309BS/15-BS.jpg' }, { src: 'img/202340309BS/16-BS.jpg' },
+        { src: 'img/202340309BS/17-BS.jpg' }, { src: 'img/202340309BS/18-BS.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
