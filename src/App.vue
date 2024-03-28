@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Baden Powell Trail Part 3: Lynn Headwater to Mosquito Creek, March 22, 2024
+        <a class="vue-green" href="img\20240322LHtoMC\20240322LHtoMCtr.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group171
+          class="thumbnail"
+          v-for="img in list171"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Buntzen Lake to Sasamat Lake, March 09, 2024
         <a class="vue-green" href="img\202340309BS\20240309bsTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2846,6 +2856,12 @@ export default {
         { src: 'img/202340309BS/11-BS.jpg' }, { src: 'img/202340309BS/12-BS.jpg' }, { src: 'img/202340309BS/13-BS.jpg' },
         { src: 'img/202340309BS/14-BS.jpg' }, { src: 'img/202340309BS/15-BS.jpg' }, { src: 'img/202340309BS/16-BS.jpg' },
         { src: 'img/202340309BS/17-BS.jpg' }, { src: 'img/202340309BS/18-BS.jpg' },
+    ],
+    list171: [
+        { src: 'img/20240322LHtoMC/01-bp.jpg' }, { src: 'img/20240322LHtoMC/02-bp.jpg' }, { src: 'img/20240322LHtoMC/03-bp.jpg' },
+        { src: 'img/20240322LHtoMC/04-bp.jpg' }, { src: 'img/20240322LHtoMC/05-bp.jpg' }, { src: 'img/20240322LHtoMC/06-bp.jpg' },
+        { src: 'img/20240322LHtoMC/07-bp.jpg' }, { src: 'img/20240322LHtoMC/08-bp.jpg' }, { src: 'img/20240322LHtoMC/09-bp.jpg' },
+        { src: 'img/20240322LHtoMC/10-bp.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
