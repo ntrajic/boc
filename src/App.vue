@@ -2861,7 +2861,7 @@ export default {
         { src: 'img/20240322LHtoMC/01-bp.jpg' }, { src: 'img/20240322LHtoMC/02-bp.jpg' }, { src: 'img/20240322LHtoMC/03-bp.jpg' },
         { src: 'img/20240322LHtoMC/04-bp.jpg' }, { src: 'img/20240322LHtoMC/05-bp.jpg' }, { src: 'img/20240322LHtoMC/06-bp.jpg' },
         { src: 'img/20240322LHtoMC/07-bp.jpg' }, { src: 'img/20240322LHtoMC/08-bp.jpg' }, { src: 'img/20240322LHtoMC/09-bp.jpg' },
-        { src: 'img/20240322LHtoMC/10-bp.jpg' },
+        { src: 'img/20240322LHtoMC/10-bp.jpg' }, { src: 'img/20240322LHtoMC/11-bp.jpg' }, { src: 'img/20240322LHtoMC/12-bp.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
