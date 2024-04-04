@@ -2870,7 +2870,7 @@ export default {
     list169: [
         { src: 'img/202410310Fort/01-Fort.jpg' }, { src: 'img/202410310Fort/02-Fort.jpg' }, { src: 'img/202410310Fort/03-Fort.jpg' },
         { src: 'img/202410310Fort/04-Fort.jpg' }, { src: 'img/202410310Fort/05-Fort.jpg' }, { src: 'img/202410310Fort/06-Fort.jpg' },
-        { src: 'img/202410310Fort/07-Fort.jpg' }, { src: 'img/202410310Fort/08-Fort.jpg' },
+        { src: 'img/202410310Fort/07-Fort.jpg' }, { src: 'img/202410310Fort/08-Fort.jpg' }, { src: 'img/202410310Fort/08-Fort.jpg' },
     ],
     list170: [
         { src: 'img/202340309BS/11-BS.jpg' }, { src: 'img/202340309BS/12-BS.jpg' }, { src: 'img/202340309BS/13-BS.jpg' },
@@ -2890,7 +2890,8 @@ export default {
     list173: [
         { src: 'img/20240401MCtoGM/01-bp.jpg' }, { src: 'img/20240401MCtoGM/02-bp.jpg' }, { src: 'img/20240401MCtoGM/03-bp.jpg' },
         { src: 'img/20240401MCtoGM/04-bp.jpg' }, { src: 'img/20240401MCtoGM/05-bp.jpg' }, { src: 'img/20240401MCtoGM/06-bp.jpg' },
-        { src: 'img/20240401MCtoGM/07-bp.jpg' }, { src: 'img/20240401MCtoGM/08-bp.jpg' },
+        { src: 'img/20240401MCtoGM/07-bp.jpg' }, { src: 'img/20240401MCtoGM/08-bp.jpg' }, { src: 'img/20240401MCtoGM/09-bp.jpg' },
+        { src: 'img/20240401MCtoGM/10-bp.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
