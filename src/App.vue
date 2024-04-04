@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Baden Powell Trail Part 4: Mosquito Creek to the Base of Grouse Mountain, Apil 01, 2024
+        <a class="vue-green" href="img\20240401MCtoGM\20240401MCtoGMtr.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group173
+          class="thumbnail"
+          v-for="img in list173"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Surrey Greenways bike ride, March 31, 2024
         <a class="vue-green" href="img\20240331br\20240331brTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2876,6 +2886,11 @@ export default {
     list172: [
         { src: 'img/20240331br/01-br.jpg' }, { src: 'img/20240331br/02-br.jpg' }, { src: 'img/20240331br/03-br.jpg' },
         { src: 'img/20240331br/04-br.jpg' }, { src: 'img/20240331br/05-br.jpg' }, { src: 'img/20240331br/06-br.jpg' },
+    ],
+    list173: [
+        { src: 'img/20240401MCtoGM/01-bp.jpg' }, { src: 'img/20240401MCtoGM/02-bp.jpg' }, { src: 'img/20240401MCtoGM/03-bp.jpg' },
+        { src: 'img/20240401MCtoGM/04-bp.jpg' }, { src: 'img/20240401MCtoGM/05-bp.jpg' }, { src: 'img/20240401MCtoGM/06-bp.jpg' },
+        { src: 'img/20240401MCtoGM/07-bp.jpg' }, { src: 'img/20240401MCtoGM/08-bp.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
