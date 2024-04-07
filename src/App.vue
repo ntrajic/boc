@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Reifel Bird Sanctuary and Richmond W. Dyke, April 6, 2024
+        <a class="vue-green" href="img\20240406Reifel\20240406ReifelTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group174
+          class="thumbnail"
+          v-for="img in list174"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Baden Powell Trail Part 4: Mosquito Creek to the Base of Grouse Mountain, Apil 01, 2024
         <a class="vue-green" href="img\20240401MCtoGM\20240401MCtoGMtr.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2892,6 +2902,12 @@ export default {
         { src: 'img/20240401MCtoGM/04-bp.jpg' }, { src: 'img/20240401MCtoGM/05-bp.jpg' }, { src: 'img/20240401MCtoGM/06-bp.jpg' },
         { src: 'img/20240401MCtoGM/07-bp.jpg' }, { src: 'img/20240401MCtoGM/08-bp.jpg' }, { src: 'img/20240401MCtoGM/09-bp.jpg' },
         { src: 'img/20240401MCtoGM/10-bp.jpg' },
+    ],
+    list174: [
+        { src: 'img/20240406Reifel/01-Reifel.jpg' }, { src: 'img/20240406Reifel/02-Reifel.jpg' }, { src: 'img/20240406Reifel/03-Reifel.jpg' },
+        { src: 'img/20240406Reifel/04-Reifel.jpg' }, { src: 'img/20240406Reifel/05-Reifel.jpg' }, { src: 'img/20240406Reifel/06-Reifel.jpg' },
+        { src: 'img/20240406Reifel/07-Reifel.jpg' }, { src: 'img/20240406Reifel/08-Reifel.jpg' }, { src: 'img/20240406Reifel/09-Reifel.jpg' },
+        { src: 'img/20240406Reifel/10-Reifel.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
