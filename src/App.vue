@@ -2907,7 +2907,10 @@ export default {
         { src: 'img/20240406Reifel/01-Reifel.jpg' }, { src: 'img/20240406Reifel/02-Reifel.jpg' }, { src: 'img/20240406Reifel/03-Reifel.jpg' },
         { src: 'img/20240406Reifel/04-Reifel.jpg' }, { src: 'img/20240406Reifel/05-Reifel.jpg' }, { src: 'img/20240406Reifel/06-Reifel.jpg' },
         { src: 'img/20240406Reifel/07-Reifel.jpg' }, { src: 'img/20240406Reifel/08-Reifel.jpg' }, { src: 'img/20240406Reifel/09-Reifel.jpg' },
-        { src: 'img/20240406Reifel/10-Reifel.jpg' },
+        { src: 'img/20240406Reifel/10-Reifel.jpg' }, { src: 'img/20240406Reifel/11-Reifel.jpg' }, { src: 'img/20240406Reifel/12-Reifel.jpg' },
+        { src: 'img/20240406Reifel/13-Reifel.jpg' }, { src: 'img/20240406Reifel/14-Reifel.jpg' }, { src: 'img/20240406Reifel/15-Reifel.jpg' },
+        { src: 'img/20240406Reifel/16-Reifel.jpg' }, { src: 'img/20240406Reifel/17-Reifel.jpg' }, { src: 'img/20240406Reifel/18-Reifel.jpg' },
+        { src: 'img/20240406Reifel/19-Reifel.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
