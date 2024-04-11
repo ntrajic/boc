@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Burnaby Mountain Loop Trail, April 7th, 2024
+        <a class="vue-green" href="img\20240407bml\20240407bmlTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group175
+          class="thumbnail"
+          v-for="img in list175"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Reifel Bird Sanctuary and Richmond W. Dyke, April 6, 2024
         <a class="vue-green" href="img\20240406Reifel\20240406ReifelTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2911,6 +2921,11 @@ export default {
         { src: 'img/20240406Reifel/13-Reifel.jpg' }, { src: 'img/20240406Reifel/14-Reifel.jpg' }, { src: 'img/20240406Reifel/15-Reifel.jpg' },
         { src: 'img/20240406Reifel/16-Reifel.jpg' }, { src: 'img/20240406Reifel/17-Reifel.jpg' }, { src: 'img/20240406Reifel/18-Reifel.jpg' },
         { src: 'img/20240406Reifel/19-Reifel.jpg' },
+    ],
+    list175: [
+        { src: 'img/20240407bml/01-bml.jpg' }, { src: 'img/20240407bml/02-bml.jpg' }, { src: 'img/20240407bml/03-bml.jpg' },
+        { src: 'img/20240407bml/04-bml.jpg' }, { src: 'img/20240407bml/05-bml.jpg' }, { src: 'img/20240407bml/06-bml.jpg' },
+        { src: 'img/20240407bml/07-bml.jpg' }, { src: 'img/20240407bml/08-bml.jpg' }, { src: 'img/20240407bml/09-bml.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
