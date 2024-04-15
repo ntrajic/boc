@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Central Valley Greenway Bike Ride, April 14, 2024
+        <a class="vue-green" href="img\20240414cvg\20240414cvgTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group176
+          class="thumbnail"
+          v-for="img in list176"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Burnaby Mountain Loop Trail, April 7th, 2024
         <a class="vue-green" href="img\20240407bml\20240407bmlTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2926,6 +2936,11 @@ export default {
         { src: 'img/20240407bml/01-bml.jpg' }, { src: 'img/20240407bml/02-bml.jpg' }, { src: 'img/20240407bml/03-bml.jpg' },
         { src: 'img/20240407bml/04-bml.jpg' }, { src: 'img/20240407bml/05-bml.jpg' }, { src: 'img/20240407bml/06-bml.jpg' },
         { src: 'img/20240407bml/07-bml.jpg' }, { src: 'img/20240407bml/08-bml.jpg' }, { src: 'img/20240407bml/09-bml.jpg' },
+    ],
+    list176: [
+        { src: 'img/20240414cvg/01-cvg.jpg' }, { src: 'img/20240414cvg/02-cvg.jpg' }, { src: 'img/20240414cvg/03-cvg.jpg' },
+        { src: 'img/20240414cvg/04-cvg.jpg' }, { src: 'img/20240414cvg/05-cvg.jpg' }, { src: 'img/20240414cvg/06-cvg.jpg' },
+        { src: 'img/20240414cvg/07-cvg.jpg' }, { src: 'img/20240414cvg/08-cvg.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
