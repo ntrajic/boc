@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Norvan Falls Hike, April 28, 2024
+        <a class="vue-green" href="img\20240428NFalls\20240428NFallsTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group177
+          class="thumbnail"
+          v-for="img in list177"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Central Valley Greenway Bike Ride, April 14, 2024
         <a class="vue-green" href="img\20240414cvg\20240414cvgTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2941,6 +2951,12 @@ export default {
         { src: 'img/20240414cvg/01-cvg.jpg' }, { src: 'img/20240414cvg/02-cvg.jpg' }, { src: 'img/20240414cvg/03-cvg.jpg' },
         { src: 'img/20240414cvg/04-cvg.jpg' }, { src: 'img/20240414cvg/05-cvg.jpg' }, { src: 'img/20240414cvg/06-cvg.jpg' },
         { src: 'img/20240414cvg/07-cvg.jpg' }, { src: 'img/20240414cvg/08-cvg.jpg' },
+    ],
+    list177: [
+        { src: 'img/20240428NFalls/01-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/02-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/03-Norvan_Falls.jpg' },
+        { src: 'img/20240428NFalls/04-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/05-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/06-Norvan_Falls.jpg' },
+        { src: 'img/20240428NFalls/07-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/08-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/09-Norvan_Falls.jpg' },
+        { src: 'img/20240428NFalls/10-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/11-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/12-Norvan_Falls.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
