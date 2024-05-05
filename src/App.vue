@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Kayaking @ Barnet Marine Park, May 04, 2024
+        <a class="vue-green" href="img\20240504Kayak\20240504KayakTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group178
+          class="thumbnail"
+          v-for="img in list178"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Norvan Falls Hike, April 28, 2024
         <a class="vue-green" href="img\20240428NFalls\20240428NFallsTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2957,6 +2967,11 @@ export default {
         { src: 'img/20240428NFalls/04-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/05-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/06-Norvan_Falls.jpg' },
         { src: 'img/20240428NFalls/07-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/08-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/09-Norvan_Falls.jpg' },
         { src: 'img/20240428NFalls/10-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/11-Norvan_Falls.jpg' }, { src: 'img/20240428NFalls/12-Norvan_Falls.jpg' },
+    ],
+    list178: [
+        { src: 'img/20240504Kayak/01-Kayak.jpg' }, { src: 'img/20240504Kayak/02-Kayak.jpg' }, { src: 'img/20240504Kayak/03-Kayak.jpg' },
+        { src: 'img/20240504Kayak/04-Kayak.jpg' }, { src: 'img/20240504Kayak/05-Kayak.jpg' }, { src: 'img/20240504Kayak/06-Kayak.jpg' },
+        { src: 'img/20240504Kayak/07-Kayak.jpg' }, { src: 'img/20240504Kayak/08-Kayak.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
