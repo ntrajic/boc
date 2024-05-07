@@ -63,6 +63,26 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Boundary Bay Regional Park & Dyke: May 05, 2024
+        <a class="vue-green" href="img\20240505BBRPD\20240405bbrpdTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group180
+          class="thumbnail"
+          v-for="img in list180"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle">  Hayward Lake Hike, May 04, 2024
+        <a class="vue-green" href="img\20240504Haywart\20240504HaywardTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group179
+          class="thumbnail"
+          v-for="img in list179"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Kayaking @ Barnet Marine Park, May 04, 2024
         <a class="vue-green" href="img\20240504Kayak\20240504KayakTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -2972,6 +2992,16 @@ export default {
         { src: 'img/20240504Kayak/01-Kayak.jpg' }, { src: 'img/20240504Kayak/02-Kayak.jpg' }, { src: 'img/20240504Kayak/03-Kayak.jpg' },
         { src: 'img/20240504Kayak/04-Kayak.jpg' }, { src: 'img/20240504Kayak/05-Kayak.jpg' }, { src: 'img/20240504Kayak/06-Kayak.jpg' },
         { src: 'img/20240504Kayak/07-Kayak.jpg' }, { src: 'img/20240504Kayak/08-Kayak.jpg' },
+    ],
+    list179: [
+        { src: 'img/20240504Haywart/01-Haywart_Lake.jpg' }, { src: 'img/20240504Haywart/02-Haywart_Lake.jpg' }, { src: 'img/20240504Haywart/03-Haywart_Lake.jpg' },
+        { src: 'img/20240504Haywart/04-Haywart_Lake.jpg' }, { src: 'img/20240504Haywart/05-Haywart_Lake.jpg' }, { src: 'img/20240504Haywart/06-Haywart_Lake.jpg' },
+        { src: 'img/20240504Haywart/07-Haywart_Lake.jpg' }, { src: 'img/20240504Haywart/08-Haywart_Lake.jpg' }, { src: 'img/20240504Haywart/09-Haywart_Lake.jpg' },
+        { src: 'img/20240504Haywart/10-Haywart_Lake.jpg' }, { src: 'img/20240504Haywart/11-Haywart_Lake.jpg' }, { src: 'img/20240504Haywart/12-Haywart_Lake.jpg' },
+    ],
+    list180: [
+        { src: 'img/20240505BBRPD/01-bbrpd.jpg' }, { src: 'img/20240505BBRPD/02-bbrpd.jpg' }, { src: 'img/20240505BBRPD/03-bbrpd.jpg' },
+        { src: 'img/20240505BBRPD/04-bbrpd.jpg' }, { src: 'img/20240505BBRPD/05-bbrpd.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
