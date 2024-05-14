@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Mt Gardner Bowen Island, May 11, 2024
+        <a class="vue-green" href="img\20240511MtGardner\20240511MtGardnerTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group181
+          class="thumbnail"
+          v-for="img in list181"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Boundary Bay Regional Park & Dyke: May 05, 2024
         <a class="vue-green" href="img\20240505BBRPD\20240405bbrpdTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3003,6 +3013,13 @@ export default {
         { src: 'img/20240505BBRPD/01-bbrpd.jpg' }, { src: 'img/20240505BBRPD/02-bbrpd.jpg' }, { src: 'img/20240505BBRPD/03-bbrpd.jpg' },
         { src: 'img/20240505BBRPD/04-bbrpd.jpg' }, { src: 'img/20240505BBRPD/05-bbrpd.jpg' },
     ],
+    list181: [
+        { src: 'img/20240511MtGardner/01-Bowen.jpg' }, { src: 'img/20240511MtGardner/02-Bowen.jpg' }, { src: 'img/20240511MtGardner/03-Bowen.jpg' },
+        { src: 'img/20240511MtGardner/04-Bowen.jpg' }, { src: 'img/20240511MtGardner/05-Bowen.jpg' }, { src: 'img/20240511MtGardner/06-Bowen.jpg' },
+        { src: 'img/20240511MtGardner/07-Bowen.jpg' }, { src: 'img/20240511MtGardner/08-Bowen.jpg' }, { src: 'img/20240511MtGardner/09-Bowen.jpg' },
+        { src: 'img/20240511MtGardner/10-Bowen.jpg' }, { src: 'img/20240511MtGardner/11-Bowen.jpg' }, { src: 'img/20240511MtGardner/12-Bowen.jpg' },
+        { src: 'img/20240511MtGardner/13-Bowen.jpg' },
+      ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
     ]
