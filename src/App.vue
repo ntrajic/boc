@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Confed, McGill, New Brighton Parks Hike June 08, 2024
+        <a class="vue-green" href="img\20240608Confed\20240608ConfedTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group182
+          class="thumbnail"
+          v-for="img in list182"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Mt Gardner Bowen Island, May 11, 2024
         <a class="vue-green" href="img\20240511MtGardner\20240511MtGardnerTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3019,6 +3029,13 @@ export default {
         { src: 'img/20240511MtGardner/07-Bowen.jpg' }, { src: 'img/20240511MtGardner/08-Bowen.jpg' }, { src: 'img/20240511MtGardner/09-Bowen.jpg' },
         { src: 'img/20240511MtGardner/10-Bowen.jpg' }, { src: 'img/20240511MtGardner/11-Bowen.jpg' }, { src: 'img/20240511MtGardner/12-Bowen.jpg' },
         { src: 'img/20240511MtGardner/13-Bowen.jpg' },
+      ],
+      list182: [
+        { src: 'img/20240608Confed/01-conf.jpg' }, { src: 'img/20240608Confed/02-conf.jpg' }, { src: 'img/20240608Confed/03-conf.jpg' },
+        { src: 'img/20240608Confed/04-conf.jpg' }, { src: 'img/20240608Confed/05-conf.jpg' }, { src: 'img/20240608Confed/06-conf.jpg' },
+        { src: 'img/20240608Confed/07-conf.jpg' }, { src: 'img/20240608Confed/08-conf.jpg' }, { src: 'img/20240608Confed/09-conf.jpg' },
+        { src: 'img/20240608Confed/10-conf.jpg' }, { src: 'img/20240608Confed/11-conf.jpg' }, { src: 'img/20240608Confed/12-conf.jpg' },
+        { src: 'img/20240608Confed/13-conf.jpg' },
       ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
