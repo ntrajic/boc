@@ -63,7 +63,17 @@
           :key="img.src + index">
       </div>
 
-      <div class="subtitle">  Confed, McGill, New Brighton Parks Hike June 08, 2024
+      <div class="subtitle">  UBC Malcolm Knapp Research Forest Hike, June 16, 2024
+        <a class="vue-green" href="img\20240616ubcrf\20240616ubcrfTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group183
+          class="thumbnail"
+          v-for="img in list183"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle">  Confed, McGill, New Brighton Parks Hike, June 08, 2024
         <a class="vue-green" href="img\20240608Confed\20240608ConfedTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
@@ -3030,12 +3040,18 @@ export default {
         { src: 'img/20240511MtGardner/10-Bowen.jpg' }, { src: 'img/20240511MtGardner/11-Bowen.jpg' }, { src: 'img/20240511MtGardner/12-Bowen.jpg' },
         { src: 'img/20240511MtGardner/13-Bowen.jpg' },
       ],
-      list182: [
-        { src: 'img/20240608Confed/01-conf.jpg' }, { src: 'img/20240608Confed/02-conf.jpg' }, { src: 'img/20240608Confed/03-conf.jpg' },
-        { src: 'img/20240608Confed/04-conf.jpg' }, { src: 'img/20240608Confed/05-conf.jpg' }, { src: 'img/20240608Confed/06-conf.jpg' },
-        { src: 'img/20240608Confed/07-conf.jpg' }, { src: 'img/20240608Confed/08-conf.jpg' }, { src: 'img/20240608Confed/09-conf.jpg' },
-        { src: 'img/20240608Confed/10-conf.jpg' }, { src: 'img/20240608Confed/11-conf.jpg' }, { src: 'img/20240608Confed/12-conf.jpg' },
-        { src: 'img/20240608Confed/13-conf.jpg' },
+    list182: [
+      { src: 'img/20240608Confed/01-conf.jpg' }, { src: 'img/20240608Confed/02-conf.jpg' }, { src: 'img/20240608Confed/03-conf.jpg' },
+      { src: 'img/20240608Confed/04-conf.jpg' }, { src: 'img/20240608Confed/05-conf.jpg' }, { src: 'img/20240608Confed/06-conf.jpg' },
+      { src: 'img/20240608Confed/07-conf.jpg' }, { src: 'img/20240608Confed/08-conf.jpg' }, { src: 'img/20240608Confed/09-conf.jpg' },
+      { src: 'img/20240608Confed/10-conf.jpg' }, { src: 'img/20240608Confed/11-conf.jpg' }, { src: 'img/20240608Confed/12-conf.jpg' },
+      { src: 'img/20240608Confed/13-conf.jpg' },
+    ],
+    list183: [
+        { src: 'img/20240616ubcrf/11-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/12-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/13-UBC_RF.jpg' },
+        { src: 'img/20240616ubcrf/14-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/15-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/16-UBC_RF.jpg' },
+        { src: 'img/20240616ubcrf/17-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/18-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/19-UBC_RF.jpg' },
+        { src: 'img/20240616ubcrf/20-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/21-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/22-UBC_RF.jpg' },
       ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
