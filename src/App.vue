@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Baden-Powell Trail Part 5, Cleveland Dam to Brothers Creek, June 20, 2024
+        <a class="vue-green" href="img\20240620BP5\20240620bpTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group184
+          class="thumbnail"
+          v-for="img in list184"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  UBC Malcolm Knapp Research Forest Hike, June 16, 2024
         <a class="vue-green" href="img\20240616ubcrf\20240616ubcrfTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3053,6 +3063,11 @@ export default {
         { src: 'img/20240616ubcrf/17-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/18-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/19-UBC_RF.jpg' },
         { src: 'img/20240616ubcrf/20-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/21-UBC_RF.jpg' }, { src: 'img/20240616ubcrf/22-UBC_RF.jpg' },
       ],
+    list184: [
+      { src: 'img/20240620BP5/01-bp5.jpg' }, { src: 'img/20240620BP5/02-bp5.jpg' }, { src: 'img/20240620BP5/03-bp5.jpg' },
+      { src: 'img/20240620BP5/04-bp5.jpg' }, { src: 'img/20240620BP5/05-bp5.jpg' }, { src: 'img/20240620BP5/06-bp5.jpg' },
+      { src: 'img/20240620BP5/07-bp5.jpg' }, { src: 'img/20240620BP5/08-bp5.jpg' },
+    ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
     ]
