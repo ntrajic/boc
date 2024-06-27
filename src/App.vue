@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Brandywine Falls Loop, June 23, 2024
+        <a class="vue-green" href="img\20240623BrandyWine\20240623BrandyWineTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group185
+          class="thumbnail"
+          v-for="img in list185"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Baden-Powell Trail Part 5, Cleveland Dam to Brothers Creek, June 20, 2024
         <a class="vue-green" href="img\20240620BP5\20240620bpTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3067,6 +3077,11 @@ export default {
       { src: 'img/20240620BP5/01-bp5.jpg' }, { src: 'img/20240620BP5/02-bp5.jpg' }, { src: 'img/20240620BP5/03-bp5.jpg' },
       { src: 'img/20240620BP5/04-bp5.jpg' }, { src: 'img/20240620BP5/05-bp5.jpg' }, { src: 'img/20240620BP5/06-bp5.jpg' },
       { src: 'img/20240620BP5/07-bp5.jpg' }, { src: 'img/20240620BP5/08-bp5.jpg' },
+    ],
+    list185: [
+      { src: 'img/20240623BrandyWine/01-BW.jpg' }, { src: 'img/20240623BrandyWine/02-BW.jpg' }, { src: 'img/20240623BrandyWine/03-BW.jpg' },
+      { src: 'img/20240623BrandyWine/04-BW.jpg' }, { src: 'img/20240623BrandyWine/05-BW.jpg' }, { src: 'img/20240623BrandyWine/06-BW.jpg' },
+      { src: 'img/20240623BrandyWine/07-BW.jpg' }, { src: 'img/20240623BrandyWine/08-BW.jpg' }, { src: 'img/20240623BrandyWine/08-BW.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
