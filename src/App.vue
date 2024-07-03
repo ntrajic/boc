@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Elk Thruston Trail, July 1st, 2024
+        <a class="vue-green" href="img\20240701ElkT\20240710ElkTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group186
+          class="thumbnail"
+          v-for="img in list186"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Brandywine Falls Loop, June 23, 2024
         <a class="vue-green" href="img\20240623BrandyWine\20240623BrandyWineTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3081,7 +3091,13 @@ export default {
     list185: [
       { src: 'img/20240623BrandyWine/01-BW.jpg' }, { src: 'img/20240623BrandyWine/02-BW.jpg' }, { src: 'img/20240623BrandyWine/03-BW.jpg' },
       { src: 'img/20240623BrandyWine/04-BW.jpg' }, { src: 'img/20240623BrandyWine/05-BW.jpg' }, { src: 'img/20240623BrandyWine/06-BW.jpg' },
-      { src: 'img/20240623BrandyWine/07-BW.jpg' }, { src: 'img/20240623BrandyWine/08-BW.jpg' }, { src: 'img/20240623BrandyWine/08-BW.jpg' },
+      { src: 'img/20240623BrandyWine/07-BW.jpg' }, { src: 'img/20240623BrandyWine/08-BW.jpg' }, { src: 'img/20240623BrandyWine/09-BW.jpg' },
+    ],
+    list186: [
+      { src: 'img/20240701ElkT/01-elk.jpg' }, { src: 'img/20240701ElkT/02-elk.jpg' }, { src: 'img/20240701ElkT/03-elk.jpg' },
+      { src: 'img/20240701ElkT/04-elk.jpg' }, { src: 'img/20240701ElkT/05-elk.jpg' }, { src: 'img/20240701ElkT/06-elk.jpg' },
+      { src: 'img/20240701ElkT/07-elk.jpg' }, { src: 'img/20240701ElkT/08-elk.jpg' }, { src: 'img/20240701ElkT/09-elk.jpg' },
+      { src: 'img/20240701ElkT/10-elk.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
