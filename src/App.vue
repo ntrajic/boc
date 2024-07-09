@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Black Mountain and Eagle Bluffs Hike, July 6th, 2024
+        <a class="vue-green" href="img\20240708EBluffs\20240706EBluffsTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group187
+          class="thumbnail"
+          v-for="img in list187"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Elk Thruston Trail, July 1st, 2024
         <a class="vue-green" href="img\20240701ElkT\20240710ElkTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3098,6 +3108,10 @@ export default {
       { src: 'img/20240701ElkT/04-elk.jpg' }, { src: 'img/20240701ElkT/05-elk.jpg' }, { src: 'img/20240701ElkT/06-elk.jpg' },
       { src: 'img/20240701ElkT/07-elk.jpg' }, { src: 'img/20240701ElkT/08-elk.jpg' }, { src: 'img/20240701ElkT/09-elk.jpg' },
       { src: 'img/20240701ElkT/10-elk.jpg' },
+    ],
+    list187: [
+      { src: 'img/20240708EBluffs/21-Eglea_Bluffs.jpg' }, { src: 'img/20240708EBluffs/22-Eglea_Bluffs.jpg' }, { src: 'img/20240708EBluffs/23-Eglea_Bluffs.jpg' },
+      { src: 'img/20240708EBluffs/24-Eglea_Bluffs.jpg' }, { src: 'img/20240708EBluffs/25-Eglea_Bluffs.jpg' }, { src: 'img/20240708EBluffs/26-Eglea_Bluffs.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
