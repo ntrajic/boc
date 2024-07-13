@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Baden Powell Trail, Brothers Creek to Cypress Bowl Yew Lake, July 11th, 2024
+        <a class="vue-green" href="img\20240711BPbctoyew\20240711BPbctoyewTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group188
+          class="thumbnail"
+          v-for="img in list188"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Black Mountain and Eagle Bluffs Hike, July 6th, 2024
         <a class="vue-green" href="img\20240708EBluffs\20240706EBluffsTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3112,6 +3122,9 @@ export default {
     list187: [
       { src: 'img/20240708EBluffs/21-Eglea_Bluffs.jpg' }, { src: 'img/20240708EBluffs/22-Eglea_Bluffs.jpg' }, { src: 'img/20240708EBluffs/23-Eglea_Bluffs.jpg' },
       { src: 'img/20240708EBluffs/24-Eglea_Bluffs.jpg' }, { src: 'img/20240708EBluffs/25-Eglea_Bluffs.jpg' }, { src: 'img/20240708EBluffs/26-Eglea_Bluffs.jpg' },
+    ],
+    list188: [
+      { src: 'img/20240711BPbctoyew/01-BPbctoyew.jpg' }, { src: 'img/20240711BPbctoyew/02-BPbctoyew.jpg' }, { src: 'img/20240711BPbctoyew/03-BPbctoyew.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
