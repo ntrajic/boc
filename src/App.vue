@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Mount Strachan, July 14th, 2024
+        <a class="vue-green" href="img\20240714Strachan\20240714StrTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group189
+          class="thumbnail"
+          v-for="img in list189"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Baden Powell Trail, Brothers Creek to Cypress Bowl Yew Lake, July 11th, 2024
         <a class="vue-green" href="img\20240711BPbctoyew\20240711BPbctoyewTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3126,6 +3136,12 @@ export default {
     list188: [
       { src: 'img/20240711BPbctoyew/01-BPbctoyew.jpg' }, { src: 'img/20240711BPbctoyew/02-BPbctoyew.jpg' }, { src: 'img/20240711BPbctoyew/03-BPbctoyew.jpg' },
     ],
+    list189: [
+        { src: 'img/20240714Strachan/01-str.jpg' }, { src: 'img/20240714Strachan/02-str.jpg' }, { src: 'img/20240714Strachan/03-str.jpg' },
+        { src: 'img/20240714Strachan/04-str.jpg' }, { src: 'img/20240714Strachan/05-str.jpg' }, { src: 'img/20240714Strachan/06-str.jpg' },
+        { src: 'img/20240714Strachan/07-str.jpg' }, { src: 'img/20240714Strachan/08-str.jpg' }, { src: 'img/20240714Strachan/09-str.jpg' },
+        { src: 'img/20240714Strachan/10-str.jpg' }, { src: 'img/20240714Strachan/11-str.jpg' }, { src: 'img/20240714Strachan/12-str.jpg' },
+      ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
     ]
