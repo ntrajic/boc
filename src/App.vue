@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Lower Hollyburn, July 21st, 2024
+        <a class="vue-green" href="img\20240721LoHolly\20240721LoHollyTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group190
+          class="thumbnail"
+          v-for="img in list190"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Mount Strachan, July 14th, 2024
         <a class="vue-green" href="img\20240714Strachan\20240714StrTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3141,6 +3151,10 @@ export default {
         { src: 'img/20240714Strachan/04-str.jpg' }, { src: 'img/20240714Strachan/05-str.jpg' }, { src: 'img/20240714Strachan/06-str.jpg' },
         { src: 'img/20240714Strachan/07-str.jpg' }, { src: 'img/20240714Strachan/08-str.jpg' }, { src: 'img/20240714Strachan/09-str.jpg' },
         { src: 'img/20240714Strachan/10-str.jpg' }, { src: 'img/20240714Strachan/11-str.jpg' }, { src: 'img/20240714Strachan/12-str.jpg' },
+      ],
+      list190: [
+        { src: 'img/20240721LoHolly/01-loholly.jpg' }, { src: 'img/20240721LoHolly/02-loholly.jpg' }, { src: 'img/20240721LoHolly/03-loholly.jpg' },
+        { src: 'img/20240721LoHolly/04-loholly.jpg' }, { src: 'img/20240721LoHolly/05-loholly.jpg' }, { src: 'img/20240721LoHolly/06-loholly.jpg' },
       ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
