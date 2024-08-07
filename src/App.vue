@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Lake Ann Trail, Mt. Baker, Aug 5th, 2024
+        <a class="vue-green" href="img\20240805LakeAnn\20240805LakeAnnTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group191
+          class="thumbnail"
+          v-for="img in list191"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Lower Hollyburn, July 21st, 2024
         <a class="vue-green" href="img\20240721LoHolly\20240721LoHollyTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3152,9 +3162,15 @@ export default {
         { src: 'img/20240714Strachan/07-str.jpg' }, { src: 'img/20240714Strachan/08-str.jpg' }, { src: 'img/20240714Strachan/09-str.jpg' },
         { src: 'img/20240714Strachan/10-str.jpg' }, { src: 'img/20240714Strachan/11-str.jpg' }, { src: 'img/20240714Strachan/12-str.jpg' },
       ],
-      list190: [
+    list190: [
         { src: 'img/20240721LoHolly/01-loholly.jpg' }, { src: 'img/20240721LoHolly/02-loholly.jpg' }, { src: 'img/20240721LoHolly/03-loholly.jpg' },
         { src: 'img/20240721LoHolly/04-loholly.jpg' }, { src: 'img/20240721LoHolly/05-loholly.jpg' }, { src: 'img/20240721LoHolly/06-loholly.jpg' },
+      ],
+      list191: [
+        { src: 'img/20240805LakeAnn/01-lakeann.jpg' }, { src: 'img/20240805LakeAnn/02-lakeann.jpg' }, { src: 'img/20240805LakeAnn/03-lakeann.jpg' },
+        { src: 'img/20240805LakeAnn/04-lakeann.jpg' }, { src: 'img/20240805LakeAnn/05-lakeann.jpg' }, { src: 'img/20240805LakeAnn/06-lakeann.jpg' },
+        { src: 'img/20240805LakeAnn/07-lakeann.jpg' }, { src: 'img/20240805LakeAnn/08-lakeann.jpg' }, { src: 'img/20240805LakeAnn/09-lakeann.jpg' },
+        { src: 'img/20240805LakeAnn/10-lakeann.jpg' }, { src: 'img/20240805LakeAnn/11-lakeann.jpg' }, { src: 'img/20240805LakeAnn/12-lakeann.jpg' },
       ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
