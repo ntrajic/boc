@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Pacific Spirit Park and Beach, Aug 11, 2024
+        <a class="vue-green" href="img\20240811Pacific\20240811PacificTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group192
+          class="thumbnail"
+          v-for="img in list192"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Lake Ann Trail, Mt. Baker, Aug 5th, 2024
         <a class="vue-green" href="img\20240805LakeAnn\20240805LakeAnnTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3166,11 +3176,15 @@ export default {
         { src: 'img/20240721LoHolly/01-loholly.jpg' }, { src: 'img/20240721LoHolly/02-loholly.jpg' }, { src: 'img/20240721LoHolly/03-loholly.jpg' },
         { src: 'img/20240721LoHolly/04-loholly.jpg' }, { src: 'img/20240721LoHolly/05-loholly.jpg' }, { src: 'img/20240721LoHolly/06-loholly.jpg' },
       ],
-      list191: [
+    list191: [
         { src: 'img/20240805LakeAnn/01-lakeann.jpg' }, { src: 'img/20240805LakeAnn/02-lakeann.jpg' }, { src: 'img/20240805LakeAnn/03-lakeann.jpg' },
         { src: 'img/20240805LakeAnn/04-lakeann.jpg' }, { src: 'img/20240805LakeAnn/05-lakeann.jpg' }, { src: 'img/20240805LakeAnn/06-lakeann.jpg' },
         { src: 'img/20240805LakeAnn/07-lakeann.jpg' }, { src: 'img/20240805LakeAnn/08-lakeann.jpg' }, { src: 'img/20240805LakeAnn/09-lakeann.jpg' },
         { src: 'img/20240805LakeAnn/10-lakeann.jpg' }, { src: 'img/20240805LakeAnn/11-lakeann.jpg' }, { src: 'img/20240805LakeAnn/12-lakeann.jpg' },
+      ],
+    list192: [
+        { src: 'img/20240811Pacific/01-pacific.jpg' }, { src: 'img/20240811Pacific/02-pacific.jpg' }, { src: 'img/20240811Pacific/03-pacific.jpg' },
+        { src: 'img/20240811Pacific/04-pacific.jpg' },
       ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
