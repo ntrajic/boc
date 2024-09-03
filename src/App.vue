@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Richmond Dykes Bike Ride, Sep 1, 2024
+        <a class="vue-green" href="img\20240901RcmdDykes\20240901RcmdDykesTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group193
+          class="thumbnail"
+          v-for="img in list193"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Pacific Spirit Park and Beach, Aug 11, 2024
         <a class="vue-green" href="img\20240811Pacific\20240811PacificTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3186,6 +3196,11 @@ export default {
         { src: 'img/20240811Pacific/01-pacific.jpg' }, { src: 'img/20240811Pacific/02-pacific.jpg' }, { src: 'img/20240811Pacific/03-pacific.jpg' },
         { src: 'img/20240811Pacific/04-pacific.jpg' },
       ],
+    list193: [
+        { src: 'img/20240901RcmdDykes/01-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/02-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/03-Dykes.jpg' },
+        { src: 'img/20240901RcmdDykes/04-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/05-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/06-Dykes.jpg' },
+        { src: 'img/20240901RcmdDykes/07-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/08-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/09-Dykes.jpg' },
+    ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
     ]
