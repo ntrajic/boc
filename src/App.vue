@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Dog Mt & Suicide Bluffs Hike, Aug 31, 2024
+        <a class="vue-green" href="img\20240831Dog\20240831DogTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group194
+          class="thumbnail"
+          v-for="img in list194"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Richmond Dykes Bike Ride, Sep 1, 2024
         <a class="vue-green" href="img\20240901RcmdDykes\20240901RcmdDykesTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3200,6 +3210,12 @@ export default {
         { src: 'img/20240901RcmdDykes/01-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/02-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/03-Dykes.jpg' },
         { src: 'img/20240901RcmdDykes/04-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/05-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/06-Dykes.jpg' },
         { src: 'img/20240901RcmdDykes/07-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/08-Dykes.jpg' }, { src: 'img/20240901RcmdDykes/09-Dykes.jpg' },
+    ],
+    list194: [
+        { src: 'img/20240831Dog/01-Dog.jpg' }, { src: 'img/20240831Dog/02-Dog.jpg' }, { src: 'img/20240831Dog/03-Dog.jpg' },
+        { src: 'img/20240831Dog/04-Dog.jpg' }, { src: 'img/20240831Dog/05-Dog.jpg' }, { src: 'img/20240831Dog/06-Dog.jpg' },
+        { src: 'img/20240831Dog/07-Dog.jpg' }, { src: 'img/20240831Dog/08-Dog.jpg' }, { src: 'img/20240831Dog/09-Dog.jpg' },
+        { src: 'img/20240831Dog/10-Dog.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
