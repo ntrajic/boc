@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Aldergrove Regional Park: September 8, 2024
+        <a class="vue-green" href="img\20240908Aldergrove\20240908AldergroveTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group195
+          class="thumbnail"
+          v-for="img in list195"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Dog Mt & Suicide Bluffs Hike, Aug 31, 2024
         <a class="vue-green" href="img\20240831Dog\20240831DogTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3217,6 +3227,12 @@ export default {
         { src: 'img/20240831Dog/07-Dog.jpg' }, { src: 'img/20240831Dog/08-Dog.jpg' }, { src: 'img/20240831Dog/09-Dog.jpg' },
         { src: 'img/20240831Dog/10-Dog.jpg' },
     ],
+    list195: [
+        { src: 'img/20240908Aldergrove/01-alder.jpg' }, { src: 'img/20240908Aldergrove/02-alder.jpg' }, { src: 'img/20240908Aldergrove/03-alder.jpg' },
+        { src: 'img/20240908Aldergrove/04-alder.jpg' }, { src: 'img/20240908Aldergrove/05-alder.jpg' }, { src: 'img/20240908Aldergrove/06-alder.jpg' },
+        { src: 'img/20240908Aldergrove/07-alder.jpg' }, { src: 'img/20240908Aldergrove/08-alder.jpg' }, { src: 'img/20240908Aldergrove/09-alder.jpg' },
+        { src: 'img/20240908Aldergrove/10-alder.jpg' }, { src: 'img/20240908Aldergrove/11-alder.jpg' }, { src: 'img/20240908Aldergrove/12-alder.jpg' },
+      ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
     ]
