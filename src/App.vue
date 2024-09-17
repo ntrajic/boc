@@ -63,7 +63,17 @@
           :key="img.src + index">
       </div>
 
-      <div class="subtitle">  Aldergrove Regional Park: September 8, 2024
+      <div class="subtitle">  Sawblade Falls Hike, September 14, 2024
+        <a class="vue-green" href="img\20240914Sawblade\20240914SawbaldeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group196
+          class="thumbnail"
+          v-for="img in list196"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle">  Aldergrove Regional Park, September 8, 2024
         <a class="vue-green" href="img\20240908Aldergrove\20240908AldergroveTR.pdf" title="Trip Report">Trip Report</a>
       </div>
       <div style="overflow:hidden">
@@ -3232,7 +3242,12 @@ export default {
         { src: 'img/20240908Aldergrove/04-alder.jpg' }, { src: 'img/20240908Aldergrove/05-alder.jpg' }, { src: 'img/20240908Aldergrove/06-alder.jpg' },
         { src: 'img/20240908Aldergrove/07-alder.jpg' }, { src: 'img/20240908Aldergrove/08-alder.jpg' }, { src: 'img/20240908Aldergrove/09-alder.jpg' },
         { src: 'img/20240908Aldergrove/10-alder.jpg' }, { src: 'img/20240908Aldergrove/11-alder.jpg' }, { src: 'img/20240908Aldergrove/12-alder.jpg' },
-      ],
+    ],
+    list196: [
+        { src: 'img/20240914Sawblade/01-Sawblade_Falls.jpg' }, { src: 'img/20240914Sawblade/02-Sawblade_Falls.jpg' }, { src: 'img/20240914Sawblade/03-Sawblade_Falls.jpg' },
+        { src: 'img/20240914Sawblade/04-Sawblade_Falls.jpg' }, { src: 'img/20240914Sawblade/05-Sawblade_Falls.jpg' }, { src: 'img/20240914Sawblade/06-Sawblade_Falls.jpg' },
+        { src: 'img/20240914Sawblade/07-Sawblade_Falls.jpg' }, { src: 'img/20240914Sawblade/08-Sawblade_Falls.jpg' },
+    ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
     ]
