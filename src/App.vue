@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Chain Lakes hike, Mt Baker, September 21, 2024
+        <a class="vue-green" href="img\20240921Chain\20240921ChainTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group197
+          class="thumbnail"
+          v-for="img in list197"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Sawblade Falls Hike, September 14, 2024
         <a class="vue-green" href="img\20240914Sawblade\20240914SawbaldeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3247,6 +3257,11 @@ export default {
         { src: 'img/20240914Sawblade/01-Sawblade_Falls.jpg' }, { src: 'img/20240914Sawblade/02-Sawblade_Falls.jpg' }, { src: 'img/20240914Sawblade/03-Sawblade_Falls.jpg' },
         { src: 'img/20240914Sawblade/04-Sawblade_Falls.jpg' }, { src: 'img/20240914Sawblade/05-Sawblade_Falls.jpg' }, { src: 'img/20240914Sawblade/06-Sawblade_Falls.jpg' },
         { src: 'img/20240914Sawblade/07-Sawblade_Falls.jpg' }, { src: 'img/20240914Sawblade/08-Sawblade_Falls.jpg' },
+    ],
+    list197: [
+        { src: 'img/20240921Chain/01-Chain.jpg' }, { src: 'img/20240921Chain/02-Chain.jpg' }, { src: 'img/20240921Chain/03-Chain.jpg' },
+        { src: 'img/20240921Chain/04-Chain.jpg' }, { src: 'img/20240921Chain/05-Chain.jpg' }, { src: 'img/20240921Chain/06-Chain.jpg' },
+        { src: 'img/20240921Chain/07-Chain.jpg' }, { src: 'img/20240921Chain/08-Chain.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
