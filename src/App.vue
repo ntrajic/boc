@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Chilliwack: Vedder Loop, September 29, 2024
+        <a class="vue-green" href="img\20240929Chil\20240929ChilRT.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group198
+          class="thumbnail"
+          v-for="img in list198"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Chain Lakes hike, Mt Baker, September 21, 2024
         <a class="vue-green" href="img\20240921Chain\20240921ChainTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3262,6 +3272,11 @@ export default {
         { src: 'img/20240921Chain/01-Chain.jpg' }, { src: 'img/20240921Chain/02-Chain.jpg' }, { src: 'img/20240921Chain/03-Chain.jpg' },
         { src: 'img/20240921Chain/04-Chain.jpg' }, { src: 'img/20240921Chain/05-Chain.jpg' }, { src: 'img/20240921Chain/06-Chain.jpg' },
         { src: 'img/20240921Chain/07-Chain.jpg' }, { src: 'img/20240921Chain/08-Chain.jpg' },
+    ],
+    list198: [
+        { src: 'img/20240929Chil/01-20240929_Chil.jpg' }, { src: 'img/20240929Chil/02-20240929_Chil.jpg' }, { src: 'img/20240929Chil/03-20240929_Chil.jpg' },
+        { src: 'img/20240929Chil/04-20240929_Chil.jpg' }, { src: 'img/20240929Chil/05-20240929_Chil.jpg' }, { src: 'img/20240929Chil/06-20240929_Chil.jpg' },
+        { src: 'img/20240929Chil/07-20240929_Chil.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
