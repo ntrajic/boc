@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Baden Powell Trail, Cypress Bowl to Eagle Bluff, October 4, 2024
+        <a class="vue-green" href="img\20241004BPcbToEb\20241004BPcbToEbTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group199
+          class="thumbnail"
+          v-for="img in list199"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Chilliwack: Vedder Loop, September 29, 2024
         <a class="vue-green" href="img\20240929Chil\20240929ChilRT.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3277,6 +3287,13 @@ export default {
         { src: 'img/20240929Chil/01-20240929_Chil.jpg' }, { src: 'img/20240929Chil/02-20240929_Chil.jpg' }, { src: 'img/20240929Chil/03-20240929_Chil.jpg' },
         { src: 'img/20240929Chil/04-20240929_Chil.jpg' }, { src: 'img/20240929Chil/05-20240929_Chil.jpg' }, { src: 'img/20240929Chil/06-20240929_Chil.jpg' },
         { src: 'img/20240929Chil/07-20240929_Chil.jpg' },
+    ],
+    list199: [
+        { src: 'img/20241004BPcbToEb/01-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/02-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/03-bpcbtoeb.jpg' },
+        { src: 'img/20241004BPcbToEb/04-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/05-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/06-bpcbtoeb.jpg' },
+        { src: 'img/20241004BPcbToEb/07-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/08-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/09-bpcbtoeb.jpg' },
+        { src: 'img/20241004BPcbToEb/10-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/11-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/12-bpcbtoeb.jpg' },
+        { src: 'img/20241004BPcbToEb/13-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/14-bpcbtoeb.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
