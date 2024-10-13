@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Petgill Lake Hike, Oct 10, 2024
+        <a class="vue-green" href="img\20241010Petgill\20241010PetgillTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group200
+          class="thumbnail"
+          v-for="img in list200"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Baden Powell Trail, Cypress Bowl to Eagle Bluff, October 4, 2024
         <a class="vue-green" href="img\20241004BPcbToEb\20241004BPcbToEbTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3294,6 +3304,13 @@ export default {
         { src: 'img/20241004BPcbToEb/07-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/08-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/09-bpcbtoeb.jpg' },
         { src: 'img/20241004BPcbToEb/10-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/11-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/12-bpcbtoeb.jpg' },
         { src: 'img/20241004BPcbToEb/13-bpcbtoeb.jpg' }, { src: 'img/20241004BPcbToEb/14-bpcbtoeb.jpg' },
+    ],
+    list200: [
+        { src: 'img/20241010Petgill/01-pet.jpg' }, { src: 'img/20241010Petgill/02-pet.jpg' }, { src: 'img/20241010Petgill/03-pet.jpg' },
+        { src: 'img/20241010Petgill/04-pet.jpg' }, { src: 'img/20241010Petgill/05-pet.jpg' }, { src: 'img/20241010Petgill/06-pet.jpg' },
+        { src: 'img/20241010Petgill/07-pet.jpg' }, { src: 'img/20241010Petgill/08-pet.jpg' }, { src: 'img/20241010Petgill/09-pet.jpg' },
+        { src: 'img/20241010Petgill/10-pet.jpg' }, { src: 'img/20241010Petgill/11-pet.jpg' }, { src: 'img/20241010Petgill/12-pet.jpg' },
+        { src: 'img/20241010Petgill/13-pet.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
