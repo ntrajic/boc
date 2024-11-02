@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Campbell Valley Regional Park, October 27, 2024
+        <a class="vue-green" href="img\202241027Campbell\20241027CampbellTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group201
+          class="thumbnail"
+          v-for="img in list201"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Petgill Lake Hike, Oct 10, 2024
         <a class="vue-green" href="img\20241010Petgill\20241010PetgillTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3311,6 +3321,12 @@ export default {
         { src: 'img/20241010Petgill/07-pet.jpg' }, { src: 'img/20241010Petgill/08-pet.jpg' }, { src: 'img/20241010Petgill/09-pet.jpg' },
         { src: 'img/20241010Petgill/10-pet.jpg' }, { src: 'img/20241010Petgill/11-pet.jpg' }, { src: 'img/20241010Petgill/12-pet.jpg' },
         { src: 'img/20241010Petgill/13-pet.jpg' },
+    ],
+    list201: [
+        { src: 'img/202241027Campbell/1.jpg' },  { src: 'img/202241027Campbell/2.jpg' },  { src: 'img/202241027Campbell/3.jpg' },
+        { src: 'img/202241027Campbell/4.jpg' },  { src: 'img/202241027Campbell/5.jpg' },  { src: 'img/202241027Campbell/6.jpg' },
+        { src: 'img/202241027Campbell/7.jpg' },  { src: 'img/202241027Campbell/8.jpg' },  { src: 'img/202241027Campbell/9.jpg' },
+        { src: 'img/202241027Campbell/10.jpg' }, { src: 'img/202241027Campbell/11.jpg' }, { src: 'img/202241027Campbell/12.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
