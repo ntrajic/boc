@@ -63,6 +63,27 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Minnekhada Regional Park, Nov 07, 2024
+        <a class="vue-green" href="img\20241107Minnekhada\20241107MinnekhadaTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group203
+          class="thumbnail"
+          v-for="img in list203"
+          :src="img.src"
+          :key="img.src">
+      </div>
+
+      <div class="subtitle">  Norvan Falls, Nov 02, 2024
+        <a class="vue-green" href="img\20241102NorVan\20241102NorVanTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group202
+          class="thumbnail"
+          v-for="img in list202"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Campbell Valley Regional Park, October 27, 2024
         <a class="vue-green" href="img\202241027Campbell\20241027CampbellTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3327,6 +3348,16 @@ export default {
         { src: 'img/202241027Campbell/4.jpg' },  { src: 'img/202241027Campbell/5.jpg' },  { src: 'img/202241027Campbell/6.jpg' },
         { src: 'img/202241027Campbell/7.jpg' },  { src: 'img/202241027Campbell/8.jpg' },  { src: 'img/202241027Campbell/9.jpg' },
         { src: 'img/202241027Campbell/10.jpg' }, { src: 'img/202241027Campbell/11.jpg' }, { src: 'img/202241027Campbell/12.jpg' },
+    ],
+    list202: [
+        { src: 'img/20241102NorVan/01-Norvan_Falls.jpg' }, { src: 'img/20241102NorVan/02-Norvan_Falls.jpg' }, { src: 'img/20241102NorVan/03-Norvan_Falls.jpg' },
+        { src: 'img/20241102NorVan/04-Norvan_Falls.jpg' }, { src: 'img/20241102NorVan/05-Norvan_Falls.jpg' }, { src: 'img/20241102NorVan/06-Norvan_Falls.jpg' },
+        { src: 'img/20241102NorVan/07-Norvan_Falls.jpg' }, { src: 'img/20241102NorVan/08-Norvan_Falls.jpg' }, { src: 'img/20241102NorVan/09-Norvan_Falls.jpg' },
+        { src: 'img/20241102NorVan/10-Norvan_Falls.jpg' },
+    ],
+    list203: [
+        { src: 'img/20241107Minnekhada/01-Min.jpg' }, { src: 'img/20241107Minnekhada/02-Min.jpg' }, { src: 'img/20241107Minnekhada/03-Min.jpg' },
+        { src: 'img/20241107Minnekhada/04-Min.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
