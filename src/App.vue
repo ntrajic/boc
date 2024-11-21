@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Buntzen Lakeview Hike, Nov 17, 2024
+        <a class="vue-green" href="img\20241117Buntzen\20241117BuntzenTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group204
+          class="thumbnail"
+          v-for="img in list204"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Minnekhada Regional Park, Nov 07, 2024
         <a class="vue-green" href="img\20241107Minnekhada\20241107MinnekhadaTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -73,7 +83,6 @@
           :src="img.src"
           :key="img.src">
       </div>
-
       <div class="subtitle">  Norvan Falls, Nov 02, 2024
         <a class="vue-green" href="img\20241102NorVan\20241102NorVanTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3358,6 +3367,12 @@ export default {
     list203: [
         { src: 'img/20241107Minnekhada/01-Min.jpg' }, { src: 'img/20241107Minnekhada/02-Min.jpg' }, { src: 'img/20241107Minnekhada/03-Min.jpg' },
         { src: 'img/20241107Minnekhada/04-Min.jpg' },
+    ],
+    list204: [
+        { src: 'img/20241117Buntzen/01-Buntz.jpg' }, { src: 'img/20241117Buntzen/02-Buntz.jpg' }, { src: 'img/20241117Buntzen/03-Buntz.jpg' },
+        { src: 'img/20241117Buntzen/04-Buntz.jpg' }, { src: 'img/20241117Buntzen/05-Buntz.jpg' }, { src: 'img/20241117Buntzen/06-Buntz.jpg' },
+        { src: 'img/20241117Buntzen/07-Buntz.jpg' }, { src: 'img/20241117Buntzen/08-Buntz.jpg' }, { src: 'img/20241117Buntzen/09-Buntz.jpg' },
+        { src: 'img/20241117Buntzen/10-Buntz.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
