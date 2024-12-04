@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Poco Trail Cycle Trip, December 1. 2024
+        <a class="vue-green" href="img\20241201Poco\20241201PocoTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group205
+          class="thumbnail"
+          v-for="img in list205"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Buntzen Lakeview Hike, Nov 17, 2024
         <a class="vue-green" href="img\20241117Buntzen\20241117BuntzenTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3373,6 +3383,12 @@ export default {
         { src: 'img/20241117Buntzen/04-Buntz.jpg' }, { src: 'img/20241117Buntzen/05-Buntz.jpg' }, { src: 'img/20241117Buntzen/06-Buntz.jpg' },
         { src: 'img/20241117Buntzen/07-Buntz.jpg' }, { src: 'img/20241117Buntzen/08-Buntz.jpg' }, { src: 'img/20241117Buntzen/09-Buntz.jpg' },
         { src: 'img/20241117Buntzen/10-Buntz.jpg' },
+    ],
+    list205: [
+        { src: 'img/20241201Poco/01-Poco.jpg' }, { src: 'img/20241201Poco/02-Poco.jpg' }, { src: 'img/20241201Poco/03-Poco.jpg' },
+        { src: 'img/20241201Poco/04-Poco.jpg' }, { src: 'img/20241201Poco/05-Poco.jpg' }, { src: 'img/20241201Poco/06-Poco.jpg' },
+        { src: 'img/20241201Poco/07-Poco.jpg' }, { src: 'img/20241201Poco/08-Poco.jpg' }, { src: 'img/20241201Poco/09-Poco.jpg' },
+        { src: 'img/20241201Poco/10-Poco.jpg' }, { src: 'img/20241201Poco/11-Poco.jpg' }, { src: 'img/20241201Poco/12-Poco.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
