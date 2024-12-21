@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Old Buck Trail to Quarry Rock, December 19, 2024
+        <a class="vue-green" href="img\20241219OldBuck\20241219OldBuckTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group206
+          class="thumbnail"
+          v-for="img in list206"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Poco Trail Cycle Trip, December 1. 2024
         <a class="vue-green" href="img\20241201Poco\20241201PocoTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3389,6 +3399,10 @@ export default {
         { src: 'img/20241201Poco/04-Poco.jpg' }, { src: 'img/20241201Poco/05-Poco.jpg' }, { src: 'img/20241201Poco/06-Poco.jpg' },
         { src: 'img/20241201Poco/07-Poco.jpg' }, { src: 'img/20241201Poco/08-Poco.jpg' }, { src: 'img/20241201Poco/09-Poco.jpg' },
         { src: 'img/20241201Poco/10-Poco.jpg' }, { src: 'img/20241201Poco/11-Poco.jpg' }, { src: 'img/20241201Poco/12-Poco.jpg' },
+    ],
+    list206: [
+        { src: 'img/20241219OldBuck/01-oldbuck.jpg' }, { src: 'img/20241219OldBuck/02-oldbuck.jpg' }, { src: 'img/20241219OldBuck/03-oldbuck.jpg' },
+        { src: 'img/20241219OldBuck/04-oldbuck.jpg' }, { src: 'img/20241219OldBuck/05-oldbuck.jpg' }, { src: 'img/20241219OldBuck/06-oldbuck.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
