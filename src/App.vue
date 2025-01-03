@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Polar Bear Event, Barnet Marine Park, January 1, 2025
+        <a class="vue-green" href="img\20250101PolarBear\20250101PolarBearTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group207
+          class="thumbnail"
+          v-for="img in list207"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Old Buck Trail to Quarry Rock, December 19, 2024
         <a class="vue-green" href="img\20241219OldBuck\20241219OldBuckTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3403,6 +3413,9 @@ export default {
     list206: [
         { src: 'img/20241219OldBuck/01-oldbuck.jpg' }, { src: 'img/20241219OldBuck/02-oldbuck.jpg' }, { src: 'img/20241219OldBuck/03-oldbuck.jpg' },
         { src: 'img/20241219OldBuck/04-oldbuck.jpg' }, { src: 'img/20241219OldBuck/05-oldbuck.jpg' }, { src: 'img/20241219OldBuck/06-oldbuck.jpg' },
+    ],
+    list207: [
+        { src: 'img/20250101PolarBear/01-polarbear.jpg' }, { src: 'img/20250101PolarBear/02-polarbear.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
