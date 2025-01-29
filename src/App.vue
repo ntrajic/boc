@@ -62,7 +62,26 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-
+      <div class="subtitle">  South Dyke Trail, Richmond, January 26, 2025
+        <a class="vue-green" href="img\20250126SDyke\20250126SDykeTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group209
+          class="thumbnail"
+          v-for="img in list209"
+          :src="img.src"
+          :key="img.src">
+      </div>
+      <div class="subtitle">  Belcarra Park - Jug Island, January 25, 2025
+        <a class="vue-green" href="img\20250125Jug\20250125JugTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group208
+          class="thumbnail"
+          v-for="img in list208"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Polar Bear Event, Barnet Marine Park, January 1, 2025
         <a class="vue-green" href="img\20250101PolarBear\20250101PolarBearTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3416,6 +3435,19 @@ export default {
     ],
     list207: [
         { src: 'img/20250101PolarBear/01-polarbear.jpg' }, { src: 'img/20250101PolarBear/02-polarbear.jpg' },
+    ],
+    list208: [
+        { src: 'img/20250125Jug/01-jug.jpg' }, { src: 'img/20250125Jug/02-jug.jpg' }, { src: 'img/20250125Jug/03-jug.jpg' },
+        { src: 'img/20250125Jug/04-jug.jpg' }, { src: 'img/20250125Jug/05-jug.jpg' }, { src: 'img/20250125Jug/06-jug.jpg' },
+        { src: 'img/20250125Jug/07-jug.jpg' }, { src: 'img/20250125Jug/08-jug.jpg' }, { src: 'img/20250125Jug/09-jug.jpg' },
+        { src: 'img/20250125Jug/10-jug.jpg' }, { src: 'img/20250125Jug/11-jug.jpg' }, { src: 'img/20250125Jug/12-jug.jpg' },
+        { src: 'img/20250125Jug/13-jug.jpg' },
+    ],
+    list209: [
+        { src: 'img/20250126SDyke/01-SDyke.jpg' }, { src: 'img/20250126SDyke/02-SDyke.jpg' }, { src: 'img/20250126SDyke/03-SDyke.jpg' },
+        { src: 'img/20250126SDyke/04-SDyke.jpg' }, { src: 'img/20250126SDyke/05-SDyke.jpg' }, { src: 'img/20250126SDyke/06-SDyke.jpg' },
+        { src: 'img/20250126SDyke/07-SDyke.jpg' }, { src: 'img/20250126SDyke/08-SDyke.jpg' }, { src: 'img/20250126SDyke/09-SDyke.jpg' },
+        { src: 'img/20250126SDyke/10-SDyke.jpg' }, { src: 'img/20250126SDyke/11-SDyke.jpg' }, { src: 'img/20250126SDyke/12-SDyke.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
