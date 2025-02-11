@@ -62,6 +62,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+      <div class="subtitle">  Bowe Lookout, February 09, 2025
+        <a class="vue-green" href="img\20250209Bowe\20250209BoweTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group210
+          class="thumbnail"
+          v-for="img in list210"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  South Dyke Trail, Richmond, January 26, 2025
         <a class="vue-green" href="img\20250126SDyke\20250126SDykeTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3448,6 +3458,11 @@ export default {
         { src: 'img/20250126SDyke/04-SDyke.jpg' }, { src: 'img/20250126SDyke/05-SDyke.jpg' }, { src: 'img/20250126SDyke/06-SDyke.jpg' },
         { src: 'img/20250126SDyke/07-SDyke.jpg' }, { src: 'img/20250126SDyke/08-SDyke.jpg' }, { src: 'img/20250126SDyke/09-SDyke.jpg' },
         { src: 'img/20250126SDyke/10-SDyke.jpg' }, { src: 'img/20250126SDyke/11-SDyke.jpg' }, { src: 'img/20250126SDyke/12-SDyke.jpg' },
+    ],
+    list210: [
+        { src: 'img/20250209Bowe/21-Bowe.jpg' }, { src: 'img/20250209Bowe/22-Bowe.jpg' }, { src: 'img/20250209Bowe/23-Bowe.jpg' },
+        { src: 'img/20250209Bowe/24-Bowe.jpg' }, { src: 'img/20250209Bowe/25-Bowe.jpg' }, { src: 'img/20250209Bowe/26-Bowe.jpg' },
+        { src: 'img/20250209Bowe/27-Bowe.jpg' }, { src: 'img/20250209Bowe/28-Bowe.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
