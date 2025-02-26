@@ -62,6 +62,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+      <div class="subtitle">  Derby Reach Regional Park, February 23, 2025
+        <a class="vue-green" href="img\20250223Derby\20250223DerbyTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group211
+          class="thumbnail"
+          v-for="img in list211"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Bowe Lookout, February 09, 2025
         <a class="vue-green" href="img\20250209Bowe\20250209BoweTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3463,6 +3473,12 @@ export default {
         { src: 'img/20250209Bowe/21-Bowe.jpg' }, { src: 'img/20250209Bowe/22-Bowe.jpg' }, { src: 'img/20250209Bowe/23-Bowe.jpg' },
         { src: 'img/20250209Bowe/24-Bowe.jpg' }, { src: 'img/20250209Bowe/25-Bowe.jpg' }, { src: 'img/20250209Bowe/26-Bowe.jpg' },
         { src: 'img/20250209Bowe/27-Bowe.jpg' }, { src: 'img/20250209Bowe/28-Bowe.jpg' },
+    ],
+    list211: [
+        { src: 'img/20250223Derby/01-der.jpg' }, { src: 'img/20250223Derby/02-der.jpg' }, { src: 'img/20250223Derby/03-der.jpg' },
+        { src: 'img/20250223Derby/04-der.jpg' }, { src: 'img/20250223Derby/05-der.jpg' }, { src: 'img/20250223Derby/06-der.jpg' },
+        { src: 'img/20250223Derby/07-der.jpg' }, { src: 'img/20250223Derby/08-der.jpg' }, { src: 'img/20250223Derby/09-der.jpg' },
+        { src: 'img/20250223Derby/10-der.jpg' }, { src: 'img/20250223Derby/11-der.jpg' }, { src: 'img/20250223Derby/12-der.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
