@@ -62,6 +62,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+      <div class="subtitle">  Lynn Loop and Headwaters, Rice Lake Hike, March 1, 2025
+        <a class="vue-green" href="img\20250301Rice\20250301RiceTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group212
+          class="thumbnail"
+          v-for="img in list212"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Derby Reach Regional Park, February 23, 2025
         <a class="vue-green" href="img\20250223Derby\20250223DerbyTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3479,6 +3489,12 @@ export default {
         { src: 'img/20250223Derby/04-der.jpg' }, { src: 'img/20250223Derby/05-der.jpg' }, { src: 'img/20250223Derby/06-der.jpg' },
         { src: 'img/20250223Derby/07-der.jpg' }, { src: 'img/20250223Derby/08-der.jpg' }, { src: 'img/20250223Derby/09-der.jpg' },
         { src: 'img/20250223Derby/10-der.jpg' }, { src: 'img/20250223Derby/11-der.jpg' }, { src: 'img/20250223Derby/12-der.jpg' },
+    ],
+    list212: [
+        { src: 'img/20250301Rice/01-Rice.jpg' }, { src: 'img/20250301Rice/02-Rice.jpg' }, { src: 'img/20250301Rice/03-Rice.jpg' },
+        { src: 'img/20250301Rice/04-Rice.jpg' }, { src: 'img/20250301Rice/05-Rice.jpg' }, { src: 'img/20250301Rice/06-Rice.jpg' },
+        { src: 'img/20250301Rice/07-Rice.jpg' }, { src: 'img/20250301Rice/08-Rice.jpg' }, { src: 'img/20250301Rice/09-Rice.jpg' },
+        { src: 'img/20250301Rice/10-Rice.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
