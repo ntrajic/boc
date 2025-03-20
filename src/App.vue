@@ -62,6 +62,17 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+
+      <div class="subtitle">  Boundary Bay Regional Park, March 16, 2025
+        <a class="vue-green" href="img\20250316bbay\20250316bbayTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group213
+          class="thumbnail"
+          v-for="img in list213"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Lynn Loop and Headwaters, Rice Lake Hike, March 1, 2025
         <a class="vue-green" href="img\20250301Rice\20250301RiceTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3495,6 +3506,12 @@ export default {
         { src: 'img/20250301Rice/04-Rice.jpg' }, { src: 'img/20250301Rice/05-Rice.jpg' }, { src: 'img/20250301Rice/06-Rice.jpg' },
         { src: 'img/20250301Rice/07-Rice.jpg' }, { src: 'img/20250301Rice/08-Rice.jpg' }, { src: 'img/20250301Rice/09-Rice.jpg' },
         { src: 'img/20250301Rice/10-Rice.jpg' },
+    ],
+    list213: [
+        { src: 'img/20250316bbay/01-bbay.jpg' }, { src: 'img/20250316bbay/02-bbay.jpg' }, { src: 'img/20250316bbay/03-bbay.jpg' },
+        { src: 'img/20250316bbay/04-bbay.jpg' }, { src: 'img/20250316bbay/05-bbay.jpg' }, { src: 'img/20250316bbay/06-bbay.jpg' },
+        { src: 'img/20250316bbay/07-bbay.jpg' }, { src: 'img/20250316bbay/08-bbay.jpg' }, { src: 'img/20250316bbay/09-bbay.jpg' },
+        { src: 'img/20250316bbay/10-bbay.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
