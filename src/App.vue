@@ -62,7 +62,16 @@
           :src="img.src"
           :key="img.src + index">
       </div>
-
+      <div class="subtitle">  Fraser River Walk, March 30th 2025
+        <a class="vue-green" href="img\20250330FraserRiver\20250330frTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group214
+          class="thumbnail"
+          v-for="img in list214"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Boundary Bay Regional Park, March 16, 2025
         <a class="vue-green" href="img\20250316bbay\20250316bbayTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3512,6 +3521,12 @@ export default {
         { src: 'img/20250316bbay/04-bbay.jpg' }, { src: 'img/20250316bbay/05-bbay.jpg' }, { src: 'img/20250316bbay/06-bbay.jpg' },
         { src: 'img/20250316bbay/07-bbay.jpg' }, { src: 'img/20250316bbay/08-bbay.jpg' }, { src: 'img/20250316bbay/09-bbay.jpg' },
         { src: 'img/20250316bbay/10-bbay.jpg' },
+    ],
+    list214: [
+        { src: 'img/20250330FraserRiver/01-FR.jpg' }, { src: 'img/20250330FraserRiver/02-FR.jpg' }, { src: 'img/20250330FraserRiver/03-FR.jpg' },
+        { src: 'img/20250330FraserRiver/04-FR.jpg' }, { src: 'img/20250330FraserRiver/05-FR.jpg' }, { src: 'img/20250330FraserRiver/06-FR.jpg' },
+        { src: 'img/20250330FraserRiver/07-FR.jpg' }, { src: 'img/20250330FraserRiver/08-FR.jpg' }, { src: 'img/20250330FraserRiver/09-FR.jpg' },
+        { src: 'img/20250330FraserRiver/10-FR.jpg' }, { src: 'img/20250330FraserRiver/11-FR.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
