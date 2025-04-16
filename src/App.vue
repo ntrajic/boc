@@ -62,6 +62,17 @@
           :src="img.src"
           :key="img.src + index">
       </div>
+
+      <div class="subtitle">  Norvan Falls Hike, April 12, 2025
+        <a class="vue-green" href="img\20250412NorvanFalls\20250412NorvanFallsTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group215
+          class="thumbnail"
+          v-for="img in list215"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Fraser River Walk, March 30th 2025
         <a class="vue-green" href="img\20250330FraserRiver\20250330frTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3527,6 +3538,12 @@ export default {
         { src: 'img/20250330FraserRiver/04-FR.jpg' }, { src: 'img/20250330FraserRiver/05-FR.jpg' }, { src: 'img/20250330FraserRiver/06-FR.jpg' },
         { src: 'img/20250330FraserRiver/07-FR.jpg' }, { src: 'img/20250330FraserRiver/08-FR.jpg' }, { src: 'img/20250330FraserRiver/09-FR.jpg' },
         { src: 'img/20250330FraserRiver/10-FR.jpg' }, { src: 'img/20250330FraserRiver/11-FR.jpg' },
+    ],
+    list215: [
+        { src: 'img/20250412NorvanFalls/11-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/12-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/13-Norvan_Falls.jpg' },
+        { src: 'img/20250412NorvanFalls/14-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/15-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/16-Norvan_Falls.jpg' },
+        { src: 'img/20250412NorvanFalls/17-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/18-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/19-Norvan_Falls.jpg' },
+        { src: 'img/20250412NorvanFalls/20-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/21-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/22-Norvan_Falls.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
