@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Mt Gardner Hike, April 19th, 2025
+        <a class="vue-green" href="img\20250419GardnerMnt\20250419mntGardTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group216
+          class="thumbnail"
+          v-for="img in list216"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Norvan Falls Hike, April 12, 2025
         <a class="vue-green" href="img\20250412NorvanFalls\20250412NorvanFallsTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3544,6 +3554,12 @@ export default {
         { src: 'img/20250412NorvanFalls/14-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/15-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/16-Norvan_Falls.jpg' },
         { src: 'img/20250412NorvanFalls/17-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/18-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/19-Norvan_Falls.jpg' },
         { src: 'img/20250412NorvanFalls/20-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/21-Norvan_Falls.jpg' }, { src: 'img/20250412NorvanFalls/22-Norvan_Falls.jpg' },
+    ],
+    list216: [
+        { src: 'img/20250419GardnerMnt/01-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/02-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/03-mntgard.jpg' },
+        { src: 'img/20250419GardnerMnt/04-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/05-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/06-mntgard.jpg' },
+        { src: 'img/20250419GardnerMnt/07-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/08-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/09-mntgard.jpg' },
+        { src: 'img/20250419GardnerMnt/10-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/11-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/12-mntgard.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
