@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Stawamus Chief, 2nd Peak, April 27th, 2025
+        <a class="vue-green" href="img\20250427Chief\20250427ChiefTR.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group217
+          class="thumbnail"
+          v-for="img in list217"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Mt Gardner Hike, April 19th, 2025
         <a class="vue-green" href="img\20250419GardnerMnt\20250419mntGardTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3560,6 +3570,10 @@ export default {
         { src: 'img/20250419GardnerMnt/04-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/05-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/06-mntgard.jpg' },
         { src: 'img/20250419GardnerMnt/07-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/08-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/09-mntgard.jpg' },
         { src: 'img/20250419GardnerMnt/10-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/11-mntgard.jpg' }, { src: 'img/20250419GardnerMnt/12-mntgard.jpg' },
+    ],
+    list217: [
+        { src: 'img/20250427Chief/01-chief.jpg' }, { src: 'img/20250427Chief/02-chief.jpg' }, { src: 'img/20250427Chief/03-chief.jpg' },
+        { src: 'img/20250427Chief/04-chief.jpg' }, { src: 'img/20250427Chief/05-chief.jpg' }, { src: 'img/20250427Chief/06-chief.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
