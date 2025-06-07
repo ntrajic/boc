@@ -63,6 +63,16 @@
           :key="img.src + index">
       </div>
 
+      <div class="subtitle">  Brothers Creek, June 1, 2025
+        <a class="vue-green" href="img\20250601Bros\20250601Bros.pdf" title="Trip Report">Trip Report</a>
+      </div>
+      <div style="overflow:hidden">
+        <img v-gallery:group218
+          class="thumbnail"
+          v-for="img in list218"
+          :src="img.src"
+          :key="img.src">
+      </div>
       <div class="subtitle">  Stawamus Chief, 2nd Peak, April 27th, 2025
         <a class="vue-green" href="img\20250427Chief\20250427ChiefTR.pdf" title="Trip Report">Trip Report</a>
       </div>
@@ -3574,6 +3584,12 @@ export default {
     list217: [
         { src: 'img/20250427Chief/01-chief.jpg' }, { src: 'img/20250427Chief/02-chief.jpg' }, { src: 'img/20250427Chief/03-chief.jpg' },
         { src: 'img/20250427Chief/04-chief.jpg' }, { src: 'img/20250427Chief/05-chief.jpg' }, { src: 'img/20250427Chief/06-chief.jpg' },
+    ],
+    list218: [
+        { src: 'img/20250601Bros/01-Brothers_Creek.jpg' }, { src: 'img/20250601Bros/02-Brothers_Creek.jpg' }, { src: 'img/20250601Bros/03-Brothers_Creek.jpg' },
+        { src: 'img/20250601Bros/04-Brothers_Creek.jpg' }, { src: 'img/20250601Bros/05-Brothers_Creek.jpg' }, { src: 'img/20250601Bros/06-Brothers_Creek.jpg' },
+        { src: 'img/20250601Bros/07-Brothers_Creek.jpg' }, { src: 'img/20250601Bros/08-Brothers_Creek.jpg' }, { src: 'img/20250601Bros/09-Brothers_Creek.jpg' },
+        { src: 'img/20250601Bros/10-Brothers_Creek.jpg' }, { src: 'img/20250601Bros/11-Brothers_Creek.jpg' }, { src: 'img/20250601Bros/12-Brothers_Creek.jpg' },
     ],
     list0: [
       { src: 'img/BOC-Newsletter.jpg' },
